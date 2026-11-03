@@ -1,31 +1,93 @@
 # Thereasm
 
-Game thẻ bài chiến thuật và suy luận ẩn danh dành cho 2 người chơi phát triển trên Unity.
+<p align="center">
+  <img src="Docs/Media/banner.webp" alt="Thereasm Banner" width="100%">
+</p>
+
+A 2-player strategic deduction card game made with Unity. Play locally against AI bots or challenge a friend online via Photon Fusion.
+
+---
+
+## Gameplay
 
 ![Thereasm Gameplay](Docs/Media/gameplay.webp)
 
-## Giới thiệu
-- **Thể loại:** Strategy / Deduction Card Game
-- **Chế độ chơi:** Đấu với Bot (PvE) hoặc Chơi online qua mạng (PvP via Photon Fusion).
-- **Hỗ trợ ngôn ngữ:** Tiếng Việt & Tiếng Anh.
+- **Energy Management:** Spend hearts wisely across playing cards, repositioning units, and triggering skills.
+- **Neutral Cards:** Utilize neutral cards on the board to swing votes, gather info, or set up tactical plays.
+- **Asymmetric Roles:** 
+  - The **Cursermancer** works in the dark to spread curses and mislead the opponent.
+  - The **Village** tracks movements, analyzes votes, and unmasks the hidden curse before running out of time.
 
-### Lối chơi cơ bản
-- **Phe Dân Làng (Village):** Lần theo dấu vết, quan sát nước đi và kết quả bỏ phiếu để tìm ra kẻ nguyền rủa trước khi quá muộn.
-- **Phe Cursermancer:** Gieo rắc lời nguyền, đánh lạc hướng và dẫn dụ Dân làng bỏ phiếu sai.
-- Quản lý điểm năng lượng (Hearts) để ra bài, di chuyển và dùng kỹ năng bài trung lập.
+<br>
 
-## Yêu cầu môi trường & Cài đặt
-1. **Unity Version:** Khuyến nghị **Unity 6000.0.29f1** (Unity 6).
-2. Clone repo về máy và mở bằng Unity Hub.
-3. Cài đặt **Photon Fusion 2.0.13** (tải package từ trang chủ Photon Engine và import vào project).
-4. Mở scene menu chính tại: `Assets/Scenes/MenuScenes.unity` và nhấn **Play**.
+<table align="center">
+  <tr>
+    <td width="50%" align="center">
+      <img src="Docs/Media/faction-village.webp" alt="Village" width="100"><br>
+      <h4>Village</h4>
+      Track board movements, analyze vote patterns, and identify the cursed cards.
+    </td>
+    <td width="50%" align="center">
+      <img src="Docs/Media/faction-cur.webp" alt="Cursermancer" width="100"><br>
+      <h4>Cursermancer</h4>
+      Spread hidden curses quietly, bluff, and trick the village into sacrificing the wrong target.
+    </td>
+  </tr>
+</table>
 
-## Thao tác phím chuột
-- **Chuột trái:** Chọn bài, đặt bài, kéo thả để vote.
-- **Chuột phải:** Xem chi tiết lá bài / Kéo để chọn mục tiêu dùng kỹ năng.
-- **Con lăn chuột:** Phóng to / thu nhỏ bàn cờ.
-- **Esc:** Bật menu / tạm dừng.
+---
 
-## Tài liệu chi tiết
-- [Luật kỹ năng các thẻ bài](Docs/CARD_SKILL_RULES.md)
-- [Cấu hình Photon Online](Docs/PHOTON_ONLINE.md)
+## Screenshots & Tutorial
+
+The game features an interactive tutorial academy and an in-game investigation notebook to help you track suspects during matches.
+
+<p align="center">
+  <img src="Docs/Media/academy.webp" alt="Tutorial Academy" width="49%">
+  <img src="Docs/Media/notebook.webp" alt="Investigation Notebook" width="49%">
+</p>
+
+<details>
+<summary><strong>View Main Menu</strong></summary>
+
+<p align="center">
+  <img src="Docs/Media/menu.webp" alt="Main Menu" width="80%">
+</p>
+
+</details>
+
+---
+
+## Getting Started
+
+### Prerequisites
+- **Unity 6** (Recommended version: `6000.0.29f1` or later) with Windows Build Support.
+- **Photon Fusion 2.0.13** (SDK package downloaded from Photon Engine).
+
+### Setup & Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/evilogre1112/Thereasm.git
+   ```
+2. Open the project folder in **Unity Hub** and allow Unity to import the packages and assets.
+3. Import Photon Fusion:
+   - In Unity, go to **Assets → Import Package → Custom Package** and choose the `Fusion 2.0.13` unitypackage.
+   - *(Note: Keep the project's existing `PhotonAppSettings.asset` and `NetworkProjectConfig.fusion` when importing).*
+4. Open the main menu scene at `Assets/Scenes/MenuScenes.unity` and press **Play**.
+
+### Online Multiplayer Setup
+To play with a friend over the internet:
+- Open `Assets/Networking/PhotonOnlineConfig.asset` and input your Photon Fusion App ID.
+- Both players must use the same build version and region. One creates a room code and the other joins via the code.
+
+---
+
+## Controls
+
+| Action | Control |
+|---|---|
+| Select / Move / Place / Vote | **Left Click** / Drag |
+| Inspect card / Aim skill | **Right Click** / Right Drag |
+| Zoom in / out | **Mouse Wheel** |
+| Pan board | **Middle Mouse Drag** or drag empty space |
+| Reset board view | **Home** |
+| Pause / Game Rules | **Esc** |
