@@ -36,6 +36,9 @@
 .DS_Store
 Thumbs.db
 
+# Tools & Scripts nội bộ
+/Tools/
+
 # Temporary patches, diffs and local validation scripts
 *.patch
 *.diff
@@ -44,8 +47,6 @@ Thumbs.db
 
 # Development notes and internal documentation
 /Docs/*.json
-!/Docs/PHOTON_SDK_IMPORT.json
-!/Docs/SKILL_AUDIO_ASSETS.json
 /Docs/CARD_PRESENTATION.md
 /Docs/RELEASE_VERIFICATION.md
 /Docs/TRADER_JESTER_FX.md
@@ -59,7 +60,6 @@ Thumbs.db
 /Docs/Media/README.md
 
 # Photon SDK is installed separately from its official distribution.
-# Keep the project's saved connection/network settings, not the SDK itself.
 /Assets/Photon/*
 !/Assets/Photon/Fusion/
 !/Assets/Photon/Fusion.meta
