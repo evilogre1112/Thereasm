@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 505df6ed8d5fbdc4e8a07bd909bc25f8, type: 3}
+  m_Name: Skill_GameMaster
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillIcon: {fileID: 0}
+  description: "[Passive] Adds seats above/below, and left at Seat 1. Occupied extras block manual moves only. Skill pushes carry seats and occupants along. A forced return sends all occupants to their owners' hands. Losing the left seat returns its occupant. If Game Master dies, all occupants die; Preacher cannot save them."
+  skillType: 1
+  triggerTime: 0
+  tags: 
+  extraSeatPrefab: {fileID: 1207860542946299742, guid: 8fde6cf0fc33b6b4b956bb4978679117, type: 3}
+  yOffset: 240
+  xOffset: 180
+  topSeatSprite: {fileID: 5816282280665020950, guid: e0720181c1af781448c4bbaa13f605a4, type: 3}
+  bottomSeatSprite: {fileID: -7570246157323265882, guid: 59363fed911cc6d48a49e094ea3519fd, type: 3}
+  leftSeatSprite: {fileID: 786994743493499528, guid: f3de4326a403eb64dbc1933e7f289609, type: 3}

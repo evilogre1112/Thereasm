@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "energy-movement"
+  m_EditorClassIdentifier: ""
+  id: "energy-movement"
+  title:
+    english: "Moving is not placing again"
+    vietnamese: "Di chuyển khác với đặt mới"
+  summary:
+    english: "Compare one-heart and three-heart movement on the same table."
+    vietnamese: "So sánh di chuyển 1 tim và 3 tim ngay trên bàn."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+    - kind: 0
+      number: 10
+      value: 0
+      target: 0
+    - kind: 0
+      number: 3
+      value: 5
+      target: 0
+  beats:
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "A shorter journey"
+        vietnamese: "Một quãng đường ngắn hơn"
+      instruction:
+        english: "Press Let's continue when you are ready."
+        vietnamese: "Bấm Mình thử tiếp nhé khi bạn đã sẵn sàng."
+      purpose:
+        english: "These cards were seated before this exercise. Moving your own or a Neutral card costs one heart; moving an opposing card costs three."
+        vietnamese: "Các lá này đã ngồi từ trước bài tập. Dời bài mình hoặc Neutral tốn 1 tim; dời bài đối phương tốn 3 tim."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 10
+      target: 0
+      seat: 1
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 10, drag it to the green seat 2, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 10, kéo vào ghế số 2 viền xanh rồi thả."
+      purpose:
+        english: "Move an already seated Village card: five hearts becomes four."
+        vietnamese: "Dời một lá Village đã ngồi trên bàn: từ 5 còn 4 tim."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 3
+      target: 0
+      seat: 4
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 3, drag it to the green seat 5, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 3, kéo vào ghế số 5 viền xanh rồi thả."
+      purpose:
+        english: "Move the opposing card: four becomes one. A short visual move can still be expensive."
+        vietnamese: "Dời lá khác phe: từ 4 còn 1 tim. Khoảng cách nhìn ngắn nhưng giá vẫn khác."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 20
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Take a guess"
+        vietnamese: "Thử đoán một chút nhé"
+      instruction:
+        english: "Does dragging farther across the table cost extra hearts?"
+        vietnamese: "Kéo xa hơn trên bàn có làm tốn thêm tim không?"
+      purpose:
+        english: "Price follows the action and printed affiliation, not pixel distance. Totem and Prankster have special prices explained in their own lessons."
+        vietnamese: "Giá theo thao tác và nhóm gốc, không theo số pixel bạn kéo. Totem và Prankster có giá riêng, được giải thích ở bài của chúng."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: "No · faction and action matter"
+        vietnamese: "Không · tùy nhóm và thao tác"
+      choiceB:
+        english: "Yes · distance sets the price"
+        vietnamese: "Có · càng xa càng đắt"
+      answer: 0

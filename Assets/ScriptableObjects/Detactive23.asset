@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Detactive23
+  m_EditorClassIdentifier: 
+  cardName: Detactive
+  cardNumber: 23
+  cardType: 2
+  owner: 2
+  defaultArtwork: {fileID: -1299412586057605110, guid: b4f087b8ce25b6344a1ebdc9b262b1c0, type: 3}
+  cursemancerArtwork: {fileID: 3074559795782399651, guid: 463623d8c73cf544d9184f3ce70d6df3, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: '[Passive][Once] If placed between two neighbors, identifies the more
+    suspicious one and adds +1 Suspicion to them (prioritizes Curs).
+
+    (Base Suspicion:
+    Cur = 2, Villager = 1)'
+  curDescription: 
+  infectedDescription: "[Passive][Once] If placed between two neighbors, identifies
+    the more suspicious one and adds +1 Suspicion to them (prioritizes Curs). \n(Base
+    Suspicion: Cur = 2, Villager = 1) [<color=red>Infected</color>]"
+  curInfectedDescription: 
+  cardSkill: {fileID: 11400000, guid: 3d879e8a3dfbefa478c6c9b0ad5f72d4, type: 2}
+  quotes:
+  - "Let\u2019s see who\u2019s hiding behind these masks"
+  - Two sides to every story, but only one truth
+  - I'm keeping a close eye on both of you.
+  customChance: 0.1
+  customInterval: 7

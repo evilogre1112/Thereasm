@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6203f607619653419c8c058af4a6b02, type: 3}
+  m_Name: Skill_Prankster
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillIcon: {fileID: 0}
+  description: "[Passive] Play: 3 Hearts. A card in the neighboring seat on the left triggers a push to a random empty regular seat. On play only: 10% chance to return it to hand instead. Elder blocks this effect. Game Master's seats and occupants follow a push; they return to hand if Game Master returns."
+  skillType: 1
+  triggerTime: 0
+  tags: 

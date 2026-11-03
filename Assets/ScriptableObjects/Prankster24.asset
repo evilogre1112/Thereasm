@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Prankster24
+  m_EditorClassIdentifier: 
+  cardName: Prankster24
+  cardNumber: 24
+  cardType: 2
+  owner: 2
+  defaultArtwork: {fileID: -450481869682846577, guid: e94366993c46fdd45993acb23cac5bae, type: 3}
+  cursemancerArtwork: {fileID: 3074559795782399651, guid: 463623d8c73cf544d9184f3ce70d6df3, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: "[Passive] Play: 3 Hearts. A card in the neighboring seat on the left triggers a push to a random empty regular seat. On play only: 10% chance to return it to hand instead. Elder blocks this effect. Game Master's seats and occupants follow a push; they return to hand if Game Master returns."
+  curDescription: 
+  infectedDescription: "[Passive] Play: 3 Hearts. A card in the neighboring seat on the left triggers a push to a random empty regular seat. On play only: 10% chance to return it to hand instead. Elder blocks this effect. Game Master's seats and occupants follow a push; they return to hand if Game Master returns. [<color=red>Infected</color>]"
+  curInfectedDescription: 
+  cardSkill: {fileID: 11400000, guid: c86104f3c52e76d4c88f3ed44fc26cc3, type: 2}
+  quotes:
+  - This spot has my name written all over it.
+  - You're looking a bit tense. Want me to help you move?
+  - Don't look at me, I'm behaving... for now.
+  - It's too quiet here. Someone needs a prank.
+  customChance: 0.2
+  customInterval: 4

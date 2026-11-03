@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Saboteur18
+  m_EditorClassIdentifier: 
+  cardName: Saboteur
+  cardNumber: 18
+  cardType: 2
+  owner: 2
+  defaultArtwork: {fileID: -713361565073705334, guid: b7443a7f9709ea44ab0f63706eb88c08, type: 3}
+  cursemancerArtwork: {fileID: 3074559795782399651, guid: 463623d8c73cf544d9184f3ce70d6df3, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: "[Passive] [Aura] Disables the printed skills of the two horizontal neighbors. Does not block Cursermancer infection."
+  curDescription: 
+  infectedDescription: "[Passive] [Aura] Disables the printed skills of the two horizontal neighbors. Does not block Cursermancer infection. [<color=red>Infected</color>]"
+  curInfectedDescription: 
+  cardSkill: {fileID: 11400000, guid: 0ef9c653babc89244ac9c5e01c0ac204, type: 2}
+  quotes:
+  - Oh? Why are my two lovely neighbors so awfully quiet today?
+  - Don't waste your energy. I already cut your strings.
+  - System error? Nope, that was me.
+  customChance: 0.2
+  customInterval: 10

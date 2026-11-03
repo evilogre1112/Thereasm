@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "controls-hunter"
+  m_EditorClassIdentifier: ""
+  id: "controls-hunter"
+  title:
+    english: "Hunter: aim, do not just click"
+    vietnamese: "Hunter: nhắm bắn, không chỉ bấm"
+  summary:
+    english: "Use a real shot, distinguish right-click from right-drag, and visit the cemetery."
+    vietnamese: "Tự bắn một phát, phân biệt bấm/kéo chuột phải và xem nghĩa trang."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+    - kind: 0
+      number: 9
+      value: 1
+      target: 0
+    - kind: 0
+      number: 1
+      value: 2
+      target: 0
+    - kind: 6
+      number: 1
+      value: 0
+      target: 0
+  beats:
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "A steady hand"
+        vietnamese: "Giữ tay thật vững"
+      instruction:
+        english: "Press Let's continue when you are ready."
+        vietnamese: "Bấm Mình thử tiếp nhé khi bạn đã sẵn sàng."
+      purpose:
+        english: "Hunter is already seated. Five hearts buy one shot; the ability refreshes after Sacrifice, not at every new action turn."
+        vietnamese: "Hunter đã ngồi sẵn. Một phát bắn dùng đủ 5 tim; kỹ năng hồi sau khi xong hiến tế, không phải cứ sang lượt mới là được bắn lại."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 7
+      source: 9
+      target: 1
+      seat: -1
+      prepare: []
+      title:
+        english: "Try it with your own hand"
+        vietnamese: "Tự tay thử một lần"
+      instruction:
+        english: "Hold RIGHT mouse on card number 9, drag to card number 1, then release."
+        vietnamese: "Giữ CHUỘT PHẢI ở lá số 9, kéo sang lá số 1 rồi thả."
+      purpose:
+        english: "Watch the board and the feedback: success, a shield and a silenced ability are different outcomes."
+        vietnamese: "Nhìn cả bàn chơi lẫn lời phản hồi nhé: dùng thành công, bắn trúng khiên và bị khóa kỹ năng là những kết quả khác nhau."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 15
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Follow the consequence"
+        vietnamese: "Nhìn lại kết quả"
+      instruction:
+        english: "Open Cemetery."
+        vietnamese: "Bấm Nghĩa trang."
+      purpose:
+        english: "The shot removed a real card. Dead cards cannot sit or vote until a resurrection brings them back."
+        vietnamese: "Phát bắn đã loại một lá thật. Bài chết không được ngồi hay bỏ phiếu, trừ khi có kỹ năng hồi sinh."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 16
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Your next small discovery"
+        vietnamese: "Thêm một điều để khám phá"
+      instruction:
+        english: "Close Cemetery with the same button."
+        vietnamese: "Bấm lại Nghĩa trang để đóng."
+      purpose:
+        english: "Reading the cemetery costs no hearts. Return to the table when you have seen the result."
+        vietnamese: "Xem nghĩa trang không tốn tim. Khi đã thấy kết quả, mình trở về bàn nhé."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 20
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Take a guess"
+        vietnamese: "Thử đoán một chút nhé"
+      instruction:
+        english: "Can Hunter fire again just because the next action turn begins?"
+        vietnamese: "Chỉ sang lượt hành động mới, Hunter đã bắn lại được chưa?"
+      purpose:
+        english: "A powerful shot has a round cooldown. A shield can block the kill while still consuming the shot and its hearts."
+        vietnamese: "Phát bắn mạnh nên có thời gian hồi theo vòng. Khiên có thể cứu mục tiêu, nhưng phát bắn và số tim vẫn bị tiêu hao."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: "No · wait for Sacrifice"
+        vietnamese: "Chưa · chờ xong hiến tế"
+      choiceB:
+        english: "Yes · every action turn"
+        vietnamese: "Được · mỗi lượt một lần"
+      answer: 0

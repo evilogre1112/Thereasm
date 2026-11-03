@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 937a98b2148d40e4933c66a856488494, type: 3}
+  m_Name: FirstMatchLesson
+  m_EditorClassIdentifier:
+  steps:
+  - stage: 0
+    title: "Đêm đầu tiên, đừng đi một mình"
+    instruction: "Bấm BẮT ĐẦU HỌC. Tôi sẽ cùng bạn đi qua đêm đầu tiên của ngôi làng."
+    purpose: "Trong làng có người giấu lời nguyền, có người đang tìm sự thật. Bạn sẽ thử cả hai phía, để hiểu mỗi quyết định có thể cứu ai — hoặc đặt ai vào nguy hiểm."
+    success: "Lại gần ánh đèn nhé. Ta bắt đầu từ một bí mật."
+  - stage: 1
+    title: "Bí mật đầu tiên"
+    instruction: "Chọn người giữ lời nguyền: bấm CHUỘT TRÁI vào lá số 1 viền vàng."
+    purpose: "Giữ chuyện này giữa chúng ta nhé. Lá số 1 sẽ trở thành Cursermancer, nhưng vẫn có thể khoác vẻ ngoài bình thường trước mắt Dân làng."
+    success: "Suỵt… lá số 1 đã có điều phải giấu."
+  - stage: 2
+    title: "Ghé sang phía bên kia"
+    instruction: "Bấm tab DÂN LÀNG ở đầu khay bài. Bên đó còn một bí mật đang chờ."
+    purpose: "Đừng chỉ nhìn một phía của bàn chơi. Các tab giúp bạn tìm bài theo nhóm gốc; chiếc áo của một lá bài chưa nói hết vai trò thật của nó."
+    success: "Những gương mặt quen thuộc cũng có thể giữ bí mật."
+  - stage: 3
+    title: "Đằng sau chiếc áo Villager"
+    instruction: "Bấm CHUỘT TRÁI vào lá số 11 viền vàng để giấu lời nguyền ở đó."
+    purpose: "Trông như một Villager, nhưng lá số 11 cũng sẽ mang vai trò Cursermancer. Hãy nhớ điều này khi suy luận: nhóm bài và vai trò bí mật là hai chuyện khác nhau."
+    success: "Hai bí mật đã được gieo. Đêm có thể bắt đầu."
+  - stage: 4
+    title: "Thắp đèn lên nào"
+    instruction: "Bấm BẮT ĐẦU VÁN ở nút đang sáng. Lượt đầu tiên sẽ thuộc về Dân làng."
+    purpose: "Bạn bắt đầu với 5 tim để hành động. Chưa cần vội tiêu chúng: hãy nhìn những lá đang có và nghĩ xem ai nên bước lên bàn trước."
+    success: "Đã có 5 tim. Hãy nhìn kỹ trước khi chọn nước đi."
+  - stage: 5
+    title: "Lắng nghe một lá bài"
+    instruction: "Bấm CHUỘT PHẢI vào lá số 10 để đọc mô tả của nó."
+    purpose: "Gặp một lá chưa quen, cứ dừng lại đọc nhé. Mô tả cho biết nó làm được gì và cần bao nhiêu tim. Việc xem bài không tốn tim, nên tò mò một chút luôn có ích."
+    success: "Giờ bạn biết người vừa bước vào câu chuyện rồi."
+  - stage: 6
+    title: "Mang điều vừa biết vào cuộc"
+    instruction: "Bấm CHUỘT PHẢI lần nữa vào lá đang phóng to để đóng phần xem."
+    purpose: "Lá số 10 không có kỹ năng riêng, nhưng vẫn có tiếng nói khi Hiến tế. Đóng phần xem để thử đưa nó lên bàn; bạn chưa mất một tim nào vì đọc bài."
+    success: "Đủ gần để hiểu rồi. Cho nó một chỗ ngồi nhé."
+  - stage: 7
+    title: "Một ghế, một tiếng nói"
+    instruction: "GIỮ CHUỘT TRÁI ở lá số 10, kéo đến ghế viền xanh rồi thả."
+    purpose: "Cho Villager số 10 một chỗ ngồi nhé. Đặt bài thuộc phe bạn tốn 2 tim, nên 5 tim sẽ còn 3 tim. Đổi lại, ngôi làng có thêm một lá được bỏ phiếu."
+    success: "Lá số 10 đã có chỗ ngồi. Bạn còn 3 tim để tính tiếp."
+  - stage: 8
+    title: "Đưa Hunter vào vị trí"
+    instruction: "Kéo CHUỘT TRÁI lá số 9 đến ghế viền xanh rồi thả."
+    purpose: "Hunter chỉ giúp được làng khi đã ở trên bàn. Đặt nó tốn thêm 2 tim, để lại 1 tim. Chưa đủ cho một phát bắn; ta đang chuẩn bị cho lượt sau."
+    success: "Hunter đã vào vị trí. Chờ đúng thời khắc thôi."
+  - stage: 9
+    title: "Giữ sức cho lượt sau"
+    instruction: "Bấm KẾT THÚC LƯỢT. Ta sẽ nhìn bàn chơi từ phía Cursermancer."
+    purpose: "Còn 1 tim cũng không cần cố tiêu hết. Đôi khi một nước hay là biết dừng, giữ người mình vừa chuẩn bị ở đúng chỗ và chờ cơ hội tiếp theo."
+    success: "Giờ bước khẽ sang phía lời nguyền nhé."
+  - stage: 10
+    title: "Điều ngôi làng chưa thấy"
+    instruction: "Nhìn mặt Cursermancer của lá số 1, rồi bấm ĐÃ HIỂU · TIẾP TỤC."
+    purpose: "Đừng nói lộ điều bạn vừa thấy nhé. Đây là góc nhìn riêng của Cursermancer. Dân làng không thấy vai trò bí mật ấy; họ phải ghép sự thật từ những dấu vết công khai."
+    success: "Cùng một bàn chơi, mỗi phía biết một phần sự thật."
+  - stage: 11
+    title: "Đưa lời nguyền lại gần"
+    instruction: "Kéo CHUỘT TRÁI lá số 1 vào ghế viền xanh."
+    purpose: "Lời nguyền nằm mãi trên tay thì chưa chạm được ai. Đưa lá số 1 lên bàn để tìm đường lây nhiễm; trước mắt Dân làng, nó vẫn đang giữ vẻ ngụy trang."
+    success: "Lời nguyền đã có mặt giữa ngôi làng."
+  - stage: 12
+    title: "Cơ hội của Hunter"
+    instruction: "Bấm KẾT THÚC LƯỢT để trở lại phía Dân làng."
+    purpose: "Còn nhớ Hunter đang đợi không? Khi lượt hành động của Dân làng bắt đầu, bạn được hồi đủ 5 tim. Lần chuẩn bị trước đó giờ có thể thành một phát bắn."
+    success: "5 tim đã trở lại. Hunter đang chờ quyết định của bạn."
+  - stage: 13
+    title: "Một phát bắn, một quyết định"
+    instruction: "GIỮ CHUỘT PHẢI ở lá số 9, kéo mũi ngắm tới lá số 1 rồi thả."
+    purpose: "Ngắm chắc nhé. Phát bắn này tốn trọn 5 tim và sẽ loại mục tiêu. Nhớ kéo chuột phải để dùng kỹ năng; bấm chuột phải một lần chỉ mở phần mô tả."
+    success: "Hunter đã bóp cò. Hãy xem dấu vết còn lại ở đâu."
+  - stage: 14
+    title: "Dấu vết của người rời bàn"
+    instruction: "Bấm NGHĨA TRANG để tìm lá vừa bị loại."
+    purpose: "Một lá rời bàn không có nghĩa câu chuyện của nó biến mất. Nghĩa trang giữ lại những gì đã xảy ra, để bạn có chỗ đối chiếu khi trí nhớ bắt đầu đánh lừa mình."
+    success: "Lá số 1 ở đây. Bạn vẫn có thể xem lại nó."
+  - stage: 15
+    title: "Trở lại với người còn sống"
+    instruction: "Bấm NGHĨA TRANG lần nữa để trở lại bàn chơi."
+    purpose: "Ghi nhớ ai đã bị loại nhé. Lá chết không còn bỏ phiếu; chỗ vừa trống có thể đổi cả đường đi của lời nguyền lẫn kế hoạch của ngôi làng."
+    success: "Người còn sống vẫn đang chờ nước đi tiếp theo."
+  - stage: 16
+    title: "Khi lời nguyền thức giấc"
+    instruction: "Bấm THỬ NGHI THỨC để bước vào một tình huống được sắp sẵn."
+    purpose: "Tôi sẽ sắp thêm hai lá để bạn thử nghi thức ngay. Trong ván thật, bàn đầy hoặc Reeve sẽ gọi pha này tới. Lời nguyền hành động trước khi làng bỏ phiếu."
+    success: "Nghi thức đã sẵn sàng. Bước khẽ thôi nhé."
+  - stage: 17
+    title: "Một dấu bệnh trong im lặng"
+    instruction: "GIỮ CHUỘT TRÁI ở lá số 11, kéo tới lá số 9 viền xanh rồi thả."
+    purpose: "Để lời nguyền chạm Hunter nhé. Nó sẽ bị nhiễm, vẫn là Hunter chứ chưa thành Cursermancer. Dấu bệnh theo nó cả khi về tay; ghế trống có thể chặn đường lây."
+    success: "Hunter đã mang dấu bệnh. Ngôi làng chưa biết hết đâu."
+  - stage: 18
+    title: "Để ngôi làng cất tiếng"
+    instruction: "Bấm KẾT THÚC LƯỢT để khép pha Nguyền rủa và bắt đầu bỏ phiếu."
+    purpose: "Lời nguyền đã để lại dấu vết. Giờ mỗi lá thuộc phe đang bỏ phiếu sẽ được chỉ ra một lá khác trên bàn. Đọc tình thế trước khi trao tiếng nói ấy cho ai."
+    success: "Đến lúc những lá phiếu lên tiếng."
+  - stage: 19
+    title: "Tiếng nói đầu tiên"
+    instruction: "Kéo CHUỘT TRÁI từ lá số 10 tới lá số 2 viền xanh để bỏ phiếu."
+    purpose: "Lá số 10 được ngồi từ đầu, giờ đã có tiếng nói. Kéo từ người bỏ phiếu tới người bạn muốn hiến tế. Bỏ phiếu không tốn tim và không được tự chỉ vào mình."
+    success: "Lá số 10 đã chọn. Vẫn còn người chưa lên tiếng."
+  - stage: 20
+    title: "Hunter cũng có một lá phiếu"
+    instruction: "Kéo CHUỘT TRÁI từ Hunter số 9 tới lá số 2 viền xanh."
+    purpose: "Hunter đã bắn, nhưng chưa mất quyền bỏ phiếu. Kỹ năng và lá phiếu là hai việc riêng; mỗi lá còn sống thuộc phe đang bỏ phiếu vẫn cần chọn mục tiêu."
+    success: "Hunter đã bỏ phiếu. Còn một người im lặng."
+  - stage: 21
+    title: "Kẻ giữ bí mật cũng lên tiếng"
+    instruction: "Kéo CHUỘT TRÁI từ lá số 11 tới lá số 2 viền xanh."
+    purpose: "Bạn biết bí mật của lá số 11, nhưng phiếu của nó vẫn theo nhóm Villager in trên bài. Vai trò kín không xóa tiếng nói ấy — đó cũng là cách lời nguyền hòa vào làng."
+    success: "Cả ba lá đã nói lên lựa chọn của mình."
+  - stage: 22
+    title: "Đừng bỏ quên một tiếng nói"
+    instruction: "Bấm KẾT THÚC LƯỢT để chốt các phiếu vừa đặt."
+    purpose: "Nhìn lại một lần trước khi chốt nhé. Trong ván thật, nếu còn lá chưa bỏ phiếu, game sẽ nhắc tên lá đó để bạn tìm, thay vì để một tiếng nói bị bỏ quên."
+    success: "Phiếu đã chốt. Giờ nghe phía bên kia nào."
+  - stage: 23
+    title: "Nghe phía bên kia"
+    instruction: "Bấm XEM LƯỢT ĐỐI PHƯƠNG để theo dõi phiếu từ phía Cursermancer."
+    purpose: "Ngôi làng không phải phía duy nhất được lựa chọn. Tôi sẽ bỏ một phiếu mẫu từ lá số 2, để bạn thấy hai bên cùng góp phần tạo ra kết quả nghi thức."
+    success: "Cả hai phía đã chọn. Chờ nghi thức trả lời nhé."
+  - stage: 24
+    title: "Lắng nghe kết quả"
+    instruction: "Quan sát tổng kết. Nghi thức sẽ tự đếm phiếu rồi đưa các lá sống về tay."
+    purpose: "Lá nhận nhiều phiếu nhất sẽ bị hiến tế; hòa thì các lá cùng cao nhất đều bị loại, trừ khi kỹ năng đổi kết quả. Nhìn lá số 2 và nhớ điều những phiếu vừa làm."
+    success: "Lá số 2 đã rời cuộc chơi. Người sống trở về tay."
+  - stage: 25
+    title: "Dấu bệnh chưa đi mất"
+    instruction: "Bài tập trở về phía Dân làng. Bấm THANH TRỪNG ở nút đang sáng."
+    purpose: "Còn nhớ dấu bệnh trên Hunter không? Nó chưa biến mất khi lá về tay. Thanh trừng tìm bài nhiễm cả trên bàn lẫn trên tay, không tốn tim nhưng mỗi phe chỉ có 2 lần dùng."
+    success: "Hunter đã bị loại vì bệnh. Bạn còn 1 lần Thanh trừng."
+  - stage: 26
+    title: "Giữ sức cho một đêm dài"
+    instruction: "Đọc câu chuyện của những trái tim, rồi bấm ĐÃ HIỂU · TIẾP TỤC để tự thử."
+    purpose: "Khoan rời làng nhé. Ta còn những trái tim trên góc màn hình. Chúng là sức để hành động, không phải máu của lá bài. Một vòng tập riêng đang chờ bạn với 5 tim."
+    success: "Thử một nước nhỏ thôi, rồi nhìn tim thay đổi nhé."
+  - stage: 27
+    title: "Cho một người bạn bước tới"
+    instruction: "Kéo CHUỘT TRÁI lá số 12 vào ghế viền xanh."
+    purpose: "Cho Villager số 12 một chỗ ngồi nhé. Đưa bài thuộc phe bạn từ tay xuống ghế trống tốn 2 tim. Bạn sẽ còn 3 tim — đủ để tính nước tiếp theo."
+    success: "Lá số 12 đã ngồi xuống. Bạn còn 3 tim."
+  - stage: 28
+    title: "Một bước để đổi thế cờ"
+    instruction: "Kéo lá số 12 sang ghế trống viền xanh."
+    purpose: "Trong bài tập này, lá số 12 đã hết khóa di chuyển. Chuyển bài mình sang ghế trống chỉ tốn 1 tim, nên 3 tim sẽ còn 2 tim. Bài trung lập cũng có giá chuyển ấy."
+    success: "Một chỗ ngồi mới đổi bằng 1 tim. Bạn còn 2 tim."
+  - stage: 29
+    title: "Lùi lại để bước xa hơn"
+    instruction: "Kéo lá số 12 về khay bài bên dưới rồi thả."
+    purpose: "Đôi khi đưa bài về tay là cách lấy lại sức. Lá số 12 được hoàn 2 tim: từ 2 tim lên 4 tim. Mức hoàn không vượt phí đã đặt, và bạn không thể giữ hơn 5 tim."
+    success: "Bạn lấy lại 2 tim. Còn 4 tim cho lựa chọn tiếp theo."
+  - stage: 30
+    title: "Thử một quân cờ phía bên kia"
+    instruction: "Bấm ĐÃ HIỂU · TIẾP TỤC để qua một vòng lượt và hồi đủ tim."
+    purpose: "Bạn không bị giới hạn ở bài của phe mình. Có thể đưa bài đối phương hoặc trung lập lên bàn, nhưng thường phải trả 5 tim. Ta qua lượt để thử một lựa chọn đắt hơn nhé."
+    success: "Lượt mới đã tới, mang lại đủ 5 tim cho bạn."
+  - stage: 31
+    title: "Một chỗ ngồi đổi bằng cả lượt"
+    instruction: "Kéo lá số 3 vào ghế trống viền xanh."
+    purpose: "Bạn vẫn là người chơi Villager, còn lá số 3 thuộc nhóm Cursermancer. Đưa nó từ tay xuống tốn 5 tim. Nhìn thanh tim về 0 nhé: một lựa chọn có thể dùng hết sức của lượt này."
+    success: "Lá số 3 đã lên bàn, dùng hết 5 tim của bạn."
+  - stage: 32
+    title: "Một lượt mới, một cơ hội"
+    instruction: "Bấm ĐÃ HIỂU · TIẾP TỤC để qua lượt và nhận lại 5 tim."
+    purpose: "Hết tim chưa phải hết đường chơi. Đầu lượt hành động của mình, bạn được hồi đủ 5 tim; tim dư không cộng dồn. Nút này cho hai phía qua lượt để bạn thử tiếp."
+    success: "Đủ 5 tim rồi. Thử đổi vị trí của lá số 3 nhé."
+  - stage: 33
+    title: "Đổi thế của người bên kia"
+    instruction: "Kéo lá số 3 sang ghế trống viền xanh."
+    purpose: "Lá số 3 đã hết khóa trong bài tập. Chuyển bài đối phương sang ghế trống tốn 3 tim; bài mình hoặc trung lập chỉ tốn 1 tim. Hãy xem 5 tim của bạn còn lại bao nhiêu."
+    success: "Lần chuyển ấy tốn 3 tim. Bạn còn 2 tim."
+  - stage: 34
+    title: "Chỗ này có thể dành cho ai?"
+    instruction: "Bấm ĐÃ HIỂU · TIẾP TỤC để bắt đầu lượt tập tiếp theo."
+    purpose: "Ghế đã có người vẫn có thể đón một lá khác. Ta sẽ dùng bài trên tay để thay lá đang ngồi. Lần này có bài đối phương nên cần 5 tim; hãy qua lượt để chuẩn bị đủ."
+    success: "5 tim đã sẵn sàng. Bạn muốn ai ngồi ở đó?"
+  - stage: 35
+    title: "Đưa người mới vào cuộc"
+    instruction: "Kéo lá số 12 từ tay lên đúng lá số 3 viền xanh."
+    purpose: "Lá số 12 sẽ ngồi thay, lá số 3 về tay chủ sở hữu gốc. Cả lần thay này tốn 5 tim, không hoàn tim riêng cho lá bị thay. Giờ thử trao chỗ ngồi ấy cho người mới nhé."
+    success: "Lá số 12 đã ngồi thay. Cả thao tác tốn đúng 5 tim."
+  - stage: 36
+    title: "Nhớ giá của từng bước"
+    instruction: "Đọc lại các cách dùng và lấy lại tim, rồi bấm ĐÃ HIỂU · TIẾP TỤC."
+    purpose: "Bạn vừa tự cảm nhận những cái giá ấy rồi. Trang này nhắc lại để bạn dễ nhớ: đưa bài lên bàn, chuyển ghế và rút về tay là những lựa chọn khác nhau."
+    success: "Không cần nhớ vội. Cứ nghĩ về nước bạn vừa tự làm."
+  - stage: 37
+    title: "Một lần đổi, hai số phận"
+    instruction: "Đọc các tình huống đổi bài, rồi bấm ĐÃ HIỂU · TIẾP TỤC."
+    purpose: "Có lúc bạn không cần thêm người, chỉ muốn hai lá đổi chỗ. Giá phụ thuộc có bao nhiêu bài đối phương trong cặp ấy. Đọc từng tình huống như một nước bạn có thể thử."
+    success: "Đổi chỗ đúng lúc cũng có thể đổi hướng cả ván chơi."
+  - stage: 38
+    title: "Để dành cho thời khắc quan trọng"
+    instruction: "Đọc những ngoại lệ và hành động miễn phí, rồi bấm ĐÃ HIỂU · TIẾP TỤC."
+    purpose: "Đừng tiêu hết tim chỉ vì còn ghế trống. Có khi 5 tim giữ lại sẽ thành phát Hunter bạn đang chờ. Mỗi lá có cách giúp làng riêng; đọc nó trước khi quyết định nhé."
+    success: "Bạn đã biết giữ sức cho điều mình muốn làm."
+  - stage: 39
+    title: "Ngọn đèn giờ ở trong tay bạn"
+    instruction: "Bạn đã thử cả hai phía và tự dùng tim. Bấm CHƠI THỬ VỚI BOT để viết tiếp ván của mình."
+    purpose: "Đêm đầu tiên đã qua. Dân làng cần diệt hết Cursermancer; lời nguyền thắng khi số Cursermancer sống bằng hoặc vượt số Villager thật còn sống. Giờ quyết định là của bạn."
+    success: "Mang ngọn đèn theo nhé. Ngôi làng đang chờ bạn."
+  cards:
+  - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+  - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+  - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+  - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+  - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+  - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+  - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+  practiceScene: MainBoard
+  menuScene: MenuScenes
+  inspectDescription: "Villager · SỐ 10\n\nĐây là một lá thường, không có kỹ năng chủ động.\n\nĐặt từ nhóm của phe đang chơi: 2 tim. Nhóm đối phương hoặc trung lập: 5 tim.\n\nChuột phải lần nữa để đóng."
+  heartOverview: "GIỮ SỨC CHO MỘT ĐÊM DÀI\n\nNhững trái tim trên góc màn hình là sức để bạn hành động. Mỗi phe có phần của mình, tối đa 5 tim; đây không phải máu của lá bài.\n\nMỗi lần đặt bài, chuyển ghế, thay/đổi bài hoặc dùng một số kỹ năng, bạn sẽ tiêu tim. Giá dựa vào nhóm gốc của lá, không dựa vào vai trò bí mật nó đang giấu.\n\nKhi lượt hành động của bạn bắt đầu, tim được hồi đủ 5 tim. Phần dư không cộng dồn. Đến pha Hiến tế, bạn dùng số tim còn lại; riêng bỏ phiếu không tốn tim.\n\nĐừng lo phải nhớ hết ngay. Ta sẽ thử từng nước, để bạn tự thấy lúc nào tim mất đi và lúc nào được lấy lại."
+  movementCosts: "CHO MỘT LÁ BƯỚC LÊN BÀN\nMột chỗ ngồi cho bài thuộc phe bạn tốn 2 tim. Nếu đưa bài đối phương hoặc trung lập từ tay xuống ghế trống, bạn cần trả 5 tim.\n\nĐƯA LÁ ĐÃ NGỒI SANG GHẾ KHÁC\nKhi hết khóa, chuyển bài mình hoặc trung lập sang ghế trống tốn 1 tim. Muốn chuyển bài đối phương, bạn cần 3 tim.\n\nĐÓN LÁ BÀI TRỞ VỀ TAY\nTự rút bài mình hoặc trung lập được hoàn tối đa 2 tim, không vượt số tim đã trả khi đặt. Bạn cũng không thể giữ hơn 5 tim.\nÉp bài đối phương về tay thì bạn trả 5 tim; không ai được hoàn tim.\n\nCòn nhớ lá số 12 không? Bạn đã tiêu 1 tim để chuyển ghế, rồi lấy lại 2 tim khi rút về. Đôi khi lùi một bước là để chuẩn bị cho bước tiếp theo."
+  swapCosts: "KHI HAI LÁ TRÊN BÀN ĐỔI CHỖ\nCó lúc chỉ đổi vị trí đã đủ mở ra một nước mới. Nếu cả hai là bài mình hoặc trung lập, bạn trả 2 tim cho cả lần đổi.\nCó đúng một lá đối phương thì lần đổi tốn 3 tim. Nếu cả hai đều là bài đối phương, bạn cần trả 5 tim.\n\nKHI BẠN MUỐN ĐƯA MỘT LÁ MỚI VÀO\nKéo bài từ tay lên ghế đã có bài: lá cũ về tay chủ sở hữu gốc, lá mới ngồi thay. Cặp bài chỉ gồm bài mình hoặc trung lập thì tốn 3 tim. Có bất kỳ lá đối phương nào trong cặp thì tốn 5 tim. Lá bị thay không được hoàn tim riêng.\n\nBạn vừa dùng lá số 12 thay lá số 3 bằng 5 tim, nhớ chứ? Cũng lưu ý: không thể đổi ngược cùng một cặp liên tục trong lượt, và lá đang khóa vẫn phải chờ."
+  skillCosts: "CÓ NHỮNG THỜI KHẮC ĐÁNG ĐỂ GIỮ TIM\nHunter bắn hoặc Witch dùng phép đều cần 5 tim. Nếu đang chờ ra đòn, đừng vội tiêu hết vào di chuyển. Gambler và Invoker hiện không tốn tim khi dùng kỹ năng, nhưng vẫn cần đúng mục tiêu và thời điểm.\n\nMỖI LÁ CŨNG CÓ CÁCH RIÊNG\nTotem còn kỹ năng: đặt hoặc chuyển ghế tốn 1 tim; tự rút được hoàn 1 tim. Ép Totem đối phương về tay cũng tốn 1 tim.\nĐưa Prankster từ tay lên bàn tốn 3 tim, dù nó thuộc nhóm nào.\n\nHẾT TIM, BẠN VẪN CÒN VIỆC ĐỂ LÀM\nXem bài, đổi tab, ghi sổ, xem nghĩa trang, chọn vai trò, nguyền rủa, bỏ phiếu và kết thúc lượt đều không tốn tim. Thanh trừng cũng miễn phí, nhưng mỗi phe chỉ có 2 lần dùng mỗi ván. Thiếu tim thì thao tác bị từ chối, không trừ thêm."

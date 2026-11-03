@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Villager15
+  m_EditorClassIdentifier: 
+  cardName: Villager
+  cardNumber: 15
+  cardType: 0
+  owner: 1
+  defaultArtwork: {fileID: 2497382210644378373, guid: ecf7a270aaa1b0c4db86bd3c174b0b7a, type: 3}
+  cursemancerArtwork: {fileID: 8614136154843388742, guid: 22e90317ae09e1e4291741ab5e98b0be, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: 'Effect: Has no special abilities. Relies strictly on pure deduction
+    and voting in the Sacrifice Phase to root out the evil.'
+  curDescription: 'Effect: [Active] Infects the nearest uninfected card in one of
+    four directions (Up, Down, Left, Right).'
+  infectedDescription: 'Effect: [Status] The plague''s mark is upon you. Beware the
+    Villagers'' scrutiny (check); from this moment on, to be discovered is to welcome
+    the cold, silent embrace of death.'
+  curInfectedDescription: 'Effect: [Active] Infects an enemy. Your shadows can no
+    longer hide the rot. Guard yourself against the villagers'' gaze (check); discovery
+    is now a one-way path to the executioner''s blade.'
+  cardSkill: {fileID: 0}
+  quotes:
+  - I'm just a simple villager, I swear!
+  - Don't look at me like that... I'm scared.
+  - Did you hear that noise coming from the seat next to me?
+  - It's getting so cold in here... is someone watching us?
+  customChance: 0.1
+  customInterval: 7

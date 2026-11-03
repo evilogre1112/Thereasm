@@ -1,0 +1,7101 @@
+{
+  "chapters": [
+    {
+      "id": "controls",
+      "title": {
+        "english": "Hands on the cards",
+        "vietnamese": "Làm chủ thao tác"
+      },
+      "summary": {
+        "english": "Read, place, retrieve, aim Hunter, vote, sacrifice and Purge.",
+        "vietnamese": "Xem, đặt, rút bài, nhắm Hunter, bỏ phiếu, hiến tế và thanh trừng."
+      }
+    },
+    {
+      "id": "energy",
+      "title": {
+        "english": "Spend your hearts wisely",
+        "vietnamese": "Dùng tim đúng lúc"
+      },
+      "summary": {
+        "english": "Energy, zero-heart refusals, refills, movement and swaps.",
+        "vietnamese": "Năng lượng, hết tim, hồi tim, dời bài và đổi chỗ."
+      }
+    },
+    {
+      "id": "cards",
+      "title": {
+        "english": "One ability at a time",
+        "vietnamese": "Mỗi lá một bí quyết"
+      },
+      "summary": {
+        "english": "One lesson per card. Compare both sides and try healthy and Decay effects together.",
+        "vietnamese": "Mỗi lá một bài. Thử cả hai phía, đối chiếu kỹ năng khỏe và Decay ngay trên cùng bàn."
+      }
+    },
+    {
+      "id": "strategy",
+      "title": {
+        "english": "Turn clues into a plan",
+        "vietnamese": "Từ dấu vết thành nước đi"
+      },
+      "summary": {
+        "english": "Seven-seat notes, old infection paths and pressure on a faction-only board.",
+        "vietnamese": "Sổ bảy ghế, đường lây từ lượt trước và thế ép một nhóm tự bầu nhau."
+      }
+    }
+  ],
+  "lessons": [
+    {
+      "id": "controls-first-night",
+      "chapter": 0,
+      "title": {
+        "english": "Take your seat at the table",
+        "vietnamese": "Làm chủ bàn chơi"
+      },
+      "summary": {
+        "english": "Read, place, retrieve, aim Hunter, spread infection, vote and Purge on one table.",
+        "vietnamese": "Tự xem, đặt, rút bài, nhắm Hunter, lây nhiễm, bỏ phiếu và thanh trừng trong một bài."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Welcome to the village. Seven seats, a hand of cards, and a little time to find your feet.",
+            "vietnamese": "Chào bạn đến với ngôi làng. Có bảy chiếc ghế và một tay bài đang chờ. Mình làm quen từng chút nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "ACTION: spend hearts to play cards, move them and use abilities. End turn passes play to the other faction.",
+            "vietnamese": "HÀNH ĐỘNG: dùng tim để đặt bài, dời chỗ và sử dụng kỹ năng. Bấm Kết thúc lượt để chuyển sang phe bên kia."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 1,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Get to know this card",
+            "vietnamese": "Làm quen người bạn mới"
+          },
+          "instruction": {
+            "english": "RIGHT-click card number 10.",
+            "vietnamese": "Bấm CHUỘT PHẢI vào lá số 10."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 2,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Back to the table",
+            "vietnamese": "Trở về bàn chơi"
+          },
+          "instruction": {
+            "english": "RIGHT-click the enlarged card again.",
+            "vietnamese": "Bấm CHUỘT PHẢI lần nữa vào lá đang phóng to."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 3,
+          "source": 10,
+          "target": 0,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Give it a place at the table",
+            "vietnamese": "Mời một người vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 10, drag it to the green seat 1, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 10, kéo vào ghế số 1 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 5,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Try this move",
+            "vietnamese": "Thử thao tác này"
+          },
+          "instruction": {
+            "english": "Try LEFT-dragging number 10 back to your hand.",
+            "vietnamese": "Thử kéo CHUỘT TRÁI lá số 10 trở về tay."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "Number 10 was just played. It must stay until your next action turn.",
+            "vietnamese": "Lá số 10 vừa được đặt xuống. Nó cần ở lại đến lượt hành động kế tiếp của bạn."
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Cursermancer’s turn",
+            "vietnamese": "Đến lượt Cursermancer"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Cursermancer.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Cursermancer."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Village’s turn",
+            "vietnamese": "Đến lượt Village"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Village.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 4,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your next small discovery",
+            "vietnamese": "Thêm một điều để khám phá"
+          },
+          "instruction": {
+            "english": "LEFT-drag number 10 back to your hand.",
+            "vietnamese": "Kéo CHUỘT TRÁI lá số 10 về tay."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "That time it came home. You can now move it or choose a new place for it.",
+            "vietnamese": "Lần này lá bài đã về tay. Bạn đã biết cách đón nó về rồi đấy."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 7,
+          "source": 9,
+          "target": 1,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 0,
+              "number": 9,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 6,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Aim Hunter",
+            "vietnamese": "Nhắm bắn với Hunter"
+          },
+          "instruction": {
+            "english": "Hold RIGHT mouse on card number 9, drag to card number 1, then release.",
+            "vietnamese": "Giữ CHUỘT PHẢI ở lá số 9, kéo sang lá số 1 rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 15,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Open Cemetery.",
+            "vietnamese": "Bấm Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 16,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Press Close in Cemetery.",
+            "vietnamese": "Bấm Đóng trong Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 13,
+              "number": 0,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 2,
+              "target": 1
+            },
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 0,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 10,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 11,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 6,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 3,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "CURSE RITUAL: Cursermancer spreads infection from a seated source. Village will need to work out where it came from.",
+            "vietnamese": "NGUYỀN RỦA: Cursermancer lây bệnh từ một lá nguồn trên bàn. Village sẽ tìm dấu vết để lần ra nguồn lây."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 17,
+          "source": 1,
+          "target": 11,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Your next small discovery",
+            "vietnamese": "Thêm một điều để khám phá"
+          },
+          "instruction": {
+            "english": "LEFT-drag number 1 onto number 11.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 1 sang lá số 11."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Number 11 has turned gray: gray cards are infected. Only Cursermancer sees this change.",
+            "vietnamese": "Lá số 11 đã chuyển xám: lá xám là lá bị nhiễm bệnh. Chỉ phe Cursermancer thấy thay đổi này."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Enter Sacrifice",
+            "vietnamese": "Sang Hiến tế"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to begin voting.",
+            "vietnamese": "Bấm {turnButton} để bắt đầu bỏ phiếu."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "SACRIFICE: the factions vote in order. Each of your seated faction cards points one ballot at another card.",
+            "vietnamese": "HIẾN TẾ: hai phe lần lượt bỏ phiếu. Mỗi lá thuộc phe bạn đang ngồi trên bàn gửi một phiếu vào một lá khác."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 1,
+          "target": 10,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 1 onto card number 10.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 1 sang lá số 10."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The next voter",
+            "vietnamese": "Đến lượt bỏ phiếu tiếp theo"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to hand voting to Village.",
+            "vietnamese": "Bấm {turnButton} để sang lượt Village bỏ phiếu."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "The same number 11 looks ordinary from here. Remember its seat.",
+            "vietnamese": "Vẫn lá số 11 ấy, nhìn từ đây lại như bình thường. Nhớ chỗ nó đang ngồi nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 2,
+          "prepare": [
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 1
+            },
+            {
+              "kind": 9,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 11,
+          "target": 1,
+          "seat": 2,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 11 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 11 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve the vote",
+            "vietnamese": "Chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to resolve the vote.",
+            "vietnamese": "Bấm {turnButton} để tổng kết phiếu."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "The ballots are resolved. The card with the highest total went to the cemetery.",
+            "vietnamese": "Phiếu đã được chốt. Lá có tổng phiếu cao nhất vừa vào nghĩa trang."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 11,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 13,
+              "number": 0,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 2,
+              "target": 1
+            },
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 0,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 10,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 6,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 5,
+              "number": 10,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 5,
+              "number": 11,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 1,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Number 10 is gray on the table; number 11 is gray in hand. Both carry infection.",
+            "vietnamese": "Lá số 10 trên bàn và số 11 trong tay đều đã chuyển xám. Cả hai đang mang bệnh."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Village’s turn",
+            "vietnamese": "Đến lượt Village"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Village.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 11,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your next small discovery",
+            "vietnamese": "Thêm một điều để khám phá"
+          },
+          "instruction": {
+            "english": "Press Purge.",
+            "vietnamese": "Bấm Thanh trừng."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 15,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Open Cemetery.",
+            "vietnamese": "Bấm Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Both infected cards were removed. Number 1, the Cursermancer without infection, remains seated.",
+            "vietnamese": "Hai lá mang bệnh đã bị loại. Lá số 1 là Cursermancer nhưng không mang bệnh, nên vẫn còn trên ghế."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 16,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Press Close in Cemetery.",
+            "vietnamese": "Bấm Đóng trong Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "energy-empty",
+      "chapter": 1,
+      "title": {
+        "english": "Make the most of five hearts",
+        "vietnamese": "Dùng trọn năm tim"
+      },
+      "summary": {
+        "english": "Spend, run out, refill, retrieve, move and swap in one continuous lesson.",
+        "vietnamese": "Đặt bài, hết tim, hồi tim, rút bài, dời chỗ và đổi bài trong cùng một bài học."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Hearts are the energy you spend on actions. Each new action turn starts with five.",
+            "vietnamese": "Tim là năng lượng để bạn hành động. Mỗi lượt hành động mới, bạn có năm tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 3,
+          "source": 10,
+          "target": 0,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Give it a place at the table",
+            "vietnamese": "Mời một người vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 10, drag it to the green seat 1, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 10, kéo vào ghế số 1 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Playing your own card used two hearts. Three remain.",
+            "vietnamese": "Đặt bài của mình vừa dùng hai tim. Bạn còn ba tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 3,
+          "source": 11,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Give it a place at the table",
+            "vietnamese": "Mời một người vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 11, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 11, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Another two hearts spent. There is one left.",
+            "vietnamese": "Lại dùng thêm hai tim. Bây giờ còn một tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 6,
+          "source": 12,
+          "target": 0,
+          "seat": 2,
+          "prepare": [],
+          "title": {
+            "english": "Try this move",
+            "vietnamese": "Thử thao tác này"
+          },
+          "instruction": {
+            "english": "Try placing number 12 in seat 3.",
+            "vietnamese": "Thử đặt lá số 12 vào ghế số 3."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "That placement needs two hearts. You have one, so the card returned without spending anything.",
+            "vietnamese": "Lần đặt này cần hai tim mà bạn chỉ còn một. Lá bài trở về tay, tim vẫn giữ nguyên."
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Cursermancer’s turn",
+            "vietnamese": "Đến lượt Cursermancer"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Cursermancer.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Cursermancer."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Village’s turn",
+            "vietnamese": "Đến lượt Village"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Village.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Five hearts again. A new action turn gives you a fresh budget.",
+            "vietnamese": "Năm tim đã trở lại. Đến lượt hành động mới là bạn có sức để bắt đầu tiếp."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 4,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your next small discovery",
+            "vietnamese": "Thêm một điều để khám phá"
+          },
+          "instruction": {
+            "english": "LEFT-drag number 10 back to hand.",
+            "vietnamese": "Kéo CHUỘT TRÁI lá số 10 về tay."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 3,
+          "source": 3,
+          "target": 0,
+          "seat": 0,
+          "prepare": [
+            {
+              "kind": 1,
+              "number": 11,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Give it a place at the table",
+            "vietnamese": "Mời một người vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 3, drag it to the green seat 1, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 3, kéo vào ghế số 1 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "That card belongs to the other printed faction. Placing it spent all five hearts.",
+            "vietnamese": "Lá ấy thuộc nhóm bài phía bên kia. Đặt nó xuống vừa dùng hết năm tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 6,
+          "source": 12,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Try this move",
+            "vietnamese": "Thử thao tác này"
+          },
+          "instruction": {
+            "english": "Try placing number 12 in seat 2.",
+            "vietnamese": "Thử đặt lá số 12 vào ghế số 2."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "No hearts remain to pay for this placement. End the turn to get a new budget.",
+            "vietnamese": "Bạn đã hết tim để đặt thêm bài. Mình kết thúc lượt để đón lượt mới nhé."
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 13,
+              "number": 0,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 2,
+              "target": 1
+            },
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 0,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 10,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 3,
+              "value": 5,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Let us try movement with two cards already seated.",
+            "vietnamese": "Giờ mình thử dời hai lá đã có sẵn trên bàn nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 3,
+          "source": 10,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Give it a place at the table",
+            "vietnamese": "Mời một người vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 10, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 10, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Moving your own seated card cost one heart.",
+            "vietnamese": "Dời lá của mình trên bàn vừa tốn một tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 3,
+          "source": 3,
+          "target": 0,
+          "seat": 4,
+          "prepare": [],
+          "title": {
+            "english": "Give it a place at the table",
+            "vietnamese": "Mời một người vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 3, drag it to the green seat 5, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 3, kéo vào ghế số 5 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Moving the opposing card cost three hearts.",
+            "vietnamese": "Dời lá phía đối phương vừa tốn ba tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 13,
+              "number": 0,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 2,
+              "target": 1
+            },
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 0,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 3,
+              "value": 0,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "A fresh table for one last gesture: a swap.",
+            "vietnamese": "Bàn mới cho một động tác cuối: đổi chỗ."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 21,
+          "source": 12,
+          "target": 3,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your next small discovery",
+            "vietnamese": "Thêm một điều để khám phá"
+          },
+          "instruction": {
+            "english": "LEFT-drag number 12 onto number 3.",
+            "vietnamese": "Kéo CHUỘT TRÁI lá số 12 thả lên lá số 3."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "The opposing card returned to its hand. Your card took its place, for five hearts in total.",
+            "vietnamese": "Lá đối phương đã về tay của nó, lá của bạn nhận chỗ ngồi. Cả lần đổi vừa dùng năm tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-trader",
+      "chapter": 2,
+      "title": {
+        "english": "Trader · a small laboratory",
+        "vietnamese": "Trader · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Trader work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Trader hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Trader20"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 2,
+          "value": 3,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 3,
+          "value": 4,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 20,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Trader",
+            "vietnamese": "Đặt Trader vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 20, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 20, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 1
+            },
+            {
+              "kind": 9,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 9,
+              "number": 2,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 9,
+              "number": 3,
+              "value": 2,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Trader",
+            "vietnamese": "Trader khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Trader’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Trader."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Trader changed",
+            "vietnamese": "Trader vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Trader shares the highest vote count across the occupied cards in its horizontal group. Shares round down.",
+            "vietnamese": "Trader lấy số phiếu cao nhất trong nhóm ngang rồi chia đều cho các lá có mặt, làm tròn xuống."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-jester",
+      "chapter": 2,
+      "title": {
+        "english": "Jester · a small laboratory",
+        "vietnamese": "Jester · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Jester work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Jester hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Jester20"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 20,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Jester",
+            "vietnamese": "Đặt Jester vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 20, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 20, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 1
+            },
+            {
+              "kind": 9,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Jester",
+            "vietnamese": "Jester khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Jester’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Jester."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Jester changed",
+            "vietnamese": "Jester vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "When Jester activates, it scatters three extra ballots among other seated cards.",
+            "vietnamese": "Khi kích hoạt, Jester tung ba phiếu thêm vào những lá khác trên bàn."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-controller",
+      "chapter": 2,
+      "title": {
+        "english": "Controller · a small laboratory",
+        "vietnamese": "Controller · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Controller work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Controller hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Controller22"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 2,
+          "value": 3,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 3,
+          "value": 4,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 22,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Controller",
+            "vietnamese": "Đặt Controller vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 22, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 22, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 1
+            },
+            {
+              "kind": 9,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 9,
+              "number": 2,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 9,
+              "number": 3,
+              "value": 2,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Controller",
+            "vietnamese": "Controller khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Controller’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Controller."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Controller changed",
+            "vietnamese": "Controller vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Controller makes the cards with the lowest positive vote count take the sacrifice.",
+            "vietnamese": "Controller khiến những lá có số phiếu dương thấp nhất nhận hiến tế."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-sacrifier",
+      "chapter": 2,
+      "title": {
+        "english": "Sacrifier · a small laboratory",
+        "vietnamese": "Sacrifier · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Sacrifier work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Sacrifier hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Sacrifier21"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 21,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Sacrifier",
+            "vietnamese": "Đặt Sacrifier vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 21, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 21, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 1
+            },
+            {
+              "kind": 9,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Sacrifier",
+            "vietnamese": "Sacrifier khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Sacrifier’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Sacrifier."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Sacrifier changed",
+            "vietnamese": "Sacrifier vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Sacrifier takes the sacrifice itself.",
+            "vietnamese": "Sacrifier nhận hiến tế thay cho những lá bị phiếu bầu nhắm tới."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-preacher",
+      "chapter": 2,
+      "title": {
+        "english": "Preacher · a small laboratory",
+        "vietnamese": "Preacher · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Preacher work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Preacher hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Preacher18"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 9,
+          "value": 4,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 18,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Preacher",
+            "vietnamese": "Đặt Preacher vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 18, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 18, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 7,
+          "source": 9,
+          "target": 1,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Use Preacher",
+            "vietnamese": "Dùng Preacher"
+          },
+          "instruction": {
+            "english": "Hold RIGHT mouse on card number 9, drag to card number 1, then release.",
+            "vietnamese": "Giữ CHUỘT PHẢI ở lá số 9, kéo sang lá số 1 rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Preacher changed",
+            "vietnamese": "Preacher vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Preacher shields its two horizontal neighbors. The card Hunter just shot survived behind that shield.",
+            "vietnamese": "Preacher che chở hai hàng xóm ngang. Lá vừa bị Hunter bắn vẫn sống nhờ khiên đó."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-elder",
+      "chapter": 2,
+      "title": {
+        "english": "Elder · a small laboratory",
+        "vietnamese": "Elder · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Elder work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Elder hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Elder17"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 17,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Elder",
+            "vietnamese": "Đặt Elder vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 17, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 17, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 5,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Try this move",
+            "vietnamese": "Thử thao tác này"
+          },
+          "instruction": {
+            "english": "Try to LEFT-drag number 10 back to hand.",
+            "vietnamese": "Thử kéo CHUỘT TRÁI lá số 10 về tay."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "Elder is holding number 10 in place beside it.",
+            "vietnamese": "Elder đang giữ lá số 10 bên cạnh, nên bạn chưa thể rút lá đó về tay."
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-saboteur",
+      "chapter": 2,
+      "title": {
+        "english": "Saboteur · a small laboratory",
+        "vietnamese": "Saboteur · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Saboteur work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Saboteur hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Saboteur18"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 9,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 18,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Saboteur",
+            "vietnamese": "Đặt Saboteur vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 18, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 18, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 22,
+          "source": 9,
+          "target": 10,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Try this move",
+            "vietnamese": "Thử thao tác này"
+          },
+          "instruction": {
+            "english": "Hold RIGHT mouse on card number 9, drag to card number 10, then release.",
+            "vietnamese": "Giữ CHUỘT PHẢI ở lá số 9, kéo sang lá số 10 rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "Saboteur is silencing Hunter beside it. The shot did not fire.",
+            "vietnamese": "Saboteur đang khóa kỹ năng Hunter bên cạnh. Phát bắn chưa được thực hiện."
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-gamemaster",
+      "chapter": 2,
+      "title": {
+        "english": "Game Master · a small laboratory",
+        "vietnamese": "Game Master · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Game Master work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Game Master hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Master21"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 21,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Game Master",
+            "vietnamese": "Đặt Game Master vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 21, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 21, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 3,
+          "source": 10,
+          "target": 0,
+          "seat": 7,
+          "prepare": [
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Try the extra seat",
+            "vietnamese": "Thử ghế phụ"
+          },
+          "instruction": {
+            "english": "LEFT-drag number 10 onto Game Master’s highlighted extra seat.",
+            "vietnamese": "Kéo CHUỘT TRÁI lá số 10 vào ghế phụ viền xanh của Game Master."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 5,
+          "source": 21,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Try this move",
+            "vietnamese": "Thử thao tác này"
+          },
+          "instruction": {
+            "english": "Try to LEFT-drag Game Master back to hand.",
+            "vietnamese": "Thử kéo CHUỘT TRÁI Game Master về tay."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "Game Master cannot be moved by hand while its extra seat is occupied.",
+            "vietnamese": "Ghế phụ đang có người nên Game Master chưa thể được di chuyển bằng tay."
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-prankster",
+      "chapter": 2,
+      "title": {
+        "english": "Prankster · a small laboratory",
+        "vietnamese": "Prankster · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Prankster work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Prankster hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Prankster24"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 1,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 24,
+          "target": 0,
+          "seat": 2,
+          "prepare": [],
+          "title": {
+            "english": "Seat Prankster",
+            "vietnamese": "Đặt Prankster vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 24, drag it to the green seat 3, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 24, kéo vào ghế số 3 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Prankster changed",
+            "vietnamese": "Prankster vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Prankster pushes cards in its left trigger area to an empty seat or back to hand.",
+            "vietnamese": "Prankster đẩy lá trong vùng bên trái sang ghế trống hoặc về tay."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-villagechief",
+      "chapter": 2,
+      "title": {
+        "english": "Reeve · a small laboratory",
+        "vietnamese": "Reeve · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Reeve work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Reeve hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Reeve17"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 17,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Reeve",
+            "vietnamese": "Đặt Reeve vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 17, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 17, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Reeve changed",
+            "vietnamese": "Reeve vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Reeve has brought the table into the curse ritual early.",
+            "vietnamese": "Reeve vừa đưa bàn chơi sang Nguyền rủa sớm."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-totem",
+      "chapter": 2,
+      "title": {
+        "english": "Totem · a small laboratory",
+        "vietnamese": "Totem · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Totem work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Totem hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Totem1"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 2,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 1,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Totem",
+            "vietnamese": "Đặt Totem vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 1, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 1, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Totem changed",
+            "vietnamese": "Totem vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Placing Totem used one heart.",
+            "vietnamese": "Đặt Totem vừa dùng một tim."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-detective",
+      "chapter": 2,
+      "title": {
+        "english": "Detective · a small laboratory",
+        "vietnamese": "Detective · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Detective work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Detective hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Detactive23"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 23,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Detective",
+            "vietnamese": "Đặt Detective vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 23, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 23, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Detective changed",
+            "vietnamese": "Detective vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Detective’s seal records suspicion on a neighbor. This is a suspicion mark, not a ballot.",
+            "vietnamese": "Con dấu của Detective ghi mức nghi ngờ lên một hàng xóm. Đó là dấu nghi ngờ, không phải phiếu bầu."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-invoker",
+      "chapter": 2,
+      "title": {
+        "english": "Invoker · a small laboratory",
+        "vietnamese": "Invoker · một bàn thử riêng"
+      },
+      "summary": {
+        "english": "See Invoker work on a real practice board; learn its timing and limits.",
+        "vietnamese": "Xem Invoker hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Invoker19"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 7,
+          "number": 10,
+          "value": 0,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 19,
+          "target": 0,
+          "seat": 6,
+          "prepare": [],
+          "title": {
+            "english": "Seat Invoker",
+            "vietnamese": "Đặt Invoker vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 19, drag it to the green seat 7, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 19, kéo vào ghế số 7 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 18,
+          "source": 19,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 1
+            }
+          ],
+          "title": {
+            "english": "Call with Invoker",
+            "vietnamese": "Gọi bài bằng Invoker"
+          },
+          "instruction": {
+            "english": "LEFT-click Invoker (number 19).",
+            "vietnamese": "Bấm CHUỘT TRÁI vào Invoker (số 19)."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 19,
+          "source": 0,
+          "target": 10,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Bring the card back",
+            "vietnamese": "Đưa lá bài trở về"
+          },
+          "instruction": {
+            "english": "Choose the offered Villager to resurrect.",
+            "vietnamese": "Chọn lá Villager được đưa ra để hồi sinh."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Invoker changed",
+            "vietnamese": "Invoker vừa làm gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Invoker has brought card number 10 from the cemetery back to hand.",
+            "vietnamese": "Invoker vừa đưa lá số 10 từ nghĩa trang về tay."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-snooper",
+      "chapter": 2,
+      "title": {
+        "english": "Snooper · follow both whispers",
+        "vietnamese": "Snooper · nghe từ hai phía"
+      },
+      "summary": {
+        "english": "Watch healthy Snooper resolve, then play its Decay choice and compare both viewpoints.",
+        "vietnamese": "Xem Snooper khỏe hoạt động, tự chọn mục tiêu Decay rồi nhìn từ cả hai phe."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Snooper22"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 22,
+          "value": 1,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 6,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Healthy Snooper",
+            "vietnamese": "Snooper lúc khỏe"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "First, let healthy Snooper watch a normal vote.",
+            "vietnamese": "Trước hết, để Snooper khỏe theo dõi một cuộc bỏ phiếu nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 1
+            },
+            {
+              "kind": 9,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Snooper",
+            "vietnamese": "Snooper khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Snooper’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Snooper."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The eye at resolution",
+            "vietnamese": "Con mắt lúc tổng kết"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Snooper added one ballot to the seated Cursermancer. Both players saw its eye during resolution.",
+            "vietnamese": "Snooper vừa thêm một phiếu vào Cursermancer trên bàn. Khi phân giải, cả hai người chơi đều thấy con mắt ấy."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 13,
+              "number": 0,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 22,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 10,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 6,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 5,
+              "number": 22,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Snooper is infected",
+            "vietnamese": "Snooper đã nhiễm"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "A new round is prepared. You are Cursermancer. Snooper has turned gray: it is infected.",
+            "vietnamese": "Tình huống mới đã được chuẩn bị. Bạn đang là Cursermancer. Snooper đã chuyển xám, nghĩa là bị nhiễm bệnh."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 7,
+          "source": 22,
+          "target": 10,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Use Snooper",
+            "vietnamese": "Dùng Snooper"
+          },
+          "instruction": {
+            "english": "Hold RIGHT mouse on card number 22, drag to card number 10, then release.",
+            "vietnamese": "Giữ CHUỘT PHẢI ở lá số 22, kéo sang lá số 10 rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your private choice",
+            "vietnamese": "Lựa chọn bí mật của bạn"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Your private eye is on number 10. Now cast your ordinary ballot before passing the turn.",
+            "vietnamese": "Con mắt bí mật của bạn đã nằm trên lá số 10. Giờ bỏ phiếu thường rồi chuyển lượt nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 1,
+          "target": 10,
+          "seat": 2,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 1 onto card number 10.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 1 sang lá số 10."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The next voter",
+            "vietnamese": "Đến lượt bỏ phiếu tiếp theo"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to hand voting to Village.",
+            "vietnamese": "Bấm {turnButton} để sang lượt Village bỏ phiếu."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "What Village sees",
+            "vietnamese": "Village nhìn thấy gì"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "It is Village’s voting turn now. Snooper looks ordinary; the selected eye is hidden from this side.",
+            "vietnamese": "Đã tới lượt Village bỏ phiếu. Snooper trông như bình thường; con mắt đã chọn được giữ kín ở phía này."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Snooper",
+            "vietnamese": "Snooper khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Snooper’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Snooper."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The target becomes public",
+            "vietnamese": "Mục tiêu được công khai"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "The chosen target became public at resolution. You have seen healthy Snooper and its Decay from real turns on the same table.",
+            "vietnamese": "Khi phân giải, mục tiêu đã chọn mới công khai. Bạn vừa thấy Snooper khỏe và Decay qua lượt chơi thật trên cùng một bàn."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-gambler",
+      "chapter": 2,
+      "title": {
+        "english": "Gambler · dare you answer?",
+        "vietnamese": "Gambler · bạn có dám đáp cược?"
+      },
+      "summary": {
+        "english": "See a fixed opponent’s wager, then choose to bet or pass for your own side.",
+        "vietnamese": "Nhìn nước cược đặt sẵn của đối thủ, rồi tự chọn cược đáp hay bỏ qua cho phe mình."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Gambler24"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 24,
+          "value": 1,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 4,
+          "target": 0
+        },
+        {
+          "kind": 12,
+          "number": 24,
+          "value": 0,
+          "target": 10
+        },
+        {
+          "kind": 9,
+          "number": 1,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 4,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your opponent has bet",
+            "vietnamese": "Đối thủ đã cược"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Cursermancer has bet on number 10. You will play Village, the second voter.",
+            "vietnamese": "Cursermancer đã cược vào lá số 10. Bạn sẽ chơi Village, người bỏ phiếu sau."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The next voter",
+            "vietnamese": "Đến lượt bỏ phiếu tiếp theo"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to make your response as Village.",
+            "vietnamese": "Bấm {turnButton} để đến lượt bạn đáp cược ở phe Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 24,
+          "source": 24,
+          "target": 1,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your wager, your choice",
+            "vietnamese": "Cược hay không, bạn chọn nhé"
+          },
+          "instruction": {
+            "english": "RIGHT-drag Gambler onto your wager target, or press Pass.",
+            "vietnamese": "Kéo CHUỘT PHẢI từ Gambler sang lá muốn cược, hoặc bấm Bỏ qua."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "Your ordinary ballot and your wager target are separate choices.",
+            "vietnamese": "Phiếu bầu thường và mục tiêu cược là hai lựa chọn riêng."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Gambler",
+            "vietnamese": "Gambler khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Gambler’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Gambler."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your wager resolved",
+            "vietnamese": "Kết quả cược của bạn"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "The tally has resolved your choice.",
+            "vietnamese": "Phiếu đã phân giải lựa chọn của bạn."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0,
+          "betResult": {
+            "english": "You answered with a bet. Both sides bet: your second wager won; the first player lost a normal ballot.",
+            "vietnamese": "Bạn đã cược đáp. Cả hai cùng cược: bạn đi sau nên thắng cược; người trước bị trừ một phiếu thường."
+          },
+          "passResult": {
+            "english": "You passed. With no counter-bet, the first player won one extra ballot on number 10.",
+            "vietnamese": "Bạn đã bỏ qua. Không có cược đáp, người đi trước được thêm một phiếu vào lá số 10."
+          }
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 13,
+              "number": 0,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 2,
+              "number": 0,
+              "value": 5,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 24,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 10,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 4,
+              "target": 0
+            },
+            {
+              "kind": 9,
+              "number": 1,
+              "value": 2,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Your opponent passes",
+            "vietnamese": "Đối thủ không cược"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "This time Cursermancer has voted without betting. You still decide for Village.",
+            "vietnamese": "Lần này Cursermancer đã bỏ phiếu và không cược. Bạn vẫn quyết định cho Village."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The next voter",
+            "vietnamese": "Đến lượt bỏ phiếu tiếp theo"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to make your response as Village.",
+            "vietnamese": "Bấm {turnButton} để đến lượt bạn đáp cược ở phe Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 24,
+          "source": 24,
+          "target": 1,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your wager, your choice",
+            "vietnamese": "Cược hay không, bạn chọn nhé"
+          },
+          "instruction": {
+            "english": "RIGHT-drag Gambler onto your wager target, or press Pass.",
+            "vietnamese": "Kéo CHUỘT PHẢI từ Gambler sang lá muốn cược, hoặc bấm Bỏ qua."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 1,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 1.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+          },
+          "purpose": {
+            "english": "Your ordinary ballot and your wager target are separate choices.",
+            "vietnamese": "Phiếu bầu thường và mục tiêu cược là hai lựa chọn riêng."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve Gambler",
+            "vietnamese": "Gambler khi chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to see Gambler’s effect.",
+            "vietnamese": "Bấm {turnButton} để xem hiệu ứng của Gambler."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your wager resolved",
+            "vietnamese": "Kết quả cược của bạn"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "The tally has resolved your choice.",
+            "vietnamese": "Phiếu đã phân giải lựa chọn của bạn."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0,
+          "betResult": {
+            "english": "You bet alone as the second player. That wager lost and removed a ballot from your ordinary vote target.",
+            "vietnamese": "Bạn là người sau và đã cược một mình. Cược ấy thua, làm mất một phiếu ở mục tiêu bỏ phiếu thường của bạn."
+          },
+          "passResult": {
+            "english": "You passed too. Neither player bet, so Gambler left the ordinary ballots unchanged.",
+            "vietnamese": "Bạn cũng bỏ qua. Không ai cược nên Gambler giữ nguyên các phiếu thường."
+          }
+        }
+      ]
+    },
+    {
+      "id": "card-witch",
+      "chapter": 2,
+      "title": {
+        "english": "Witch · see what the spell reaches",
+        "vietnamese": "Witch · nhìn rõ nơi phép chạm tới"
+      },
+      "summary": {
+        "english": "Check infections as Cursermancer, then use Witch from Village and inspect the result.",
+        "vietnamese": "Nhìn bệnh từ Cursermancer, trở về Village dùng Witch rồi xem kết quả."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Witch23"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 5,
+          "number": 1,
+          "value": 1,
+          "target": 0
+        },
+        {
+          "kind": 5,
+          "number": 10,
+          "value": 1,
+          "target": 0
+        },
+        {
+          "kind": 5,
+          "number": 11,
+          "value": 1,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 23,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Seat Witch",
+            "vietnamese": "Đặt Witch vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 23, drag it to the green seat 2, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 23, kéo vào ghế số 2 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Cursermancer’s turn",
+            "vietnamese": "Đến lượt Cursermancer"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Cursermancer.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Cursermancer."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 11,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Find the gray cards",
+            "vietnamese": "Nhìn những lá xám"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "It is Cursermancer’s turn. Numbers 1 and 10 are gray on the table; number 11 is gray in hand. Gray means infected.",
+            "vietnamese": "Đến lượt Cursermancer. Lá số 1 và số 10 trên bàn, lá số 11 trong tay đã chuyển xám. Màu xám cho biết lá đang bị nhiễm bệnh."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Village’s turn",
+            "vietnamese": "Đến lượt Village"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Village.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 7,
+          "source": 23,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 2,
+              "number": 1,
+              "value": 5,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Use Witch",
+            "vietnamese": "Dùng Witch"
+          },
+          "instruction": {
+            "english": "LEFT-click card number 23 to use its ability.",
+            "vietnamese": "Bấm CHUỘT TRÁI vào lá số 23 để dùng kỹ năng."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 15,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Open Cemetery.",
+            "vietnamese": "Bấm Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "After Witch’s spell",
+            "vietnamese": "Sau phép của Witch"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Numbers 1 and 10 were swept from the table. The infected card in hand remained there.",
+            "vietnamese": "Lá số 1 và số 10 đã bị quét khỏi bàn. Lá bị nhiễm còn trong tay vẫn ở đó."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 16,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Press Close in Cemetery.",
+            "vietnamese": "Bấm Đóng trong Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Cursermancer’s turn",
+            "vietnamese": "Đến lượt Cursermancer"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Cursermancer.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Cursermancer."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 11,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The card still in hand",
+            "vietnamese": "Lá còn lại trong tay"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Number 11 still has its infection. Witch’s spell reached the seated cards you just saw.",
+            "vietnamese": "Lá số 11 vẫn mang bệnh. Phép Witch vừa chạm tới các lá đang ngồi trên bàn mà bạn đã quan sát."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "card-blind",
+      "chapter": 2,
+      "title": {
+        "english": "Blind · a report seen from two sides",
+        "vietnamese": "Blind · một lời báo, hai góc nhìn"
+      },
+      "summary": {
+        "english": "Compare a healthy report and a Decay report, with the actual truth visible only to Cursermancer.",
+        "vietnamese": "Đối chiếu lời báo lúc khỏe và lúc Decay; Cursermancer nhìn thấy sự thật."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13",
+        "Blind19"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 5,
+          "number": 10,
+          "value": 1,
+          "target": 0
+        },
+        {
+          "kind": 7,
+          "number": 10,
+          "value": 0,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 3,
+          "source": 19,
+          "target": 0,
+          "seat": 6,
+          "prepare": [],
+          "title": {
+            "english": "Seat Blind",
+            "vietnamese": "Đặt Blind vào bàn"
+          },
+          "instruction": {
+            "english": "Hold LEFT mouse on card number 19, drag it to the green seat 7, then release.",
+            "vietnamese": "Giữ CHUỘT TRÁI ở lá số 19, kéo vào ghế số 7 viền xanh rồi thả."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 15,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Open Cemetery.",
+            "vietnamese": "Bấm Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Blind’s report to Village",
+            "vietnamese": "Lời báo cho Village"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Blind has inspected this death. Read the result from Village.",
+            "vietnamese": "Blind vừa kiểm tra lần chết này. Nhìn kết quả từ Village nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 16,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Press Close in Cemetery.",
+            "vietnamese": "Bấm Đóng trong Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Cursermancer’s turn",
+            "vietnamese": "Đến lượt Cursermancer"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Cursermancer.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Cursermancer."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 15,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Open Cemetery.",
+            "vietnamese": "Bấm Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Cursermancer sees the truth",
+            "vietnamese": "Sự thật phía Cursermancer"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "It is Cursermancer’s turn. The truth matches Blind’s healthy report.",
+            "vietnamese": "Đến lượt Cursermancer. Sự thật đang khớp với lời báo lúc Blind khỏe."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 16,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Press Close in Cemetery.",
+            "vietnamese": "Bấm Đóng trong Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 5,
+              "number": 19,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 8,
+              "number": 19,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 0,
+              "number": 11,
+              "value": 2,
+              "target": 0
+            },
+            {
+              "kind": 5,
+              "number": 11,
+              "value": 1,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Blind is infected",
+            "vietnamese": "Blind đã nhiễm"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Blind and number 11 have turned gray: both are infected. Watch the next death.",
+            "vietnamese": "Blind và lá số 11 đã chuyển xám: cả hai bị nhiễm bệnh. Mình quan sát lần chết tiếp theo nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 7,
+              "number": 11,
+              "value": 0,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "The next death",
+            "vietnamese": "Một lá khác vừa chết"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Blind has inspected the new death.",
+            "vietnamese": "Blind vừa kiểm tra lần chết mới."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 15,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Open Cemetery.",
+            "vietnamese": "Bấm Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The truth in the cemetery",
+            "vietnamese": "Sự thật ở nghĩa trang"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Cursermancer sees the truth: number 11 was infected.",
+            "vietnamese": "Cursermancer thấy sự thật: lá số 11 đã mang bệnh."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 16,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Press Close in Cemetery.",
+            "vietnamese": "Bấm Đóng trong Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Village’s turn",
+            "vietnamese": "Đến lượt Village"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Village.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 15,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Open Cemetery.",
+            "vietnamese": "Bấm Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The Decay report",
+            "vietnamese": "Lời báo sau Decay"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "It is Village’s turn. The same corpse looks ordinary in Blind’s report.",
+            "vietnamese": "Đến lượt Village. Vẫn lá đã chết ấy, nhưng lời báo của Blind cho thấy một lá bình thường."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 16,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "The cemetery",
+            "vietnamese": "Nghĩa trang"
+          },
+          "instruction": {
+            "english": "Press Close in Cemetery.",
+            "vietnamese": "Bấm Đóng trong Nghĩa trang."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "strategy-notes",
+      "chapter": 3,
+      "title": {
+        "english": "A notebook, not an oracle",
+        "vietnamese": "Sổ tay để nhớ, không phải để đoán hộ"
+      },
+      "summary": {
+        "english": "Open the seven-seat notebook and record a position yourself.",
+        "vietnamese": "Mở sổ đủ bảy ghế và tự ghi lại một vị trí."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Memory likes a little help",
+            "vietnamese": "Trí nhớ cũng cần bạn đồng hành"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Use the notebook to remember which card sat in which seat.",
+            "vietnamese": "Dùng sổ tay để ghi nhớ lá nào từng ngồi ở ghế nào."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 12,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Record a seat",
+            "vietnamese": "Ghi nhớ vị trí"
+          },
+          "instruction": {
+            "english": "Open Notes.",
+            "vietnamese": "Bấm Sổ tay."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 13,
+          "source": 0,
+          "target": 0,
+          "seat": 6,
+          "prepare": [],
+          "title": {
+            "english": "Record a seat",
+            "vietnamese": "Ghi nhớ vị trí"
+          },
+          "instruction": {
+            "english": "Drag a note token into slot 7.",
+            "vietnamese": "Kéo một mảnh ghi chú vào ô số 7."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 14,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Record a seat",
+            "vietnamese": "Ghi nhớ vị trí"
+          },
+          "instruction": {
+            "english": "Close Notes with its button.",
+            "vietnamese": "Bấm lại Sổ tay để đóng."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "strategy-purge-trace",
+      "chapter": 3,
+      "title": {
+        "english": "Read the path a Purge leaves behind",
+        "vietnamese": "Đọc đường lây từ một lần thanh trừng"
+      },
+      "summary": {
+        "english": "Remember last ritual seats, Purge an infected returnee, and narrow the source positions.",
+        "vietnamese": "Nhớ ghế ở nghi thức trước, thanh trừng lá đã về tay rồi khoanh vùng nguồn lây."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 12,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 1,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 1,
+          "value": 2,
+          "target": 0
+        }
+      ],
+      "beats": [
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look before the chairs empty",
+            "vietnamese": "Nhìn trước khi ghế trống"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Last ritual snapshot: number 12 sat in seat 1, number 10 in seat 2, and number 1 in seat 3. Seat 4 was empty. Remember this small occupied chain.",
+            "vietnamese": "Bàn ở nghi thức trước: lá 12 ngồi ghế 1, lá 10 ghế 2, lá 1 ghế 3. Ghế 4 trống. Nhớ chuỗi ghế có người này nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 12,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Record a seat",
+            "vietnamese": "Ghi nhớ vị trí"
+          },
+          "instruction": {
+            "english": "Open Notes before the cards return.",
+            "vietnamese": "Mở Sổ tay trước khi bài trở về."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 13,
+          "source": 0,
+          "target": 0,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Record a seat",
+            "vietnamese": "Ghi nhớ vị trí"
+          },
+          "instruction": {
+            "english": "Put a memory token into slot 2.",
+            "vietnamese": "Đặt một mảnh ghi nhớ vào ô số 2."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 14,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Record a seat",
+            "vietnamese": "Ghi nhớ vị trí"
+          },
+          "instruction": {
+            "english": "Close Notes to see what the next turn reveals.",
+            "vietnamese": "Đóng Sổ tay để xem lượt tiếp theo mang lại gì."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [
+            {
+              "kind": 6,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 10,
+              "number": 1,
+              "value": 1,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 2,
+              "target": 1
+            },
+            {
+              "kind": 1,
+              "number": 1,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 1,
+              "number": 10,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 1,
+              "number": 12,
+              "value": 0,
+              "target": 0
+            },
+            {
+              "kind": 3,
+              "number": 0,
+              "value": 1,
+              "target": 0
+            }
+          ],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "It is Cursermancer’s turn in this replay. Number 10 is gray in hand: infected.",
+            "vietnamese": "Đến lượt Cursermancer trong tình huống phát lại. Lá số 10 trong tay đã xám: nó bị nhiễm bệnh."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 10,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "The infected number 10 has returned to hand. Your notebook still holds its old seat.",
+            "vietnamese": "Lá số 10 mang bệnh đã về tay. Sổ của bạn vẫn ghi chỗ nó từng ngồi."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 9,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Village’s turn",
+            "vietnamese": "Đến lượt Village"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to pass to Village.",
+            "vietnamese": "Bấm {turnButton} để chuyển lượt sang Village."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 11,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Your next small discovery",
+            "vietnamese": "Thêm một điều để khám phá"
+          },
+          "instruction": {
+            "english": "Press Purge on this new action turn.",
+            "vietnamese": "Bấm Thanh trừng trong lượt hành động mới này."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Number 10 was in seat 2 when infection spread. Compare its old neighbors in your notebook.",
+            "vietnamese": "Lá số 10 từng ở ghế số 2 khi bệnh lây. Đối chiếu các ghế bên cạnh nó trong sổ nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": "strategy-own-board",
+      "chapter": 3,
+      "title": {
+        "english": "When their own table turns against them",
+        "vietnamese": "Khi bàn của họ quay lại ép họ"
+      },
+      "summary": {
+        "english": "Experience a board with only your faction cards and understand unavoidable friendly votes.",
+        "vietnamese": "Thử bàn chỉ còn bài phe mình và hiểu vì sao phải bỏ phiếu vào bài mình."
+      },
+      "cards": [
+        "Villager1",
+        "Villager2",
+        "Villager3",
+        "Villager9",
+        "Villager10",
+        "Villager11",
+        "Villager12",
+        "Villager13"
+      ],
+      "setup": [
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 2,
+          "target": 1
+        },
+        {
+          "kind": 2,
+          "number": 1,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 2,
+          "number": 0,
+          "value": 5,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 10,
+          "value": 0,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 11,
+          "value": 1,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 12,
+          "value": 2,
+          "target": 0
+        },
+        {
+          "kind": 0,
+          "number": 13,
+          "value": 3,
+          "target": 0
+        },
+        {
+          "kind": 3,
+          "number": 0,
+          "value": 4,
+          "target": 1
+        }
+      ],
+      "beats": [
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Too much presence can be a trap",
+            "vietnamese": "Đông người chưa chắc là lợi thế"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Only Village cards remain seated. Try voting on this table.",
+            "vietnamese": "Trên bàn chỉ còn bài Village. Thử bỏ phiếu trên bàn này nhé."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 10,
+          "target": 11,
+          "seat": 1,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 10 onto card number 11.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 11."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 11,
+          "target": 10,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 11 onto card number 10.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 11 sang lá số 10."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 12,
+          "target": 10,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 12 onto card number 10.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 12 sang lá số 10."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 8,
+          "source": 13,
+          "target": 10,
+          "seat": 0,
+          "prepare": [],
+          "title": {
+            "english": "Your ordinary ballot",
+            "vietnamese": "Phiếu bầu thường"
+          },
+          "instruction": {
+            "english": "LEFT-drag card number 13 onto card number 10.",
+            "vietnamese": "Kéo CHUỘT TRÁI từ lá số 13 sang lá số 10."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 10,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Resolve the vote",
+            "vietnamese": "Chốt phiếu"
+          },
+          "instruction": {
+            "english": "Press {turnButton} to resolve the vote.",
+            "vietnamese": "Bấm {turnButton} để tổng kết phiếu."
+          },
+          "purpose": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        },
+        {
+          "action": 0,
+          "source": 0,
+          "target": 0,
+          "seat": -1,
+          "prepare": [],
+          "title": {
+            "english": "Look at the table now",
+            "vietnamese": "Nhìn lại bàn chơi nhé"
+          },
+          "instruction": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "purpose": {
+            "english": "Your side had to vote into its own cards. You have just experienced the pressure an all-one-faction board creates.",
+            "vietnamese": "Phe của bạn vừa phải bầu vào chính bài của mình. Bạn đã tự thử sức ép khi trên bàn chỉ còn một nhóm bài."
+          },
+          "success": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceA": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "choiceB": {
+            "english": "",
+            "vietnamese": ""
+          },
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

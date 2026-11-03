@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "energy-other-side"
+  m_EditorClassIdentifier: ""
+  id: "energy-other-side"
+  title:
+    english: "An expensive visitor"
+    vietnamese: "Một vị khách tốn nhiều sức"
+  summary:
+    english: "Place an opposing card, reach zero, and understand why another action is refused."
+    vietnamese: "Đặt bài khác phe, dùng hết tim và hiểu vì sao không làm tiếp được."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+  beats:
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "The printed group changes the price"
+        vietnamese: "Nhìn nhóm bài trước khi trả giá"
+      instruction:
+        english: "Press Let's continue when you are ready."
+        vietnamese: "Bấm Mình thử tiếp nhé khi bạn đã sẵn sàng."
+      purpose:
+        english: "You are playing Village. Card number 3 is from the other printed faction. A card placed from the opposing or Neutral hand normally costs all five hearts."
+        vietnamese: "Bạn đang chơi Village; lá số 3 thuộc nhóm gốc phía bên kia. Đặt bài từ tay đối phương hoặc Neutral thường dùng trọn 5 tim."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 3
+      target: 0
+      seat: 0
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 3, drag it to the green seat 1, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 3, kéo vào ghế số 1 viền xanh rồi thả."
+      purpose:
+        english: "Watch all five hearts go dark. One placement can be the whole turn."
+        vietnamese: "Nhìn cả 5 tim tắt nhé. Chỉ một nước đặt cũng có thể dùng hết lượt."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 6
+      source: 10
+      target: 0
+      seat: 1
+      prepare: []
+      title:
+        english: "A quiet moment at zero"
+        vietnamese: "Khi năng lượng về không"
+      instruction:
+        english: "Try to place card number 10 in seat 2."
+        vietnamese: "Thử đặt lá số 10 vào ghế số 2."
+      purpose:
+        english: "At zero hearts you cannot pay even the usual two-heart price. Refused actions keep the board and budget unchanged."
+        vietnamese: "Khi còn 0 tim, bạn chưa trả nổi cả giá 2 tim thông thường. Nước bị từ chối giữ nguyên bài và năng lượng."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 20
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Take a guess"
+        vietnamese: "Thử đoán một chút nhé"
+      instruction:
+        english: "Can you retrieve an opposing card for a free refund?"
+        vietnamese: "Rút bài đối phương có được hoàn tim miễn phí không?"
+      purpose:
+        english: "Retrieving your own or a Neutral card refunds the amount it actually paid, up to two. Retrieving an opposing card charges five instead. Movement locks still apply."
+        vietnamese: "Rút bài mình hoặc Neutral hoàn khoản đã trả, tối đa 2 tim. Rút bài đối phương phải trả 5 tim. Các giới hạn khóa di chuyển vẫn áp dụng."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: "No · it costs five hearts"
+        vietnamese: "Không · phải trả 5 tim"
+      choiceB:
+        english: "Yes · every return refunds"
+        vietnamese: "Có · rút gì cũng hoàn"
+      answer: 0

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Gambler24
+  m_EditorClassIdentifier: 
+  cardName: Gambler
+  cardNumber: 24
+  cardType: 2
+  owner: 2
+  defaultArtwork: {fileID: -5755976165042708767, guid: 3240a400b5d89e143bb87600e804c83e, type: 3}
+  cursemancerArtwork: {fileID: 3074559795782399651, guid: 463623d8c73cf544d9184f3ce70d6df3, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: '[Active]: Secretly bet on a target. You win if you are the ONLY gambler
+    (as 1st voter) OR if BOTH players gambled (as 2nd voter).
+
+    Reward: Target
+    gets +1 vote.
+
+    Penalty: The card you voted for the most loses 1 vote.'
+  curDescription: 
+  infectedDescription: '[Active]: Secretly bet on a target. You win if you are the
+    ONLY gambler (as 1st voter) OR if BOTH players gambled (as 2nd voter).
+
+    Reward:
+    Target gets +1 vote.
+
+    Penalty: The card you voted for the most loses 1 vote.
+    [<color=red>Infected</color>]'
+  curInfectedDescription: 
+  cardSkill: {fileID: 11400000, guid: 13f6afb288aa91e49b903f87e397e4fd, type: 2}
+  quotes:
+  - High stakes, high rewards. Place your bets!
+  - I see your bluff, and I raise you a life.
+  - I've already calculated the odds. You're going to lose.
+  - Snake eyes... Looks like someone's luck just ran out.
+  customChance: 0.5
+  customInterval: 8

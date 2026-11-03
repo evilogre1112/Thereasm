@@ -1,0 +1,600 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "energy-empty"
+  m_EditorClassIdentifier: ""
+  id: "energy-empty"
+  title:
+    english: "Make the most of five hearts"
+    vietnamese: "Dùng trọn năm tim"
+  summary:
+    english: "Spend, run out, refill, retrieve, move and swap in one continuous lesson."
+    vietnamese: "Đặt bài, hết tim, hồi tim, rút bài, dời chỗ và đổi bài trong cùng một bài học."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+  beats:
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Hearts are the energy you spend on actions. Each new action turn starts with five."
+        vietnamese: "Tim là năng lượng để bạn hành động. Mỗi lượt hành động mới, bạn có năm tim."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 10
+      target: 0
+      seat: 0
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 10, drag it to the green seat 1, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 10, kéo vào ghế số 1 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Playing your own card used two hearts. Three remain."
+        vietnamese: "Đặt bài của mình vừa dùng hai tim. Bạn còn ba tim."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 11
+      target: 0
+      seat: 1
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 11, drag it to the green seat 2, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 11, kéo vào ghế số 2 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Another two hearts spent. There is one left."
+        vietnamese: "Lại dùng thêm hai tim. Bây giờ còn một tim."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 6
+      source: 12
+      target: 0
+      seat: 2
+      prepare: []
+      title:
+        english: "Try this move"
+        vietnamese: "Thử thao tác này"
+      instruction:
+        english: "Try placing number 12 in seat 3."
+        vietnamese: "Thử đặt lá số 12 vào ghế số 3."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: "That placement needs two hearts. You have one, so the card returned without spending anything."
+        vietnamese: "Lần đặt này cần hai tim mà bạn chỉ còn một. Lá bài trở về tay, tim vẫn giữ nguyên."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 9
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Cursermancer’s turn"
+        vietnamese: "Đến lượt Cursermancer"
+      instruction:
+        english: "Press {turnButton} to pass to Cursermancer."
+        vietnamese: "Bấm {turnButton} để chuyển lượt sang Cursermancer."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 9
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Village’s turn"
+        vietnamese: "Đến lượt Village"
+      instruction:
+        english: "Press {turnButton} to pass to Village."
+        vietnamese: "Bấm {turnButton} để chuyển lượt sang Village."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Five hearts again. A new action turn gives you a fresh budget."
+        vietnamese: "Năm tim đã trở lại. Đến lượt hành động mới là bạn có sức để bắt đầu tiếp."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 4
+      source: 10
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Your next small discovery"
+        vietnamese: "Thêm một điều để khám phá"
+      instruction:
+        english: "LEFT-drag number 10 back to hand."
+        vietnamese: "Kéo CHUỘT TRÁI lá số 10 về tay."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 3
+      target: 0
+      seat: 0
+      prepare:
+        - kind: 1
+          number: 11
+          value: 0
+          target: 0
+        - kind: 2
+          number: 1
+          value: 5
+          target: 0
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 3, drag it to the green seat 1, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 3, kéo vào ghế số 1 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "That card belongs to the other printed faction. Placing it spent all five hearts."
+        vietnamese: "Lá ấy thuộc nhóm bài phía bên kia. Đặt nó xuống vừa dùng hết năm tim."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 6
+      source: 12
+      target: 0
+      seat: 1
+      prepare: []
+      title:
+        english: "Try this move"
+        vietnamese: "Thử thao tác này"
+      instruction:
+        english: "Try placing number 12 in seat 2."
+        vietnamese: "Thử đặt lá số 12 vào ghế số 2."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: "No hearts remain to pay for this placement. End the turn to get a new budget."
+        vietnamese: "Bạn đã hết tim để đặt thêm bài. Mình kết thúc lượt để đón lượt mới nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare:
+        - kind: 13
+          number: 0
+          value: 0
+          target: 0
+        - kind: 3
+          number: 0
+          value: 2
+          target: 1
+        - kind: 2
+          number: 1
+          value: 5
+          target: 0
+        - kind: 2
+          number: 0
+          value: 5
+          target: 0
+        - kind: 0
+          number: 10
+          value: 0
+          target: 0
+        - kind: 0
+          number: 3
+          value: 5
+          target: 0
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Let us try movement with two cards already seated."
+        vietnamese: "Giờ mình thử dời hai lá đã có sẵn trên bàn nhé."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 10
+      target: 0
+      seat: 1
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 10, drag it to the green seat 2, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 10, kéo vào ghế số 2 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Moving your own seated card cost one heart."
+        vietnamese: "Dời lá của mình trên bàn vừa tốn một tim."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 3
+      target: 0
+      seat: 4
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 3, drag it to the green seat 5, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 3, kéo vào ghế số 5 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Moving the opposing card cost three hearts."
+        vietnamese: "Dời lá phía đối phương vừa tốn ba tim."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare:
+        - kind: 13
+          number: 0
+          value: 0
+          target: 0
+        - kind: 3
+          number: 0
+          value: 2
+          target: 1
+        - kind: 2
+          number: 1
+          value: 5
+          target: 0
+        - kind: 2
+          number: 0
+          value: 5
+          target: 0
+        - kind: 0
+          number: 3
+          value: 0
+          target: 0
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "A fresh table for one last gesture: a swap."
+        vietnamese: "Bàn mới cho một động tác cuối: đổi chỗ."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 21
+      source: 12
+      target: 3
+      seat: 0
+      prepare: []
+      title:
+        english: "Your next small discovery"
+        vietnamese: "Thêm một điều để khám phá"
+      instruction:
+        english: "LEFT-drag number 12 onto number 3."
+        vietnamese: "Kéo CHUỘT TRÁI lá số 12 thả lên lá số 3."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "The opposing card returned to its hand. Your card took its place, for five hearts in total."
+        vietnamese: "Lá đối phương đã về tay của nó, lá của bạn nhận chỗ ngồi. Cả lần đổi vừa dùng năm tim."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0

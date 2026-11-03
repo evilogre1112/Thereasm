@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "card-preacher"
+  m_EditorClassIdentifier: ""
+  id: "card-preacher"
+  title:
+    english: "Preacher · a small laboratory"
+    vietnamese: "Preacher · một bàn thử riêng"
+  summary:
+    english: "See Preacher work on a real practice board; learn its timing and limits."
+    vietnamese: "Xem Preacher hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+    - {fileID: 11400000, guid: 80fe2f18d6f3a994093c6496ffca189b, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+    - kind: 0
+      number: 1
+      value: 0
+      target: 0
+    - kind: 0
+      number: 10
+      value: 2
+      target: 0
+    - kind: 0
+      number: 9
+      value: 4
+      target: 0
+  beats:
+    - action: 3
+      source: 18
+      target: 0
+      seat: 1
+      prepare: []
+      title:
+        english: "Seat Preacher"
+        vietnamese: "Đặt Preacher vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 18, drag it to the green seat 2, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 18, kéo vào ghế số 2 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 7
+      source: 9
+      target: 1
+      seat: -1
+      prepare:
+        - kind: 2
+          number: 1
+          value: 5
+          target: 0
+      title:
+        english: "Use Preacher"
+        vietnamese: "Dùng Preacher"
+      instruction:
+        english: "Hold RIGHT mouse on card number 9, drag to card number 1, then release."
+        vietnamese: "Giữ CHUỘT PHẢI ở lá số 9, kéo sang lá số 1 rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "What Preacher changed"
+        vietnamese: "Preacher vừa làm gì"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Preacher shields its two horizontal neighbors. The card Hunter just shot survived behind that shield."
+        vietnamese: "Preacher che chở hai hàng xóm ngang. Lá vừa bị Hunter bắn vẫn sống nhờ khiên đó."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0

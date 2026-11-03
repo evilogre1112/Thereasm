@@ -1,0 +1,888 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "controls-first-night"
+  m_EditorClassIdentifier: ""
+  id: "controls-first-night"
+  title:
+    english: "Take your seat at the table"
+    vietnamese: "Làm chủ bàn chơi"
+  summary:
+    english: "Read, place, retrieve, aim Hunter, spread infection, vote and Purge on one table."
+    vietnamese: "Tự xem, đặt, rút bài, nhắm Hunter, lây nhiễm, bỏ phiếu và thanh trừng trong một bài."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+  beats:
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Welcome to the village. Seven seats, a hand of cards, and a little time to find your feet."
+        vietnamese: "Chào bạn đến với ngôi làng. Có bảy chiếc ghế và một tay bài đang chờ. Mình làm quen từng chút nhé."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "ACTION: spend hearts to play cards, move them and use abilities. End turn passes play to the other faction."
+        vietnamese: "HÀNH ĐỘNG: dùng tim để đặt bài, dời chỗ và sử dụng kỹ năng. Bấm Kết thúc lượt để chuyển sang phe bên kia."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 1
+      source: 10
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Get to know this card"
+        vietnamese: "Làm quen người bạn mới"
+      instruction:
+        english: "RIGHT-click card number 10."
+        vietnamese: "Bấm CHUỘT PHẢI vào lá số 10."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 2
+      source: 10
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Back to the table"
+        vietnamese: "Trở về bàn chơi"
+      instruction:
+        english: "RIGHT-click the enlarged card again."
+        vietnamese: "Bấm CHUỘT PHẢI lần nữa vào lá đang phóng to."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 3
+      source: 10
+      target: 0
+      seat: 0
+      prepare: []
+      title:
+        english: "Give it a place at the table"
+        vietnamese: "Mời một người vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 10, drag it to the green seat 1, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 10, kéo vào ghế số 1 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 5
+      source: 10
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Try this move"
+        vietnamese: "Thử thao tác này"
+      instruction:
+        english: "Try LEFT-dragging number 10 back to your hand."
+        vietnamese: "Thử kéo CHUỘT TRÁI lá số 10 trở về tay."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: "Number 10 was just played. It must stay until your next action turn."
+        vietnamese: "Lá số 10 vừa được đặt xuống. Nó cần ở lại đến lượt hành động kế tiếp của bạn."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 9
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Cursermancer’s turn"
+        vietnamese: "Đến lượt Cursermancer"
+      instruction:
+        english: "Press {turnButton} to pass to Cursermancer."
+        vietnamese: "Bấm {turnButton} để chuyển lượt sang Cursermancer."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 9
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Village’s turn"
+        vietnamese: "Đến lượt Village"
+      instruction:
+        english: "Press {turnButton} to pass to Village."
+        vietnamese: "Bấm {turnButton} để chuyển lượt sang Village."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 4
+      source: 10
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Your next small discovery"
+        vietnamese: "Thêm một điều để khám phá"
+      instruction:
+        english: "LEFT-drag number 10 back to your hand."
+        vietnamese: "Kéo CHUỘT TRÁI lá số 10 về tay."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "That time it came home. You can now move it or choose a new place for it."
+        vietnamese: "Lần này lá bài đã về tay. Bạn đã biết cách đón nó về rồi đấy."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 7
+      source: 9
+      target: 1
+      seat: -1
+      prepare:
+        - kind: 0
+          number: 9
+          value: 1
+          target: 0
+        - kind: 0
+          number: 1
+          value: 2
+          target: 0
+        - kind: 6
+          number: 1
+          value: 0
+          target: 0
+        - kind: 2
+          number: 1
+          value: 5
+          target: 0
+      title:
+        english: "Aim Hunter"
+        vietnamese: "Nhắm bắn với Hunter"
+      instruction:
+        english: "Hold RIGHT mouse on card number 9, drag to card number 1, then release."
+        vietnamese: "Giữ CHUỘT PHẢI ở lá số 9, kéo sang lá số 1 rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 15
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "The cemetery"
+        vietnamese: "Nghĩa trang"
+      instruction:
+        english: "Open Cemetery."
+        vietnamese: "Bấm Nghĩa trang."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 16
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "The cemetery"
+        vietnamese: "Nghĩa trang"
+      instruction:
+        english: "Press Close in Cemetery."
+        vietnamese: "Bấm Đóng trong Nghĩa trang."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare:
+        - kind: 13
+          number: 0
+          value: 0
+          target: 0
+        - kind: 3
+          number: 0
+          value: 2
+          target: 1
+        - kind: 2
+          number: 1
+          value: 5
+          target: 0
+        - kind: 2
+          number: 0
+          value: 5
+          target: 0
+        - kind: 0
+          number: 1
+          value: 2
+          target: 0
+        - kind: 0
+          number: 10
+          value: 0
+          target: 0
+        - kind: 0
+          number: 11
+          value: 1
+          target: 0
+        - kind: 6
+          number: 1
+          value: 0
+          target: 0
+        - kind: 3
+          number: 0
+          value: 3
+          target: 0
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "CURSE RITUAL: Cursermancer spreads infection from a seated source. Village will need to work out where it came from."
+        vietnamese: "NGUYỀN RỦA: Cursermancer lây bệnh từ một lá nguồn trên bàn. Village sẽ tìm dấu vết để lần ra nguồn lây."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 17
+      source: 1
+      target: 11
+      seat: 1
+      prepare: []
+      title:
+        english: "Your next small discovery"
+        vietnamese: "Thêm một điều để khám phá"
+      instruction:
+        english: "LEFT-drag number 1 onto number 11."
+        vietnamese: "Kéo CHUỘT TRÁI từ lá số 1 sang lá số 11."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Number 11 has turned gray: gray cards are infected. Only Cursermancer sees this change."
+        vietnamese: "Lá số 11 đã chuyển xám: lá xám là lá bị nhiễm bệnh. Chỉ phe Cursermancer thấy thay đổi này."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 9
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Enter Sacrifice"
+        vietnamese: "Sang Hiến tế"
+      instruction:
+        english: "Press {turnButton} to begin voting."
+        vietnamese: "Bấm {turnButton} để bắt đầu bỏ phiếu."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "SACRIFICE: the factions vote in order. Each of your seated faction cards points one ballot at another card."
+        vietnamese: "HIẾN TẾ: hai phe lần lượt bỏ phiếu. Mỗi lá thuộc phe bạn đang ngồi trên bàn gửi một phiếu vào một lá khác."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 8
+      source: 1
+      target: 10
+      seat: 0
+      prepare: []
+      title:
+        english: "Your ordinary ballot"
+        vietnamese: "Phiếu bầu thường"
+      instruction:
+        english: "LEFT-drag card number 1 onto card number 10."
+        vietnamese: "Kéo CHUỘT TRÁI từ lá số 1 sang lá số 10."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 9
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "The next voter"
+        vietnamese: "Đến lượt bỏ phiếu tiếp theo"
+      instruction:
+        english: "Press {turnButton} to hand voting to Village."
+        vietnamese: "Bấm {turnButton} để sang lượt Village bỏ phiếu."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "The same number 11 looks ordinary from here. Remember its seat."
+        vietnamese: "Vẫn lá số 11 ấy, nhìn từ đây lại như bình thường. Nhớ chỗ nó đang ngồi nhé."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 8
+      source: 10
+      target: 1
+      seat: 2
+      prepare:
+        - kind: 3
+          number: 0
+          value: 4
+          target: 1
+        - kind: 9
+          number: 1
+          value: 0
+          target: 0
+      title:
+        english: "Your ordinary ballot"
+        vietnamese: "Phiếu bầu thường"
+      instruction:
+        english: "LEFT-drag card number 10 onto card number 1."
+        vietnamese: "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 8
+      source: 11
+      target: 1
+      seat: 2
+      prepare: []
+      title:
+        english: "Your ordinary ballot"
+        vietnamese: "Phiếu bầu thường"
+      instruction:
+        english: "LEFT-drag card number 11 onto card number 1."
+        vietnamese: "Kéo CHUỘT TRÁI từ lá số 11 sang lá số 1."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 10
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Resolve the vote"
+        vietnamese: "Chốt phiếu"
+      instruction:
+        english: "Press {turnButton} to resolve the vote."
+        vietnamese: "Bấm {turnButton} để tổng kết phiếu."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "The ballots are resolved. The card with the highest total went to the cemetery."
+        vietnamese: "Phiếu đã được chốt. Lá có tổng phiếu cao nhất vừa vào nghĩa trang."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 11
+      target: 0
+      seat: -1
+      prepare:
+        - kind: 13
+          number: 0
+          value: 0
+          target: 0
+        - kind: 3
+          number: 0
+          value: 2
+          target: 1
+        - kind: 2
+          number: 1
+          value: 5
+          target: 0
+        - kind: 2
+          number: 0
+          value: 5
+          target: 0
+        - kind: 0
+          number: 1
+          value: 0
+          target: 0
+        - kind: 0
+          number: 10
+          value: 1
+          target: 0
+        - kind: 6
+          number: 1
+          value: 0
+          target: 0
+        - kind: 5
+          number: 10
+          value: 1
+          target: 0
+        - kind: 5
+          number: 11
+          value: 1
+          target: 0
+        - kind: 3
+          number: 0
+          value: 1
+          target: 0
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Number 10 is gray on the table; number 11 is gray in hand. Both carry infection."
+        vietnamese: "Lá số 10 trên bàn và số 11 trong tay đều đã chuyển xám. Cả hai đang mang bệnh."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 9
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Village’s turn"
+        vietnamese: "Đến lượt Village"
+      instruction:
+        english: "Press {turnButton} to pass to Village."
+        vietnamese: "Bấm {turnButton} để chuyển lượt sang Village."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 11
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Your next small discovery"
+        vietnamese: "Thêm một điều để khám phá"
+      instruction:
+        english: "Press Purge."
+        vietnamese: "Bấm Thanh trừng."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 15
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "The cemetery"
+        vietnamese: "Nghĩa trang"
+      instruction:
+        english: "Open Cemetery."
+        vietnamese: "Bấm Nghĩa trang."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Look at the table now"
+        vietnamese: "Nhìn lại bàn chơi nhé"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "Both infected cards were removed. Number 1, the Cursermancer without infection, remains seated."
+        vietnamese: "Hai lá mang bệnh đã bị loại. Lá số 1 là Cursermancer nhưng không mang bệnh, nên vẫn còn trên ghế."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 16
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "The cemetery"
+        vietnamese: "Nghĩa trang"
+      instruction:
+        english: "Press Close in Cemetery."
+        vietnamese: "Bấm Đóng trong Nghĩa trang."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0

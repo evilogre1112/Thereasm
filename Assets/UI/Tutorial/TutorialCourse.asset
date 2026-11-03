@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70f4c2b1cde348e6a7e92921cf582eb7, type: 3}
+  m_Name: "VillageFieldGuide"
+  m_EditorClassIdentifier: ""
+  chapters:
+    - id: "controls"
+      title:
+        english: "Hands on the cards"
+        vietnamese: "Làm chủ thao tác"
+      summary:
+        english: "Read, place, retrieve, aim Hunter, vote, sacrifice and Purge."
+        vietnamese: "Xem, đặt, rút bài, nhắm Hunter, bỏ phiếu, hiến tế và thanh trừng."
+      icon: {fileID: 21300000, guid: 31ef38c2a5a94055a068fa1f2d9f826f, type: 3}
+      lessons:
+        - {fileID: 11400000, guid: ff37bd5e735f4eb9894b419853dd3a9d, type: 2}
+    - id: "energy"
+      title:
+        english: "Spend your hearts wisely"
+        vietnamese: "Dùng tim đúng lúc"
+      summary:
+        english: "Energy, zero-heart refusals, refills, movement and swaps."
+        vietnamese: "Năng lượng, hết tim, hồi tim, dời bài và đổi chỗ."
+      icon: {fileID: 21300000, guid: 4efef92bc2c24b7d93fbe1509a07762a, type: 3}
+      lessons:
+        - {fileID: 11400000, guid: ee3d2dd674724a178d407561f46f4a11, type: 2}
+    - id: "cards"
+      title:
+        english: "One ability at a time"
+        vietnamese: "Mỗi lá một bí quyết"
+      summary:
+        english: "One lesson per card. Compare both sides and try healthy and Decay effects together."
+        vietnamese: "Mỗi lá một bài. Thử cả hai phía, đối chiếu kỹ năng khỏe và Decay ngay trên cùng bàn."
+      icon: {fileID: 21300000, guid: 18f371cac2d54d7d9b57f62b4ed862f5, type: 3}
+      lessons:
+        - {fileID: 11400000, guid: fdac9810d0cd4aa2b10862015f51ed8b, type: 2}
+        - {fileID: 11400000, guid: 75d4d6b2dcee4862904cf270a148d3e4, type: 2}
+        - {fileID: 11400000, guid: 54da35e628934783b7bf69873a2c0079, type: 2}
+        - {fileID: 11400000, guid: 7b79e4c9f6c945c68e49924b1e142f51, type: 2}
+        - {fileID: 11400000, guid: 1f5f69428f8b42b9a4adcc7802b0a4b5, type: 2}
+        - {fileID: 11400000, guid: 5830acab227846299c61f58854f382e8, type: 2}
+        - {fileID: 11400000, guid: 16dc82803b024dc493f6afa2a3e17c4d, type: 2}
+        - {fileID: 11400000, guid: 4fb7bf0f3bee4d73bf351723ed99f9e3, type: 2}
+        - {fileID: 11400000, guid: c5a99b8b90b44c8cb0331253221dd803, type: 2}
+        - {fileID: 11400000, guid: a2477a910cb24f9f87d1dccbe9b405ff, type: 2}
+        - {fileID: 11400000, guid: 4bf0faa7d81e490b87dbe1a9b6ff7e08, type: 2}
+        - {fileID: 11400000, guid: 6126534a64334489a7ddc996374195be, type: 2}
+        - {fileID: 11400000, guid: fa4c78275c234c7eb83998ceaceabbf2, type: 2}
+        - {fileID: 11400000, guid: 5876fa27d0474dc28bbdcc741fc7a79e, type: 2}
+        - {fileID: 11400000, guid: 3ee0bf43e07d46a8a51367c27f4bb44a, type: 2}
+        - {fileID: 11400000, guid: 8065f0c8733c4034ae1511346e855b82, type: 2}
+        - {fileID: 11400000, guid: 0cb2ac9a118141efa57f7f17b04ffa05, type: 2}
+    - id: "strategy"
+      title:
+        english: "Turn clues into a plan"
+        vietnamese: "Từ dấu vết thành nước đi"
+      summary:
+        english: "Seven-seat notes, old infection paths and pressure on a faction-only board."
+        vietnamese: "Sổ bảy ghế, đường lây từ lượt trước và thế ép một nhóm tự bầu nhau."
+      icon: {fileID: 21300000, guid: 46f0bb50abc34a51b3a070640c0c9d26, type: 3}
+      lessons:
+        - {fileID: 11400000, guid: fb1a23af2f6c44a9aa9d0f1db144f9f3, type: 2}
+        - {fileID: 11400000, guid: 8b04f36c883b4ac48b2e962cfa49f212, type: 2}
+        - {fileID: 11400000, guid: 4edaecbbe5a544e3847ea7232f3c37a6, type: 2}

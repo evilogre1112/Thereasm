@@ -1,0 +1,97 @@
+# Unity-generated working data and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Backups/
+/.vs/
+/.vscode/
+/.idea/
+
+# Generated IDE files
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.opendb
+*.VC.db
+*.pdb
+*.mdb
+
+# Test renders, logs and cached authoring output
+/Tests/Reports/
+**/__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Temporary patches, diffs and local validation scripts
+*.patch
+*.diff
+/Assets/Scripts/*.py
+/Assets/Scripts/*.py.meta
+
+# Development notes and internal documentation
+/Docs/*.json
+!/Docs/PHOTON_SDK_IMPORT.json
+!/Docs/SKILL_AUDIO_ASSETS.json
+/Docs/CARD_PRESENTATION.md
+/Docs/RELEASE_VERIFICATION.md
+/Docs/TRADER_JESTER_FX.md
+/Docs/UI_ART.md
+/Docs/ACTION_FEEDBACK.md
+/Docs/NOTE_UI_ART.md
+/Docs/ONLINE_FLOW_FIXES.md
+/Docs/UI_PLACEMENT_AND_SIZE.md
+/Docs/VOTE_PRESENTATION.md
+/Docs/SKILL_AUDIO.md
+/Docs/Media/README.md
+
+# Photon SDK is installed separately from its official distribution.
+# Keep the project's saved connection/network settings, not the SDK itself.
+/Assets/Photon/*
+!/Assets/Photon/Fusion/
+!/Assets/Photon/Fusion.meta
+/Assets/Photon/Fusion/*
+!/Assets/Photon/Fusion/Resources/
+/Assets/Photon/Fusion/Resources/*
+!/Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+!/Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion.meta
+!/Assets/Photon/Fusion/Resources/PhotonAppSettings.asset
+!/Assets/Photon/Fusion/Resources/PhotonAppSettings.asset.meta
+!/Assets/Photon/Fusion/Resources.meta
+*.unitypackage
+*.unitypackage.meta
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.keystore
+*.jks
+*.pem
+
+# Original loose exports outside Assets are not imported by Unity
+/*.png
+/*.jpg
+/*.jpeg
+/*.aseprite
+
+# Unity licensing and crash data
+sysinfo.txt
+*.stackdump
+*.crash
+*.bak

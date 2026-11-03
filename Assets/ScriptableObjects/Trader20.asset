@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Trader20
+  m_EditorClassIdentifier: 
+  cardName: Trader
+  cardNumber: 20
+  cardType: 2
+  owner: 2
+  defaultArtwork: {fileID: 4048041165270548593, guid: 626c76fe86c980046a5fd9e1689ac4e3, type: 3}
+  cursemancerArtwork: {fileID: 3074559795782399651, guid: 463623d8c73cf544d9184f3ce70d6df3, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: "After all extra votes and vote penalties are resolved, share the highest vote count in this card and its horizontal neighbors equally among the occupied cards only. Round down and discard the remainder."
+  curDescription: 
+  infectedDescription: "After all extra votes and vote penalties are resolved, share the highest vote count in this card and its horizontal neighbors equally among the occupied cards only. Round down and discard the remainder. [<color=red>Infected</color>]"
+  curInfectedDescription: 
+  cardSkill: {fileID: 11400000, guid: b9db64fe343111c4cb0e465305189158, type: 2}
+  quotes:
+  - Everything has a price. Even your survival.
+  - A fair trade? There's no such thing in this village
+  - The votes are moving... but where will they land?
+  - I deal in secrets and safety. Want to make a deal?
+  customChance: 0.2
+  customInterval: 6

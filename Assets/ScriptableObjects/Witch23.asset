@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Witch23
+  m_EditorClassIdentifier: 
+  cardName: "W\u1EC9tch"
+  cardNumber: 23
+  cardType: 2
+  owner: 2
+  defaultArtwork: {fileID: 2942914792312682323, guid: b46643cabbb8d5a4b8bc03242509ede2, type: 3}
+  cursemancerArtwork: {fileID: 3074559795782399651, guid: 463623d8c73cf544d9184f3ce70d6df3, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: "[Active] [Once per ritual] 5 Hearts: Left-click to banish all other infected cards on the board. Does not affect itself or cards in hand. Recharges after the Sacrifice/Execution Phase finishes."
+  curDescription: 
+  infectedDescription: "[Active] [Once per ritual] 5 Hearts: Left-click to banish all other infected cards on the board. Does not affect itself or cards in hand. Recharges after the Sacrifice/Execution Phase finishes. [<color=red>Infected</color>]"
+  curInfectedDescription: 
+  cardSkill: {fileID: 11400000, guid: 68b8cddc8a1a2b749946a409970ccdbd, type: 2}
+  quotes:
+  - My seat defines my vision. Odd or even, the dark plays no favorites.
+  - Do not stare. You stripped your own magic away; do not covet mine
+  - The infection whispers. It hides in the numbers. I can hear it
+  customChance: 0.2
+  customInterval: 10

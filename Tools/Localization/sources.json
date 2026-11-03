@@ -1,0 +1,2057 @@
+{
+    "rows": [
+        {
+            "key": "Blind19.name",
+            "source": "Blind"
+        },
+        {
+            "key": "Blind19.description",
+            "source": "[Passive] Must be placed on the seat next to the Cemetery. Reveals the true identity and infection status of the top card in the Cemetery\n[Decay] [Passive]  Must be placed on the seat next to the Cemetery. Blind will completely falsify the deceased's information status of the top card in the Cemetery."
+        },
+        {
+            "key": "Blind19.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Blind19.infectedDescription",
+            "source": "[Passive] Must be placed on the seat next to the Cemetery. Reveals the true identity and infection status of the top card in the Cemetery\n[Decay] [Passive]  Must be placed on the seat next to the Cemetery. Blind will completely falsify the deceased's information status of the top card in the Cemetery. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Blind19.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Blind19.quote.0",
+            "source": "Sight is a distraction. I see the truth."
+        },
+        {
+            "key": "Blind19.quote.1",
+            "source": "I see it all."
+        },
+        {
+            "key": "Blind19.quote.2",
+            "source": "The shadows cling to you. Step into the light."
+        },
+        {
+            "key": "Controller22.name",
+            "source": "Controller"
+        },
+        {
+            "key": "Controller22.description",
+            "source": "[Passive] Reverses the Sacrifice Phase rules. While this card is on the board, the card with the lowest number of votes (minimum 1) will be executed instead of the highest."
+        },
+        {
+            "key": "Controller22.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Controller22.infectedDescription",
+            "source": "[Passive] Reverses the Sacrifice Phase rules. While this card is on the board, the card with the lowest number of votes (minimum 1) will be executed instead of the highest. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Controller22.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Controller22.quote.0",
+            "source": "Logic dictates that the Cursermancer is hiding among us."
+        },
+        {
+            "key": "Controller22.quote.1",
+            "source": "I am recalculating the odds. Someone here is lying."
+        },
+        {
+            "key": "Controller22.quote.2",
+            "source": "The votes are the only shield we have against the dark."
+        },
+        {
+            "key": "Detactive23.name",
+            "source": "Detactive"
+        },
+        {
+            "key": "Detactive23.description",
+            "source": "[Passive][Once] If placed between two neighbors, identifies the more suspicious one and adds +1 Suspicion to them (prioritizes Curs).\n(Base Suspicion: Cur = 2, Villager = 1)"
+        },
+        {
+            "key": "Detactive23.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Detactive23.infectedDescription",
+            "source": "[Passive][Once] If placed between two neighbors, identifies the more suspicious one and adds +1 Suspicion to them (prioritizes Curs). \n(Base Suspicion: Cur = 2, Villager = 1) [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Detactive23.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Detactive23.quote.0",
+            "source": "Let’s see who’s hiding behind these masks"
+        },
+        {
+            "key": "Detactive23.quote.1",
+            "source": "Two sides to every story, but only one truth"
+        },
+        {
+            "key": "Detactive23.quote.2",
+            "source": "I'm keeping a close eye on both of you."
+        },
+        {
+            "key": "Elder17.name",
+            "source": "Elder"
+        },
+        {
+            "key": "Elder17.description",
+            "source": "[Passive] [Aura] The targets can't be moved."
+        },
+        {
+            "key": "Elder17.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Elder17.infectedDescription",
+            "source": "[Passive] [Aura] The targets can't be moved. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Elder17.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Elder17.quote.0",
+            "source": "I have seen this curse before... many lifetimes ago."
+        },
+        {
+            "key": "Elder17.quote.1",
+            "source": "will stand my ground until the sun rises or the world ends."
+        },
+        {
+            "key": "Elder17.quote.2",
+            "source": "Is this the end?"
+        },
+        {
+            "key": "Gambler24.name",
+            "source": "Gambler"
+        },
+        {
+            "key": "Gambler24.description",
+            "source": "[Active]: Secretly bet on a target. You win if you are the ONLY gambler (as 1st voter) OR if BOTH players gambled (as 2nd voter).\nReward: Target gets +1 vote.\nPenalty: The card you voted for the most loses 1 vote."
+        },
+        {
+            "key": "Gambler24.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Gambler24.infectedDescription",
+            "source": "[Active]: Secretly bet on a target. You win if you are the ONLY gambler (as 1st voter) OR if BOTH players gambled (as 2nd voter).\nReward: Target gets +1 vote.\nPenalty: The card you voted for the most loses 1 vote. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Gambler24.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Gambler24.quote.0",
+            "source": "High stakes, high rewards. Place your bets!"
+        },
+        {
+            "key": "Gambler24.quote.1",
+            "source": "I see your bluff, and I raise you a life."
+        },
+        {
+            "key": "Gambler24.quote.2",
+            "source": "I've already calculated the odds. You're going to lose."
+        },
+        {
+            "key": "Gambler24.quote.3",
+            "source": "Snake eyes... Looks like someone's luck just ran out."
+        },
+        {
+            "key": "Invoker19.name",
+            "source": "Invoker"
+        },
+        {
+            "key": "Invoker19.description",
+            "source": "[Active] During the Sacrifice Phase, the player who last placed this card may use it on a seat next to the Cemetery. Left-click to discover up to 3 fallen cards and choose 1 to resurrect into its original owner's hand. Once per ritual; a completed selection consumes the use."
+        },
+        {
+            "key": "Invoker19.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Invoker19.infectedDescription",
+            "source": "[Active] During the Sacrifice Phase, the player who last placed this card may use it on a seat next to the Cemetery. Left-click to discover up to 3 fallen cards and choose 1 to resurrect into its original owner's hand. Once per ritual; a completed selection consumes the use. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Invoker19.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Invoker19.quote.0",
+            "source": "The grave is not the end. It's just a waiting room."
+        },
+        {
+            "key": "Invoker19.quote.1",
+            "source": "I can hear the dead whispering... they want to return."
+        },
+        {
+            "key": "Invoker19.quote.2",
+            "source": "A soul for a soul. The balance must be maintained."
+        },
+        {
+            "key": "Jester20.name",
+            "source": "Jester"
+        },
+        {
+            "key": "Jester20.description",
+            "source": "[Passive] Chaos in the ballot box! During the Sacrifice phase, has a chance to secretly cast 1 (30%), 2 (25%), or 3 (20%) extra votes at random targets (excluding itself)."
+        },
+        {
+            "key": "Jester20.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Jester20.infectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Jester20.curInfectedDescription",
+            "source": "[Passive] Chaos in the ballot box! During the Sacrifice phase, has a chance to secretly cast 1 (30%), 2 (25%), or 3 (20%) extra votes at random targets (excluding itself). [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Jester20.quote.0",
+            "source": "Eeny, meeny, miny, moe... who is next?"
+        },
+        {
+            "key": "Jester20.quote.1",
+            "source": "Hehehe... don't look at me, I'm just a fool."
+        },
+        {
+            "key": "Jester20.quote.2",
+            "source": "More votes! More chaos! MORE!"
+        },
+        {
+            "key": "Master21.name",
+            "source": "GameMaster"
+        },
+        {
+            "key": "Master21.description",
+            "source": "[Passive] Adds seats above/below, and left at Seat 1. Occupied extras block manual moves only. Skill pushes carry seats and occupants along. A forced return sends all occupants to their owners' hands. Losing the left seat returns its occupant. If Game Master dies, all occupants die; Preacher cannot save them."
+        },
+        {
+            "key": "Master21.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Master21.infectedDescription",
+            "source": "[Passive] Adds seats above/below, and left at Seat 1. Occupied extras block manual moves only. Skill pushes carry seats and occupants along. A forced return sends all occupants to their owners' hands. Losing the left seat returns its occupant. If Game Master dies, all occupants die; Preacher cannot save them. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Master21.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Master21.quote.0",
+            "source": "Don't look at me. Look at the liar sitting right next to you."
+        },
+        {
+            "key": "Master21.quote.1",
+            "source": "fascinating move... or a fatal mistake? We shall see."
+        },
+        {
+            "key": "Master21.quote.2",
+            "source": "Tick-tock... the ritual waits for no one."
+        },
+        {
+            "key": "Prankster24.name",
+            "source": "Prankster24"
+        },
+        {
+            "key": "Prankster24.description",
+            "source": "[Passive] Play: 3 Hearts. A card in the neighboring seat on the left triggers a push to a random empty regular seat. On play only: 10% chance to return it to hand instead. Elder blocks this effect. Game Master's seats and occupants follow a push; they return to hand if Game Master returns."
+        },
+        {
+            "key": "Prankster24.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Prankster24.infectedDescription",
+            "source": "[Passive] Play: 3 Hearts. A card in the neighboring seat on the left triggers a push to a random empty regular seat. On play only: 10% chance to return it to hand instead. Elder blocks this effect. Game Master's seats and occupants follow a push; they return to hand if Game Master returns. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Prankster24.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Prankster24.quote.0",
+            "source": "This spot has my name written all over it."
+        },
+        {
+            "key": "Prankster24.quote.1",
+            "source": "You're looking a bit tense. Want me to help you move?"
+        },
+        {
+            "key": "Prankster24.quote.2",
+            "source": "Don't look at me, I'm behaving... for now."
+        },
+        {
+            "key": "Prankster24.quote.3",
+            "source": "It's too quiet here. Someone needs a prank."
+        },
+        {
+            "key": "Preacher18.name",
+            "source": "Preacher"
+        },
+        {
+            "key": "Preacher18.description",
+            "source": "[Passive] [Aura] The Targets can't be infected and shot by Cursermancer or Hunter."
+        },
+        {
+            "key": "Preacher18.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Preacher18.infectedDescription",
+            "source": "[Passive] [Aura] The Targets can't be infected and shot by Cursermancer or Hunter. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Preacher18.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Preacher18.quote.0",
+            "source": "Begone, Cursermancer! Your darkness cannot reach us here."
+        },
+        {
+            "key": "Preacher18.quote.1",
+            "source": "Fear not the shadows, for the light is with us."
+        },
+        {
+            "key": "Preacher18.quote.2",
+            "source": "Stay within the circle. My faith is stronger than your ritual."
+        },
+        {
+            "key": "Reeve17.name",
+            "source": "Reeve"
+        },
+        {
+            "key": "Reeve17.description",
+            "source": "[Passive]As long as there is at least one normal Villager on the board, immediately ends the placement phase and forces the game to enter the Curse Phase."
+        },
+        {
+            "key": "Reeve17.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Reeve17.infectedDescription",
+            "source": "[Passive]As long as there is at least one normal Villager on the board, immediately ends the placement phase and forces the game to enter the Curse Phase. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Reeve17.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Reeve17.quote.0",
+            "source": "Are we going to talk all day, or are we going to survive?"
+        },
+        {
+            "key": "Reeve17.quote.1",
+            "source": "I am the law here, and I say we are done waiting."
+        },
+        {
+            "key": "Reeve17.quote.2",
+            "source": "Order in the village!"
+        },
+        {
+            "key": "Saboteur18.name",
+            "source": "Saboteur"
+        },
+        {
+            "key": "Saboteur18.description",
+            "source": "[Passive] [Aura] Disables the printed skills of the two horizontal neighbors. Does not block Cursermancer infection."
+        },
+        {
+            "key": "Saboteur18.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Saboteur18.infectedDescription",
+            "source": "[Passive] [Aura] Disables the printed skills of the two horizontal neighbors. Does not block Cursermancer infection. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Saboteur18.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Saboteur18.quote.0",
+            "source": "Oh? Why are my two lovely neighbors so awfully quiet today?"
+        },
+        {
+            "key": "Saboteur18.quote.1",
+            "source": "Don't waste your energy. I already cut your strings."
+        },
+        {
+            "key": "Saboteur18.quote.2",
+            "source": "System error? Nope, that was me."
+        },
+        {
+            "key": "Sacrifier21.name",
+            "source": "Sacrifier"
+        },
+        {
+            "key": "Sacrifier21.description",
+            "source": "[Passive] If this card is on the board during the Sacrifice Phase, it overrides all votes and is instantly executed instead of the voted targets."
+        },
+        {
+            "key": "Sacrifier21.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Sacrifier21.infectedDescription",
+            "source": "[Passive] If this card is on the board during the Sacrifice Phase, it overrides all votes and is instantly executed instead of the voted targets. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Sacrifier21.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Sacrifier21.quote.0",
+            "source": "Why me?! There are others... pick someone else, please!"
+        },
+        {
+            "key": "Sacrifier21.quote.1",
+            "source": "You’re all monsters! You're just murdering me to save yourselves!"
+        },
+        {
+            "key": "Sacrifier21.quote.2",
+            "source": "Help! They're forcing me into the circle! Somebody help me!"
+        },
+        {
+            "key": "Sacrifier21.quote.3",
+            "source": "I refuse! I won't go quietly! I won't let the darkness take me!"
+        },
+        {
+            "key": "Snooper22.name",
+            "source": "Snooper22"
+        },
+        {
+            "key": "Snooper22.description",
+            "source": "[Sacrifice] [Hybrid]\n[Passive] Automatically casts 1 Vote against the Cursermancer during the Sacrifice Phase.\n[Active] [Decay] If infected, The Cursermancer takes control and manually aims this Vote at any target."
+        },
+        {
+            "key": "Snooper22.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Snooper22.infectedDescription",
+            "source": "[Sacrifice] [Hybrid] \n[Passive] Automatically casts 1 Vote against the Cursermancer during the Sacrifice Phase.\n[Active] [Decay] The Cursermancer takes control and manually aims this Vote at any target . [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Snooper22.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Totem1.name",
+            "source": "Totem"
+        },
+        {
+            "key": "Totem1.description",
+            "source": "Effect: [Passive] This card is exceptionally light. It only costs 1 Heart to place onto the board or return to the hand."
+        },
+        {
+            "key": "Totem1.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Totem1.infectedDescription",
+            "source": "Effect: [Passive] This card is exceptionally light. It only costs 1 Heart to place onto the board or return to the hand. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Totem1.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Totem2.name",
+            "source": "Totem"
+        },
+        {
+            "key": "Totem2.description",
+            "source": "Effect: [Passive] This card is exceptionally light. It only costs 1 Heart to place onto the board or return to the hand."
+        },
+        {
+            "key": "Totem2.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Totem2.infectedDescription",
+            "source": "Effect: [Passive] This card is exceptionally light. It only costs 1 Heart to place onto the board or return to the hand. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Totem2.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Trader20.name",
+            "source": "Trader"
+        },
+        {
+            "key": "Trader20.description",
+            "source": "After all extra votes and vote penalties are resolved, share the highest vote count in this card and its horizontal neighbors equally among the occupied cards only. Round down and discard the remainder."
+        },
+        {
+            "key": "Trader20.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Trader20.infectedDescription",
+            "source": "After all extra votes and vote penalties are resolved, share the highest vote count in this card and its horizontal neighbors equally among the occupied cards only. Round down and discard the remainder. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Trader20.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Trader20.quote.0",
+            "source": "Everything has a price. Even your survival."
+        },
+        {
+            "key": "Trader20.quote.1",
+            "source": "A fair trade? There's no such thing in this village"
+        },
+        {
+            "key": "Trader20.quote.2",
+            "source": "The votes are moving... but where will they land?"
+        },
+        {
+            "key": "Trader20.quote.3",
+            "source": "I deal in secrets and safety. Want to make a deal?"
+        },
+        {
+            "key": "Villager1.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager1.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager1.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager1.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager1.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager1.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager1.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager1.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager1.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager2.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager2.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager2.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager2.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager2.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager2.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager2.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager2.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager2.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager3.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager3.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager3.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager3.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager3.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager3.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager3.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager3.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager3.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager4.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager4.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager4.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager4.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager4.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager4.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager4.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager4.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager4.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager5.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager5.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager5.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager5.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager5.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager5.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager5.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager5.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager5.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager6.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager6.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager6.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager6.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager6.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager6.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager6.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager6.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager6.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager7.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager7.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager7.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager7.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager7.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager7.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager7.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager7.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager7.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager8.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager8.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager8.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager8.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager8.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager8.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager8.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager8.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager8.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager9.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager9.description",
+            "source": "Effect: [Active] Right-click and drag the targeting arrow to an enemy to instantly execute them. This skill can only be activated before the Curse Phase begins. Once fired, the weapon must be reloaded—the skill will refresh only after the Sacrifice/Execution Phase concludes (once the voting is complete)."
+        },
+        {
+            "key": "Villager9.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Villager9.infectedDescription",
+            "source": "Effect: [Active] Right-click and drag the targeting arrow to an enemy to instantly execute them. This skill can only be activated before the Curse Phase begins. Once fired, the weapon must be reloaded—the skill will refresh only after the Sacrifice/Execution Phase concludes (once the voting is complete). [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Villager9.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Villager9.quote.0",
+            "source": "One shot, one kill. I never miss my mark."
+        },
+        {
+            "key": "Villager9.quote.1",
+            "source": "Hmm...Where is my target?"
+        },
+        {
+            "key": "Villager9.quote.2",
+            "source": "The Cursermancer is near. I can feel the rot in the air"
+        },
+        {
+            "key": "Villager10.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager10.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager10.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager10.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager10.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager10.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager10.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager10.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager10.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager11.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager11.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager11.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager11.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager11.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager11.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager11.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager11.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager11.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager12.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager12.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager12.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager12.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager12.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager12.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager12.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager12.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager12.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager13.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager13.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager13.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager13.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager13.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager13.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager13.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager13.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager13.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager14.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager14.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager14.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager14.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager14.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager14.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager14.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager14.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager14.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager15.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager15.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager15.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager15.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager15.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager15.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager15.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager15.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager15.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Villager16.name",
+            "source": "Villager"
+        },
+        {
+            "key": "Villager16.description",
+            "source": "Effect: Has no special abilities. Relies strictly on pure deduction and voting in the Sacrifice Phase to root out the evil."
+        },
+        {
+            "key": "Villager16.curDescription",
+            "source": "Effect: [Active] Infects the nearest uninfected card in one of four directions (Up, Down, Left, Right)."
+        },
+        {
+            "key": "Villager16.infectedDescription",
+            "source": "Effect: [Status] The plague's mark is upon you. Beware the Villagers' scrutiny (check); from this moment on, to be discovered is to welcome the cold, silent embrace of death."
+        },
+        {
+            "key": "Villager16.curInfectedDescription",
+            "source": "Effect: [Active] Infects an enemy. Your shadows can no longer hide the rot. Guard yourself against the villagers' gaze (check); discovery is now a one-way path to the executioner's blade."
+        },
+        {
+            "key": "Villager16.quote.0",
+            "source": "I'm just a simple villager, I swear!"
+        },
+        {
+            "key": "Villager16.quote.1",
+            "source": "Don't look at me like that... I'm scared."
+        },
+        {
+            "key": "Villager16.quote.2",
+            "source": "Did you hear that noise coming from the seat next to me?"
+        },
+        {
+            "key": "Villager16.quote.3",
+            "source": "It's getting so cold in here... is someone watching us?"
+        },
+        {
+            "key": "Witch23.name",
+            "source": "Wỉtch"
+        },
+        {
+            "key": "Witch23.description",
+            "source": "[Active] [Once per ritual] 5 Hearts: Left-click to banish all other infected cards on the board. Does not affect itself or cards in hand. Recharges after the Sacrifice/Execution Phase finishes."
+        },
+        {
+            "key": "Witch23.curDescription",
+            "source": ""
+        },
+        {
+            "key": "Witch23.infectedDescription",
+            "source": "[Active] [Once per ritual] 5 Hearts: Left-click to banish all other infected cards on the board. Does not affect itself or cards in hand. Recharges after the Sacrifice/Execution Phase finishes. [<color=red>Infected</color>]"
+        },
+        {
+            "key": "Witch23.curInfectedDescription",
+            "source": ""
+        },
+        {
+            "key": "Witch23.quote.0",
+            "source": "My seat defines my vision. Odd or even, the dark plays no favorites."
+        },
+        {
+            "key": "Witch23.quote.1",
+            "source": "Do not stare. You stripped your own magic away; do not covet mine"
+        },
+        {
+            "key": "Witch23.quote.2",
+            "source": "The infection whispers. It hides in the numbers. I can hear it"
+        },
+        {
+            "key": "tutorial.0.title",
+            "source": "Làm quen bàn chơi"
+        },
+        {
+            "key": "tutorial.0.instruction",
+            "source": "Bấm Bắt đầu học. Bạn sẽ tự thao tác cả hai phe trên một bàn bài mẫu."
+        },
+        {
+            "key": "tutorial.0.purpose",
+            "source": "Viền vàng: điểm bắt đầu. Viền xanh: nơi thả. Bài học dùng 7 lá cố định, bỏ qua chọn bài trung lập."
+        },
+        {
+            "key": "tutorial.0.success",
+            "source": "Bắt đầu từ việc chọn vai trò bí mật."
+        },
+        {
+            "key": "tutorial.1.title",
+            "source": "Chọn Cursermancer thứ nhất"
+        },
+        {
+            "key": "tutorial.1.instruction",
+            "source": "Bấm CHUỘT TRÁI vào lá SỐ 1 có viền vàng trong khay bài."
+        },
+        {
+            "key": "tutorial.1.purpose",
+            "source": "Cursermancer là vai trò bí mật của một lá bài. Trong ván hai người, cần chọn một Cursermancer ở mỗi nhóm bài gốc."
+        },
+        {
+            "key": "tutorial.1.success",
+            "source": "Lá số 1 đã trở thành Cursermancer bí mật."
+        },
+        {
+            "key": "tutorial.2.title",
+            "source": "Mở nhóm Dân làng"
+        },
+        {
+            "key": "tutorial.2.instruction",
+            "source": "Bấm tab DÂN LÀNG ở đầu khay bài bên dưới."
+        },
+        {
+            "key": "tutorial.2.purpose",
+            "source": "Tab đổi nhóm bài đang xem. Bạn có thể đánh cả bài nhóm khác, nhưng sẽ tốn nhiều tim hơn."
+        },
+        {
+            "key": "tutorial.2.success",
+            "source": "Bạn đang xem nhóm bài Dân làng."
+        },
+        {
+            "key": "tutorial.3.title",
+            "source": "Một Cursermancer ngụy trang"
+        },
+        {
+            "key": "tutorial.3.instruction",
+            "source": "Bấm CHUỘT TRÁI vào lá SỐ 11 có viền vàng."
+        },
+        {
+            "key": "tutorial.3.purpose",
+            "source": "Lá thuộc nhóm Dân làng vẫn có thể mang vai trò Cursermancer. Thợ săn số 9 không được chọn làm Cursermancer."
+        },
+        {
+            "key": "tutorial.3.success",
+            "source": "Lá số 11 là Cursermancer ngụy trang trong nhóm Dân làng."
+        },
+        {
+            "key": "tutorial.4.title",
+            "source": "Bắt đầu ván"
+        },
+        {
+            "key": "tutorial.4.instruction",
+            "source": "Đã có đủ 2 Cursermancer. Bấm BẮT ĐẦU VÁN ở nút đang sáng."
+        },
+        {
+            "key": "tutorial.4.purpose",
+            "source": "Trong bài học này Dân làng đi trước. Mỗi lượt hành động có 5 tim để đặt bài hoặc dùng kỹ năng."
+        },
+        {
+            "key": "tutorial.4.success",
+            "source": "Lượt Dân làng bắt đầu với 5 tim."
+        },
+        {
+            "key": "tutorial.5.title",
+            "source": "Xem một lá bài"
+        },
+        {
+            "key": "tutorial.5.instruction",
+            "source": "Bấm CHUỘT PHẢI vào lá SỐ 10 trong khay bài."
+        },
+        {
+            "key": "tutorial.5.purpose",
+            "source": "Chuột phải phóng to lá bài và mở mô tả. Xem bài không tốn tim, không phải là dùng kỹ năng."
+        },
+        {
+            "key": "tutorial.5.success",
+            "source": "Mặt bài và mô tả đã được phóng to."
+        },
+        {
+            "key": "tutorial.6.title",
+            "source": "Đóng phần xem bài"
+        },
+        {
+            "key": "tutorial.6.instruction",
+            "source": "Bấm CHUỘT PHẢI lần nữa vào lá đang được phóng to."
+        },
+        {
+            "key": "tutorial.6.purpose",
+            "source": "Đóng phần xem trước khi kéo bài. Lá sẽ trở lại đúng khay và kích thước ban đầu."
+        },
+        {
+            "key": "tutorial.6.success",
+            "source": "Bạn đã biết cách xem và đóng mô tả."
+        },
+        {
+            "key": "tutorial.7.title",
+            "source": "Đặt lá đầu tiên"
+        },
+        {
+            "key": "tutorial.7.instruction",
+            "source": "GIỮ CHUỘT TRÁI ở lá SỐ 10, kéo đến GHẾ VIỀN XANH rồi thả."
+        },
+        {
+            "key": "tutorial.7.purpose",
+            "source": "Đặt bài thuộc phe đang chơi tốn 2 tim. Ghế là vị trí chứa một lá trên bàn, không phải khay bài."
+        },
+        {
+            "key": "tutorial.7.success",
+            "source": "Đặt thành công: 5 tim → 3 tim."
+        },
+        {
+            "key": "tutorial.8.title",
+            "source": "Đưa Thợ săn lên bàn"
+        },
+        {
+            "key": "tutorial.8.instruction",
+            "source": "Kéo CHUỘT TRÁI lá SỐ 9 đến ghế có viền xanh rồi thả."
+        },
+        {
+            "key": "tutorial.8.purpose",
+            "source": "Thợ săn chỉ dùng kỹ năng khi đã ở trên bàn. Đặt lá thứ hai tốn thêm 2 tim; bạn sẽ còn 1 tim."
+        },
+        {
+            "key": "tutorial.8.success",
+            "source": "Thợ săn đã lên bàn. Dân làng còn 1/5 tim."
+        },
+        {
+            "key": "tutorial.9.title",
+            "source": "Chuyển lượt"
+        },
+        {
+            "key": "tutorial.9.instruction",
+            "source": "Bấm KẾT THÚC LƯỢT ở nút đang sáng."
+        },
+        {
+            "key": "tutorial.9.purpose",
+            "source": "Bạn không bắt buộc tiêu hết tim. Hết lượt, đối phương được hành động với 5 tim."
+        },
+        {
+            "key": "tutorial.9.success",
+            "source": "Đến lượt phe Cursermancer; khay bài đã đổi theo lượt."
+        },
+        {
+            "key": "tutorial.10.title",
+            "source": "Nhìn vai trò bí mật"
+        },
+        {
+            "key": "tutorial.10.instruction",
+            "source": "Quan sát lá SỐ 1 đang hiện mặt Cursermancer, rồi bấm ĐÃ HIỂU · TIẾP TỤC."
+        },
+        {
+            "key": "tutorial.10.purpose",
+            "source": "Phe Cursermancer tự động thấy danh tính và nhiễm bệnh, kể cả sự thật khi Blind báo sai. Dân làng chỉ thấy thông tin công khai; không có nút xem bí mật."
+        },
+        {
+            "key": "tutorial.10.success",
+            "source": "Bạn đã hiểu: mỗi phe có góc nhìn riêng, Cursermancer không cần giữ nút để xem."
+        },
+        {
+            "key": "tutorial.11.title",
+            "source": "Đặt Cursermancer lên bàn"
+        },
+        {
+            "key": "tutorial.11.instruction",
+            "source": "Kéo CHUỘT TRÁI lá SỐ 1 vào ghế có viền xanh."
+        },
+        {
+            "key": "tutorial.11.purpose",
+            "source": "Cursermancer vẫn ngụy trang bằng mặt bài thường. Đặt lá của phe Cursermancer trong lượt Cursermancer cũng tốn 2 tim."
+        },
+        {
+            "key": "tutorial.11.success",
+            "source": "Lá số 1 đã ngồi trên bàn dưới dạng ngụy trang."
+        },
+        {
+            "key": "tutorial.12.title",
+            "source": "Trở lại Dân làng"
+        },
+        {
+            "key": "tutorial.12.instruction",
+            "source": "Bấm KẾT THÚC LƯỢT để chuyển sang Dân làng."
+        },
+        {
+            "key": "tutorial.12.purpose",
+            "source": "Ở lượt mới, Dân làng có lại 5 tim. Số tim này đủ để thử kỹ năng Thợ săn."
+        },
+        {
+            "key": "tutorial.12.success",
+            "source": "Dân làng có 5 tim để sử dụng kỹ năng."
+        },
+        {
+            "key": "tutorial.13.title",
+            "source": "Dùng kỹ năng Thợ săn"
+        },
+        {
+            "key": "tutorial.13.instruction",
+            "source": "GIỮ CHUỘT PHẢI ở lá SỐ 9, kéo mũi ngắm đến lá SỐ 1 rồi thả."
+        },
+        {
+            "key": "tutorial.13.purpose",
+            "source": "Chuột phải KÉO là nhắm kỹ năng; chuột phải BẤM là xem bài. Phát bắn tốn 5 tim và đưa mục tiêu vào nghĩa trang."
+        },
+        {
+            "key": "tutorial.13.success",
+            "source": "Đã bắn đúng mục tiêu và dùng hết 5 tim."
+        },
+        {
+            "key": "tutorial.14.title",
+            "source": "Mở nghĩa trang"
+        },
+        {
+            "key": "tutorial.14.instruction",
+            "source": "Bấm nút NGHĨA TRANG đang sáng bên trái."
+        },
+        {
+            "key": "tutorial.14.purpose",
+            "source": "Các lá bị tiêu diệt nằm ở đây. Việc xem nghĩa trang không tốn tim. Một số kỹ năng có thể tương tác với bài chết."
+        },
+        {
+            "key": "tutorial.14.success",
+            "source": "Lá số 1 đã nằm trong nghĩa trang."
+        },
+        {
+            "key": "tutorial.15.title",
+            "source": "Đóng nghĩa trang"
+        },
+        {
+            "key": "tutorial.15.instruction",
+            "source": "Bấm lại nút NGHĨA TRANG để trở về bàn chơi."
+        },
+        {
+            "key": "tutorial.15.purpose",
+            "source": "Bạn có thể mở lại khi cần kiểm tra lá đã bị loại. Bài chết không được tiếp tục đặt hoặc bỏ phiếu."
+        },
+        {
+            "key": "tutorial.15.success",
+            "source": "Bạn đã trở về bàn chơi."
+        },
+        {
+            "key": "tutorial.16.title",
+            "source": "Thử nghi thức"
+        },
+        {
+            "key": "tutorial.16.instruction",
+            "source": "Bấm THỬ NGHI THỨC. Bài học sẽ đặt sẵn lá số 11 và số 2 để luyện tập."
+        },
+        {
+            "key": "tutorial.16.purpose",
+            "source": "Trong ván thật, nghi thức đến khi bàn đầy hoặc Trưởng làng gọi. Đây là tình huống mẫu, không trừ tim của bạn."
+        },
+        {
+            "key": "tutorial.16.success",
+            "source": "Tình huống mẫu đã sẵn sàng: đang tập phe Cursermancer."
+        },
+        {
+            "key": "tutorial.17.title",
+            "source": "Nguyền rủa mục tiêu"
+        },
+        {
+            "key": "tutorial.17.instruction",
+            "source": "GIỮ CHUỘT TRÁI ở lá SỐ 11, kéo sang lá SỐ 9 viền xanh rồi thả."
+        },
+        {
+            "key": "tutorial.17.purpose",
+            "source": "Lá 11 là Cursermancer đã chọn. Cursermancer lây cho mục tiêu cùng hàng/cột; ghế trống chặn đường lây. Nhiễm bệnh khác với vai trò Cursermancer."
+        },
+        {
+            "key": "tutorial.17.success",
+            "source": "Thợ săn số 9 đã bị nhiễm; lá số 11 vẫn là Cursermancer."
+        },
+        {
+            "key": "tutorial.18.title",
+            "source": "Sang hiến tế"
+        },
+        {
+            "key": "tutorial.18.instruction",
+            "source": "Bấm SANG HIẾN TẾ ở nút đang sáng."
+        },
+        {
+            "key": "tutorial.18.purpose",
+            "source": "Hai phe lần lượt bỏ phiếu. Mỗi lá đang ở trên bàn của nhóm đến lượt phải chọn một lá khác."
+        },
+        {
+            "key": "tutorial.18.success",
+            "source": "Đến lượt bỏ phiếu của nhóm Dân làng."
+        },
+        {
+            "key": "tutorial.19.title",
+            "source": "Phiếu của lá số 10"
+        },
+        {
+            "key": "tutorial.19.instruction",
+            "source": "Kéo CHUỘT TRÁI từ lá SỐ 10 đến lá SỐ 2 viền xanh rồi thả."
+        },
+        {
+            "key": "tutorial.19.purpose",
+            "source": "Mũi tên lúc này là phiếu bầu, không phải di chuyển bài. Không được bỏ phiếu cho chính mình."
+        },
+        {
+            "key": "tutorial.19.success",
+            "source": "Lá số 10 đã bỏ phiếu vào lá số 2."
+        },
+        {
+            "key": "tutorial.20.title",
+            "source": "Phiếu của Thợ săn"
+        },
+        {
+            "key": "tutorial.20.instruction",
+            "source": "Kéo CHUỘT TRÁI từ lá SỐ 9 đến lá SỐ 2."
+        },
+        {
+            "key": "tutorial.20.purpose",
+            "source": "Mỗi lá bỏ một phiếu riêng. Đã dùng kỹ năng hoặc đang nhiễm bệnh vẫn phải bỏ phiếu nếu lá còn sống trên bàn."
+        },
+        {
+            "key": "tutorial.20.success",
+            "source": "Lá số 9 đã bỏ phiếu vào lá số 2."
+        },
+        {
+            "key": "tutorial.21.title",
+            "source": "Phiếu cuối của nhóm"
+        },
+        {
+            "key": "tutorial.21.instruction",
+            "source": "Kéo CHUỘT TRÁI từ lá SỐ 11 đến lá SỐ 2."
+        },
+        {
+            "key": "tutorial.21.purpose",
+            "source": "Lá 11 mang vai trò Cursermancer nhưng thuộc nhóm Dân làng, nên vẫn bỏ phiếu ở lượt của nhóm này."
+        },
+        {
+            "key": "tutorial.21.success",
+            "source": "Cả 3 lá của nhóm Dân làng đã bỏ phiếu."
+        },
+        {
+            "key": "tutorial.22.title",
+            "source": "Chốt phiếu"
+        },
+        {
+            "key": "tutorial.22.instruction",
+            "source": "Bấm CHỐT PHIẾU để chuyển cho phe còn lại."
+        },
+        {
+            "key": "tutorial.22.purpose",
+            "source": "Nút chỉ chốt được khi đủ phiếu. Khi chơi thật, vị trí phiếu của đối phương được giữ kín trước tổng kết."
+        },
+        {
+            "key": "tutorial.22.success",
+            "source": "Phiếu Dân làng đã chốt; đến lượt nhóm phe Cursermancer."
+        },
+        {
+            "key": "tutorial.23.title",
+            "source": "Lượt của đối phương"
+        },
+        {
+            "key": "tutorial.23.instruction",
+            "source": "Bấm XEM LƯỢT ĐỐI PHƯƠNG. Bài học sẽ bỏ một phiếu mẫu từ lá số 2."
+        },
+        {
+            "key": "tutorial.23.purpose",
+            "source": "Lá số 2 bầu cho lá số 10. Sau khi cả hai phe chốt, game tự đếm phiếu và áp dụng kỹ năng ảnh hưởng kết quả."
+        },
+        {
+            "key": "tutorial.23.success",
+            "source": "Hai phe đã chốt. Hãy quan sát kết quả tổng kết."
+        },
+        {
+            "key": "tutorial.24.title",
+            "source": "Quan sát tổng kết"
+        },
+        {
+            "key": "tutorial.24.instruction",
+            "source": "Đợi game đếm phiếu, hiến tế lá số 2 rồi thu các lá sống về tay."
+        },
+        {
+            "key": "tutorial.24.purpose",
+            "source": "Lá nhiều phiếu nhất bị hiến tế. Nếu hòa ở số phiếu cao nhất, các lá đồng hạng đều bị hiến tế."
+        },
+        {
+            "key": "tutorial.24.success",
+            "source": "Lá số 2 nhận 3 phiếu và bị hiến tế; các lá sống đã về tay."
+        },
+        {
+            "key": "tutorial.25.title",
+            "source": "Thử thanh trừng"
+        },
+        {
+            "key": "tutorial.25.instruction",
+            "source": "Bài học chuyển sang Dân làng. Bấm THANH TRỪNG ở nút đang sáng."
+        },
+        {
+            "key": "tutorial.25.purpose",
+            "source": "Thanh trừng loại mọi lá đang nhiễm bệnh, kể cả trong khay ẩn. Mỗi phe chỉ có 2 lần mỗi ván; nó không tự tìm Cursermancer."
+        },
+        {
+            "key": "tutorial.25.success",
+            "source": "Lá số 9 bị loại vì nhiễm bệnh. Dân làng còn 1/2 lần thanh trừng."
+        },
+        {
+            "key": "tutorial.26.title",
+            "source": "Bạn đã biết cách chơi"
+        },
+        {
+            "key": "tutorial.26.instruction",
+            "source": "Bạn đã tự chọn vai trò, đặt bài, dùng kỹ năng, nguyền rủa và bỏ phiếu. Hãy thử một ván với bot!"
+        },
+        {
+            "key": "tutorial.26.purpose",
+            "source": "Dân làng thắng khi hết Cursermancer. Cursermancer thắng khi số Cursermancer sống ≥ số Dân làng sống không phải Cursermancer. Bài học đã kết thúc; chưa xử thắng thua."
+        },
+        {
+            "key": "tutorial.26.success",
+            "source": "Hoàn thành hướng dẫn."
+        },
+        {
+            "key": "tutorial.inspect",
+            "source": "DÂN LÀNG · SỐ 10\n\nĐây là một lá thường, không có kỹ năng chủ động.\n\nĐặt từ nhóm của phe đang chơi: 2 tim. Nhóm đối phương hoặc trung lập: 5 tim.\n\nChuột phải lần nữa để đóng."
+        },
+        {
+            "key": "MenuScenes.Online Connection Status",
+            "source": "Chọn phe, tạo phòng hoặc nhập mã phòng của bạn."
+        },
+        {
+            "key": "MenuScenes.Tutorial Play Button Label",
+            "source": "Học cách chơi · hướng dẫn từng bước"
+        },
+        {
+            "key": "MenuScenes.Level 5 Label",
+            "source": "5"
+        },
+        {
+            "key": "MenuScenes.Play Button Label",
+            "source": "Chơi Dân làng"
+        },
+        {
+            "key": "MenuScenes.Mode Tagline",
+            "source": "ĐẤU VỚI MÁY DÂN LÀNG"
+        },
+        {
+            "key": "MenuScenes.Level 3 Label",
+            "source": "3"
+        },
+        {
+            "key": "MenuScenes.Choose Cur Label",
+            "source": "Chọn phe Cursermancer"
+        },
+        {
+            "key": "MenuScenes.Rules Text — edit wording here",
+            "source": "MỤC TIÊU\nDân làng thắng khi tiêu diệt toàn bộ Cursermancer. Cursermancer thắng khi số Cursermancer còn sống bằng hoặc nhiều hơn số bài Dân làng còn sống. Cursermancer trung lập vẫn được tính.\n\n1. HÀNH ĐỘNG\nHai phe luân phiên, mỗi lượt có 5 tim. Đặt bài mình: 2 tim; bài đối phương hoặc trung lập: 5 tim. Totem và các kỹ năng có chi phí riêng.\n\n2. NGUYỀN RỦA\nKhi bàn đầy hoặc Trưởng làng gọi, Cursermancer chọn mục tiêu cùng hàng/cột. Ghế trống chặn lây nhiễm.\n\n3. HIẾN TẾ\nMỗi lá của phe đang bỏ phiếu chọn một lá khác trên bàn. Không tự bỏ phiếu. Lá duy nhất trên bàn được miễn. Nhiều phiếu nhất bị hiến tế; hòa phiếu thì tất cả lá đồng hạng bị hiến tế. Kỹ năng có thể đổi kết quả.\n\nTHANH TRỪNG\nMỗi phe có 2 lần trong cả ván, loại bài nhiễm ở tay và bàn. Chỉ dùng trong lượt hành động.\n\nRÚT BÀI\nRút bài mình hoặc trung lập hoàn tối đa 2 tim, không vượt chi phí đặt. Totem chỉ hoàn 1 tim.\n\nĐIỀU KHIỂN\nChuột trái để chọn hoặc kéo bài. Chuột phải để xem mô tả. Các kỹ năng đặc biệt và chi phí nằm trong mô tả từng lá. ESC đóng bảng luật và tiếp tục trận."
+        },
+        {
+            "key": "MenuScenes.Introduction",
+            "source": "Một ngôi làng. Hai phía của lời nguyền.\nChọn phe của bạn để bắt đầu."
+        },
+        {
+            "key": "MenuScenes.Mode Description",
+            "source": "Đấu với bot Cursermancer. Quan sát nghi thức,\nsuy luận và dập tắt nguồn lây."
+        },
+        {
+            "key": "MenuScenes.Mode Description",
+            "source": "Tạo hoặc vào phòng bằng mã.\nChọn phe Cursermancer hoặc Dân làng\nđể đấu cùng bạn bè."
+        },
+        {
+            "key": "MenuScenes.Room Code Caption",
+            "source": "Mã phòng · để trống khi tạo để lấy mã tự động"
+        },
+        {
+            "key": "MenuScenes.Close Rules Button Label",
+            "source": "Đã hiểu · Tiếp tục"
+        },
+        {
+            "key": "MenuScenes.Quit Button Label",
+            "source": "Thoát"
+        },
+        {
+            "key": "MenuScenes.Difficulty Hint",
+            "source": "Cấp 1 phù hợp để làm quen"
+        },
+        {
+            "key": "MenuScenes.Online Title",
+            "source": "CHƠI ONLINE · 2 NGƯỜI"
+        },
+        {
+            "key": "MenuScenes.Room Code Placeholder",
+            "source": "VD: LANG01"
+        },
+        {
+            "key": "MenuScenes.Mode Tagline",
+            "source": "ĐẤU VỚI MÁY CURSERMANCER"
+        },
+        {
+            "key": "MenuScenes.Eyebrow",
+            "source": "CHIẾN THUẬT  /  SUY LUẬN  /  LỜI NGUYỀN"
+        },
+        {
+            "key": "MenuScenes.Choose Village Label",
+            "source": "Chọn phe Dân làng"
+        },
+        {
+            "key": "MenuScenes.Start Online Match Label",
+            "source": "Bắt đầu ván"
+        },
+        {
+            "key": "MenuScenes.Create Room Label",
+            "source": "Tạo phòng"
+        },
+        {
+            "key": "MenuScenes.Leave Online Room Label",
+            "source": "Rời phòng"
+        },
+        {
+            "key": "MenuScenes.Level 2 Label",
+            "source": "2"
+        },
+        {
+            "key": "MenuScenes.Play Button Label",
+            "source": "Chơi online"
+        },
+        {
+            "key": "MenuScenes.Controls Hint",
+            "source": "CHUỘT TRÁI  Chọn / kéo bài     ·     CHUỘT PHẢI  Xem mô tả     ·     ESC  Luật chơi"
+        },
+        {
+            "key": "MenuScenes.Rules Button Label",
+            "source": "Luật chơi"
+        },
+        {
+            "key": "MenuScenes.Mode Title",
+            "source": "Phe Cursermancer"
+        },
+        {
+            "key": "MenuScenes.Mode Description",
+            "source": "Đấu với bot Dân làng. Chọn Cursermancer\nbí mật, lây nhiễm và bảo vệ\nlời nguyền."
+        },
+        {
+            "key": "MenuScenes.Play Button Label",
+            "source": "Chơi Cursermancer"
+        },
+        {
+            "key": "MenuScenes.Difficulty Description",
+            "source": "Đấu máy · Cấp 1 · 1 Cursermancer\nOnline luôn có 2 Cursermancer; cấp độ chỉ áp dụng khi đấu máy."
+        },
+        {
+            "key": "MenuScenes.Difficulty Title",
+            "source": "ĐỘ KHÓ KHI ĐẤU BOT"
+        },
+        {
+            "key": "MenuScenes.Mode Title",
+            "source": "Online"
+        },
+        {
+            "key": "MenuScenes.Join Room Label",
+            "source": "Vào phòng"
+        },
+        {
+            "key": "MenuScenes.Mode Title",
+            "source": "Phe Dân làng"
+        },
+        {
+            "key": "MenuScenes.Rulebook Hint",
+            "source": "Cuộn để xem đầy đủ · Trận đấu đang tạm dừng"
+        },
+        {
+            "key": "MenuScenes.Game Title",
+            "source": "THEREASM"
+        },
+        {
+            "key": "MenuScenes.Online Role Status",
+            "source": "Phe của bạn: CURSERMANCER\nChọn phe đang có người giữ sẽ đổi vai của cả hai."
+        },
+        {
+            "key": "MenuScenes.Mode Tagline",
+            "source": "HAI NGƯỜI · HAI THIẾT BỊ"
+        },
+        {
+            "key": "MenuScenes.Rulebook Title",
+            "source": "LUẬT CHƠI NHANH"
+        },
+        {
+            "key": "MenuScenes.Level 1 Label",
+            "source": "1"
+        },
+        {
+            "key": "MenuScenes.Level 4 Label",
+            "source": "4"
+        },
+        {
+            "key": "MenuScenes.Close Online Lobby Label",
+            "source": "Đóng"
+        },
+        {
+            "key": "MainBoard.Rulebook Hint",
+            "source": "Cuộn để xem đầy đủ · Trận đấu đang tạm dừng"
+        },
+        {
+            "key": "MainBoard.Bắt đầu ván Label",
+            "source": "Bắt đầu ván"
+        },
+        {
+            "key": "MainBoard.Giữ để xem vai trò Label",
+            "source": "Giữ để xem vai trò"
+        },
+        {
+            "key": "MainBoard.Result Label",
+            "source": "VÁN CHƠI KẾT THÚC"
+        },
+        {
+            "key": "MainBoard.Context Hint",
+            "source": "Chuột phải: xem bài\nESC: mở / đóng luật chơi"
+        },
+        {
+            "key": "MainBoard.Close Cemetery Label",
+            "source": "Đóng"
+        },
+        {
+            "key": "MainBoard.Instruction Label",
+            "source": "Chọn bài trung lập, sau đó chọn Cursermancer bí mật trước khi bắt đầu."
+        },
+        {
+            "key": "MainBoard.Controls Title",
+            "source": "ĐIỀU KHIỂN"
+        },
+        {
+            "key": "MainBoard.Checklist Counts",
+            "source": "Phe Cursermancer: 0/1\nDân làng: 0/1\nTrung lập: 0/0"
+        },
+        {
+            "key": "MainBoard.Kết thúc lượt Label",
+            "source": "Kết thúc lượt"
+        },
+        {
+            "key": "MainBoard.Cemetery Title",
+            "source": "NGHĨA TRANG · Chuột phải để xem bài"
+        },
+        {
+            "key": "MainBoard.Cemetery Empty",
+            "source": "Chưa có lá bài nào trong nghĩa trang."
+        },
+        {
+            "key": "MainBoard.Checklist Title",
+            "source": "VAI TRÒ BÍ MẬT"
+        },
+        {
+            "key": "MainBoard.Thanh trừng (0/2) Label",
+            "source": "Thanh trừng (0/2)"
+        },
+        {
+            "key": "MainBoard.Toggle Hand Button Label",
+            "source": "Ẩn / mở tay bài"
+        },
+        {
+            "key": "MainBoard.Village Hand Tab Label",
+            "source": "Dân làng"
+        },
+        {
+            "key": "MainBoard.Choose Right Label",
+            "source": "Chọn lá bên phải"
+        },
+        {
+            "key": "MainBoard.Rules Button Label",
+            "source": "Luật chơi"
+        },
+        {
+            "key": "MainBoard.Rules Text — edit wording here",
+            "source": "MỤC TIÊU\nDân làng thắng khi tiêu diệt toàn bộ Cursermancer. Cursermancer thắng khi số Cursermancer còn sống bằng hoặc nhiều hơn số bài Dân làng còn sống. Cursermancer trung lập vẫn được tính.\n\n1. HÀNH ĐỘNG\nHai phe luân phiên, mỗi lượt có 5 tim. Đặt bài mình: 2 tim; bài đối phương hoặc trung lập: 5 tim. Totem và các kỹ năng có chi phí riêng.\n\n2. NGUYỀN RỦA\nKhi bàn đầy hoặc Trưởng làng gọi, Cursermancer chọn mục tiêu cùng hàng/cột. Ghế trống chặn lây nhiễm.\n\n3. HIẾN TẾ\nMỗi lá của phe đang bỏ phiếu chọn một lá khác trên bàn. Không tự bỏ phiếu. Lá duy nhất trên bàn được miễn. Nhiều phiếu nhất bị hiến tế; hòa phiếu thì tất cả lá đồng hạng bị hiến tế. Kỹ năng có thể đổi kết quả.\n\nTHANH TRỪNG\nMỗi phe có 2 lần trong cả ván, loại bài nhiễm ở tay và bàn. Chỉ dùng trong lượt hành động.\n\nRÚT BÀI\nRút bài mình hoặc trung lập hoàn tối đa 2 tim, không vượt chi phí đặt. Totem chỉ hoàn 1 tim.\n\nĐIỀU KHIỂN\nChuột trái để chọn hoặc kéo bài. Chuột phải để xem mô tả. Các kỹ năng đặc biệt và chi phí nằm trong mô tả từng lá. ESC đóng bảng luật và tiếp tục trận."
+        },
+        {
+            "key": "MainBoard.Cur Hand Tab Label",
+            "source": "Cursermancer"
+        },
+        {
+            "key": "MainBoard.Neutral Hand Tab Label",
+            "source": "Trung lập"
+        },
+        {
+            "key": "MainBoard.Cemetery Button Label",
+            "source": "Nghĩa trang"
+        },
+        {
+            "key": "MainBoard.Choose Left Label",
+            "source": "Chọn lá bên trái"
+        },
+        {
+            "key": "MainBoard.Hearts Count",
+            "source": "5/5"
+        },
+        {
+            "key": "MainBoard.Next Match Button Label",
+            "source": "Chơi tiếp"
+        },
+        {
+            "key": "MainBoard.Rulebook Title",
+            "source": "LUẬT CHƠI NHANH"
+        },
+        {
+            "key": "MainBoard.Checklist Hint",
+            "source": "Chọn lá ở tay bài bên phải.\nThợ săn số 9 không thể là Cursermancer."
+        },
+        {
+            "key": "MainBoard.Close Rules Button Label",
+            "source": "Đã hiểu · Tiếp tục"
+        },
+        {
+            "key": "MainBoard.Menu Button Label",
+            "source": "Menu"
+        },
+        {
+            "key": "MainBoard.Swap Roles For Next Match Label",
+            "source": "Đổi phe ván sau"
+        },
+        {
+            "key": "MainBoard.Result Menu Button Label",
+            "source": "Về menu"
+        },
+        {
+            "key": "MainBoard.Notes Button Label",
+            "source": "Sổ tay"
+        },
+        {
+            "key": "MainBoard.Phase Label",
+            "source": "CHUẨN BỊ VÁN CHƠI"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Why This Matters",
+            "source": "Viền vàng: điểm bắt đầu. Viền xanh: nơi thả. Bài học dùng 7 lá cố định, bỏ qua chọn bài trung lập."
+        },
+        {
+            "key": "TutorialBoard.Notes Button Label",
+            "source": "Sổ tay"
+        },
+        {
+            "key": "TutorialBoard.Hearts Count",
+            "source": "5/5"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Source Caption",
+            "source": "BẮT ĐẦU Ở ĐÂY"
+        },
+        {
+            "key": "TutorialBoard.Close Rules Button Label",
+            "source": "Đã hiểu · Tiếp tục"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Progress",
+            "source": "BƯỚC 01 / 27"
+        },
+        {
+            "key": "TutorialBoard.Next Match Button Label",
+            "source": "Chơi tiếp"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Continue Label",
+            "source": "Bắt đầu học"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Exit Label",
+            "source": "Về menu"
+        },
+        {
+            "key": "TutorialBoard.Cemetery Empty",
+            "source": "Chưa có lá bài nào trong nghĩa trang."
+        },
+        {
+            "key": "TutorialBoard.Kết thúc lượt Label",
+            "source": "Kết thúc lượt"
+        },
+        {
+            "key": "TutorialBoard.Checklist Hint",
+            "source": "Chọn lá ở tay bài bên phải.\nThợ săn số 9 không thể là Cursermancer."
+        },
+        {
+            "key": "TutorialBoard.Result Label",
+            "source": "VÁN CHƠI KẾT THÚC"
+        },
+        {
+            "key": "TutorialBoard.Rulebook Hint",
+            "source": "Cuộn để xem đầy đủ · Trận đấu đang tạm dừng"
+        },
+        {
+            "key": "TutorialBoard.Cemetery Title",
+            "source": "NGHĨA TRANG · Chuột phải để xem bài"
+        },
+        {
+            "key": "TutorialBoard.Rules Button Label",
+            "source": "Luật chơi"
+        },
+        {
+            "key": "TutorialBoard.Checklist Title",
+            "source": "VAI TRÒ BÍ MẬT"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Rulebook Label",
+            "source": "Xem luật đầy đủ"
+        },
+        {
+            "key": "TutorialBoard.Context Hint",
+            "source": "Chuột phải: xem bài\nESC: mở / đóng luật chơi"
+        },
+        {
+            "key": "TutorialBoard.Cemetery Button Label",
+            "source": "Nghĩa trang"
+        },
+        {
+            "key": "TutorialBoard.Giữ để xem vai trò Label",
+            "source": "Giữ để xem vai trò"
+        },
+        {
+            "key": "TutorialBoard.Menu Button Label",
+            "source": "Menu"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Success Feedback",
+            "source": "Mỗi lần chỉ thực hiện thao tác được chỉ sáng."
+        },
+        {
+            "key": "TutorialBoard.Tutorial Practice With Bot Label",
+            "source": "Chơi thử với bot"
+        },
+        {
+            "key": "TutorialBoard.Bắt đầu ván Label",
+            "source": "Bắt đầu ván"
+        },
+        {
+            "key": "TutorialBoard.Controls Title",
+            "source": "ĐIỀU KHIỂN"
+        },
+        {
+            "key": "TutorialBoard.Cur Hand Tab Label",
+            "source": "Cursermancer"
+        },
+        {
+            "key": "TutorialBoard.Rules Text — edit wording here",
+            "source": "MỤC TIÊU\nDân làng thắng khi tiêu diệt toàn bộ Cursermancer. Cursermancer thắng khi số Cursermancer còn sống bằng hoặc nhiều hơn số bài Dân làng còn sống. Cursermancer trung lập vẫn được tính.\n\n1. HÀNH ĐỘNG\nHai phe luân phiên, mỗi lượt có 5 tim. Đặt bài mình: 2 tim; bài đối phương hoặc trung lập: 5 tim. Totem và các kỹ năng có chi phí riêng.\n\n2. NGUYỀN RỦA\nKhi bàn đầy hoặc Trưởng làng gọi, Cursermancer chọn mục tiêu cùng hàng/cột. Ghế trống chặn lây nhiễm.\n\n3. HIẾN TẾ\nMỗi lá của phe đang bỏ phiếu chọn một lá khác trên bàn. Không tự bỏ phiếu. Lá duy nhất trên bàn được miễn. Nhiều phiếu nhất bị hiến tế; hòa phiếu thì tất cả lá đồng hạng bị hiến tế. Kỹ năng có thể đổi kết quả.\n\nTHANH TRỪNG\nMỗi phe có 2 lần trong cả ván, loại bài nhiễm ở tay và bàn. Chỉ dùng trong lượt hành động.\n\nRÚT BÀI\nRút bài mình hoặc trung lập hoàn tối đa 2 tim, không vượt chi phí đặt. Totem chỉ hoàn 1 tim.\n\nĐIỀU KHIỂN\nChuột trái để chọn hoặc kéo bài. Chuột phải để xem mô tả. Các kỹ năng đặc biệt và chi phí nằm trong mô tả từng lá. ESC đóng bảng luật và tiếp tục trận."
+        },
+        {
+            "key": "TutorialBoard.Phase Label",
+            "source": "CHUẨN BỊ VÁN CHƠI"
+        },
+        {
+            "key": "TutorialBoard.Instruction Label",
+            "source": "Chọn bài trung lập, sau đó chọn Cursermancer bí mật trước khi bắt đầu."
+        },
+        {
+            "key": "TutorialBoard.Tutorial Direction Arrow",
+            "source": "→"
+        },
+        {
+            "key": "TutorialBoard.Swap Roles For Next Match Label",
+            "source": "Đổi phe ván sau"
+        },
+        {
+            "key": "TutorialBoard.Toggle Hand Button Label",
+            "source": "Ẩn / mở tay bài"
+        },
+        {
+            "key": "TutorialBoard.Thanh trừng (0/2) Label",
+            "source": "Thanh trừng (0/2)"
+        },
+        {
+            "key": "TutorialBoard.Close Cemetery Label",
+            "source": "Đóng"
+        },
+        {
+            "key": "TutorialBoard.Choose Left Label",
+            "source": "Chọn lá bên trái"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Action Instruction",
+            "source": "Bấm Bắt đầu học. Bạn sẽ tự thao tác cả hai phe trên một bàn bài mẫu."
+        },
+        {
+            "key": "TutorialBoard.Neutral Hand Tab Label",
+            "source": "Trung lập"
+        },
+        {
+            "key": "TutorialBoard.Rulebook Title",
+            "source": "LUẬT CHƠI NHANH"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Target Caption",
+            "source": "THẢ VÀO ĐÂY"
+        },
+        {
+            "key": "TutorialBoard.Result Menu Button Label",
+            "source": "Về menu"
+        },
+        {
+            "key": "TutorialBoard.Village Hand Tab Label",
+            "source": "Dân làng"
+        },
+        {
+            "key": "TutorialBoard.Checklist Counts",
+            "source": "Phe Cursermancer: 0/1\nDân làng: 0/1\nTrung lập: 0/0"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Step Title",
+            "source": "Làm quen bàn chơi"
+        },
+        {
+            "key": "TutorialBoard.Tutorial Restart Label",
+            "source": "Học lại"
+        },
+        {
+            "key": "TutorialBoard.Choose Right Label",
+            "source": "Chọn lá bên phải"
+        }
+    ],
+    "fontMissing": ""
+}

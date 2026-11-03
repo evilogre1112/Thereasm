@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "card-snooper-decay"
+  m_EditorClassIdentifier: ""
+  id: "card-snooper-decay"
+  title:
+    english: "Snooper · the hidden Decay choice"
+    vietnamese: "Snooper · lựa chọn Decay bí mật"
+  summary:
+    english: "Choose a private target, then watch it become public at the tally."
+    vietnamese: "Chọn mục tiêu bí mật rồi xem nó công khai lúc tổng kết."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+    - {fileID: 11400000, guid: 6d3adcd29b2b12f4badd774f7baa50df, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+    - kind: 0
+      number: 1
+      value: 0
+      target: 0
+    - kind: 0
+      number: 22
+      value: 1
+      target: 0
+    - kind: 0
+      number: 10
+      value: 2
+      target: 0
+    - kind: 5
+      number: 22
+      value: 1
+      target: 0
+    - kind: 3
+      number: 0
+      value: 4
+      target: 0
+  beats:
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "A different whisper"
+        vietnamese: "Một lời thì thầm khác"
+      instruction:
+        english: "Press Let's continue when you are ready."
+        vietnamese: "Bấm Mình thử tiếp nhé khi bạn đã sẵn sàng."
+      purpose:
+        english: "This Snooper is infected. In this exercise you briefly control Cursermancer to choose its Decay target, then return to Village for the tally."
+        vietnamese: "Snooper này đã nhiễm. Bạn thử phía Cursermancer một chút để chọn mục tiêu Decay, rồi trở về Village xem tổng kết."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 7
+      source: 22
+      target: 10
+      seat: -1
+      prepare: []
+      title:
+        english: "Try it with your own hand"
+        vietnamese: "Tự tay thử một lần"
+      instruction:
+        english: "Hold RIGHT mouse on card number 22, drag to card number 10, then release."
+        vietnamese: "Giữ CHUỘT PHẢI ở lá số 22, kéo sang lá số 10 rồi thả."
+      purpose:
+        english: "Watch the board and the feedback: success, a shield and a silenced ability are different outcomes."
+        vietnamese: "Nhìn cả bàn chơi lẫn lời phản hồi nhé: dùng thành công, bắn trúng khiên và bị khóa kỹ năng là những kết quả khác nhau."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 20
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Take a guess"
+        vietnamese: "Thử đoán một chút nhé"
+      instruction:
+        english: "Can Village see this target or the used-skill mark now?"
+        vietnamese: "Village đã thấy mục tiêu hay dấu dùng kỹ năng chưa?"
+      purpose:
+        english: "The target and usage stay private until resolution. At the tally the actual indicated target becomes public, just like healthy Snooper."
+        vietnamese: "Mục tiêu và dấu dùng chiêu được giấu tới lúc phân giải. Khi tổng kết, mục tiêu thật mới công khai, giống Snooper khỏe."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: "No · only Cursermancer"
+        vietnamese: "Chưa · chỉ Cursermancer"
+      choiceB:
+        english: "Yes · both players see it"
+        vietnamese: "Rồi · cả hai phía đều thấy"
+      answer: 0
+    - action: 8
+      source: 10
+      target: 1
+      seat: 0
+      prepare:
+        - kind: 3
+          number: 0
+          value: 4
+          target: 1
+        - kind: 9
+          number: 1
+          value: 2
+          target: 0
+      title:
+        english: "Let one card speak"
+        vietnamese: "Cho một lá bài lên tiếng"
+      instruction:
+        english: "LEFT-drag card number 10 onto card number 1."
+        vietnamese: "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+      purpose:
+        english: "The card stays seated. This arrow is a ballot, and a card cannot vote for itself."
+        vietnamese: "Lá bài vẫn ngồi nguyên chỗ. Mũi tên này là phiếu bầu; một lá không được tự bỏ phiếu cho mình."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 10
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Hear the whole village"
+        vietnamese: "Nghe cả ngôi làng lên tiếng"
+      instruction:
+        english: "Press Confirm votes, then watch the resolution."
+        vietnamese: "Bấm Chốt phiếu, rồi quan sát tổng kết."
+      purpose:
+        english: "Original ballots appear first, then the real card effects. The highest final count loses; tied highest counts all lose unless a verdict skill overrides it."
+        vietnamese: "Phiếu gốc hiện trước, rồi kỹ năng thật mới can thiệp. Lá nhiều phiếu cuối cùng bị hiến tế; hòa cao nhất thì cùng bị loại, trừ kỹ năng đổi phán quyết."
+      success:
+        english: "That is it. Keep that little clue with you."
+        vietnamese: "Đúng rồi. Giữ lấy gợi ý nhỏ này nhé."
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0

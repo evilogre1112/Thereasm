@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 379ecd532bb04b4497cea3b5d9ab9b95, type: 3}
+  m_Name: "card-jester"
+  m_EditorClassIdentifier: ""
+  id: "card-jester"
+  title:
+    english: "Jester · a small laboratory"
+    vietnamese: "Jester · một bàn thử riêng"
+  summary:
+    english: "See Jester work on a real practice board; learn its timing and limits."
+    vietnamese: "Xem Jester hoạt động trên bàn thật, nắm thời điểm và giới hạn."
+  cards:
+    - {fileID: 11400000, guid: 1c18a4e5c09576a4c8bf591a9ee69c21, type: 2}
+    - {fileID: 11400000, guid: bef221d6ce75b574a90bbd11c69e79c1, type: 2}
+    - {fileID: 11400000, guid: 0e5e4d9274768c145afabdebbc985ef0, type: 2}
+    - {fileID: 11400000, guid: a0b6f4c9608f0ec469215f15867c8f8a, type: 2}
+    - {fileID: 11400000, guid: bec87eaf388d0b245a621b499aa5b904, type: 2}
+    - {fileID: 11400000, guid: de0908fde32179f44a77aea719b20b31, type: 2}
+    - {fileID: 11400000, guid: 4ac2d2882d9f7704b860cb6773eb8ebe, type: 2}
+    - {fileID: 11400000, guid: 8d4639397f6250446a860bb3cac04acc, type: 2}
+    - {fileID: 11400000, guid: 621c94ffcb7bcdf43a0c80a7de318744, type: 2}
+  setup:
+    - kind: 3
+      number: 0
+      value: 2
+      target: 1
+    - kind: 2
+      number: 1
+      value: 5
+      target: 0
+    - kind: 2
+      number: 0
+      value: 5
+      target: 0
+    - kind: 0
+      number: 1
+      value: 0
+      target: 0
+    - kind: 0
+      number: 10
+      value: 2
+      target: 0
+  beats:
+    - action: 3
+      source: 20
+      target: 0
+      seat: 1
+      prepare: []
+      title:
+        english: "Seat Jester"
+        vietnamese: "Đặt Jester vào bàn"
+      instruction:
+        english: "Hold LEFT mouse on card number 20, drag it to the green seat 2, then release."
+        vietnamese: "Giữ CHUỘT TRÁI ở lá số 20, kéo vào ghế số 2 viền xanh rồi thả."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 8
+      source: 10
+      target: 1
+      seat: 0
+      prepare:
+        - kind: 3
+          number: 0
+          value: 4
+          target: 1
+        - kind: 9
+          number: 1
+          value: 2
+          target: 0
+      title:
+        english: "Your ordinary ballot"
+        vietnamese: "Phiếu bầu thường"
+      instruction:
+        english: "LEFT-drag card number 10 onto card number 1."
+        vietnamese: "Kéo CHUỘT TRÁI từ lá số 10 sang lá số 1."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 10
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "Resolve Jester"
+        vietnamese: "Jester khi chốt phiếu"
+      instruction:
+        english: "Press {turnButton} to see Jester’s effect."
+        vietnamese: "Bấm {turnButton} để xem hiệu ứng của Jester."
+      purpose:
+        english: ""
+        vietnamese: ""
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0
+    - action: 0
+      source: 0
+      target: 0
+      seat: -1
+      prepare: []
+      title:
+        english: "What Jester changed"
+        vietnamese: "Jester vừa làm gì"
+      instruction:
+        english: ""
+        vietnamese: ""
+      purpose:
+        english: "When Jester activates, it scatters three extra ballots among other seated cards."
+        vietnamese: "Khi kích hoạt, Jester tung ba phiếu thêm vào những lá khác trên bàn."
+      success:
+        english: ""
+        vietnamese: ""
+      choiceA:
+        english: ""
+        vietnamese: ""
+      choiceB:
+        english: ""
+        vietnamese: ""
+      answer: 0

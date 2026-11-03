@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60743bc29c5444538c4fe0fa6e8c65c1, type: 3}
+  m_Name: CardSkillSounds
+  m_EditorClassIdentifier:
+  cues:
+  - key: Trader
+    clip: {fileID: 8300000, guid: 9f8ee1a1ffa74b2d86cb6ae15d28c357, type: 3}
+    volume: 0.8
+  - key: Jester
+    clip: {fileID: 8300000, guid: 4c302ea0e25c40ad90e9ec7b1852a6c1, type: 3}
+    volume: 0.8
+  - key: Snooper
+    clip: {fileID: 8300000, guid: 6c26b86bfc9840178633ed18fde4555a, type: 3}
+    volume: 0.8
+  - key: Gambler
+    clip: {fileID: 8300000, guid: 5029eabc18cf45ab9e58cdf48b57022f, type: 3}
+    volume: 0.8
+  - key: GamblerLoss
+    clip: {fileID: 8300000, guid: 5b2d9a1f85394af6880e6bfcd667454e, type: 3}
+    volume: 0.8
+  - key: Hunter
+    clip: {fileID: 8300000, guid: a0e9aefb93e442ef9a3bd83377a355b3, type: 3}
+    volume: 0.8
+  - key: Witch
+    clip: {fileID: 8300000, guid: 071125819ce94f808f8a5eafb06e4098, type: 3}
+    volume: 0.8
+  - key: Invoker
+    clip: {fileID: 8300000, guid: f5e9bc0eca5f482282ca03d9d67466f0, type: 3}
+    volume: 0.8
+  - key: Detective
+    clip: {fileID: 8300000, guid: e2e92a740c554c26b2281fb40994c7a9, type: 3}
+    volume: 0.8
+  - key: Preacher
+    clip: {fileID: 8300000, guid: f8e6f6cf87164987b0c00f478aa61f4c, type: 3}
+    volume: 0.8
+  - key: Elder
+    clip: {fileID: 8300000, guid: 56557606b1574e5fae86f4765f2a0c96, type: 3}
+    volume: 0.8
+  - key: Saboteur
+    clip: {fileID: 8300000, guid: 884ee6152f144849944ec1dc6b27687d, type: 3}
+    volume: 0.8
+  - key: GameMaster
+    clip: {fileID: 8300000, guid: 99b531753436474dad088b1b39316e96, type: 3}
+    volume: 0.8
+  - key: Prankster
+    clip: {fileID: 8300000, guid: 6f15d72306934dd696881be6a4a1e0fe, type: 3}
+    volume: 0.8
+  - key: Blind
+    clip: {fileID: 8300000, guid: febf24f29ce840a9a0e0ae7f3d81e5e1, type: 3}
+    volume: 0.8
+  - key: Totem
+    clip: {fileID: 8300000, guid: da3e8f32bf6148d0a24a24216bca8cec, type: 3}
+    volume: 0.8
+  - key: VillageChief
+    clip: {fileID: 8300000, guid: bd089865548b4bcf972906693b8096f4, type: 3}
+    volume: 0.8
+  - key: Controller
+    clip: {fileID: 8300000, guid: 96cd6b1b0797452c9fc3b1679af90bfd, type: 3}
+    volume: 0.8
+  - key: Sacrifier
+    clip: {fileID: 8300000, guid: 43f1c945b18446c8bf65c504ed8d4be1, type: 3}
+    volume: 0.8
+  - key: Cursermancer
+    clip: {fileID: 8300000, guid: a92111c960b24404bc68f9e0d2dac26e, type: 3}
+    volume: 0.8
+  - key: PaperThrow
+    clip: {fileID: 8300000, guid: 94e5cab10a454c93bf9b2807d3d29cfd, type: 3}
+    volume: 0.6
+  - key: PaperLand
+    clip: {fileID: 8300000, guid: 62904f32ca1445308a531923c90f22fe, type: 3}
+    volume: 0.6
+  - key: NoEffect
+    clip: {fileID: 8300000, guid: ff4f74bf90984244ad635c4b47867a68, type: 3}
+    volume: 0.8

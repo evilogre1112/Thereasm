@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b761dee2f601141a4cc28d7a428f12, type: 3}
+  m_Name: Jester20
+  m_EditorClassIdentifier: 
+  cardName: Jester
+  cardNumber: 20
+  cardType: 2
+  owner: 2
+  defaultArtwork: {fileID: 136896212480528900, guid: b87dc53f179491c4ca3afb0719d8a08a, type: 3}
+  cursemancerArtwork: {fileID: 3074559795782399651, guid: 463623d8c73cf544d9184f3ce70d6df3, type: 3}
+  infectedArtwork: {fileID: 0}
+  deadArtwork: {fileID: 0}
+  backArtwork: {fileID: 5000927251509650613, guid: a5984a168efd49d4a9759ec3eaf7e7fb, type: 3}
+  description: '[Passive] Chaos in the Ballot Box! During the Sacrifice phase, Jester
+    has a 75% chance to secretly cast exactly 3 extra votes at random targets (excluding
+    itself). Multiple votes may target the same card.'
+  curDescription: 
+  infectedDescription: 
+  curInfectedDescription: '[Passive] Chaos in the Ballot Box! During the Sacrifice
+    phase, Jester has a 75% chance to secretly cast exactly 3 extra votes at random
+    targets (excluding itself). Multiple votes may target the same card.'
+  cardSkill: {fileID: 11400000, guid: 63ac671237308164ea376996e5f3ff04, type: 2}
+  quotes:
+  - Eeny, meeny, miny, moe... who is next?
+  - Hehehe... don't look at me, I'm just a fool.
+  - More votes! More chaos! MORE!
+  customChance: 0.7
+  customInterval: 8

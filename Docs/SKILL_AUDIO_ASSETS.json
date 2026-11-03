@@ -1,0 +1,168 @@
+{
+  "source": "Original clean offline synthesis; no noise layers, distortion or external recordings.",
+  "format": "Mono PCM16 WAV, 22050 Hz",
+  "assets": [
+    {
+      "key": "Trader",
+      "path": "Assets/AudioClip/Skills/trader.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "9f8ee1a1ffa74b2d86cb6ae15d28c357"
+    },
+    {
+      "key": "Jester",
+      "path": "Assets/AudioClip/Skills/jester.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "4c302ea0e25c40ad90e9ec7b1852a6c1"
+    },
+    {
+      "key": "Snooper",
+      "path": "Assets/AudioClip/Skills/snooper.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "6c26b86bfc9840178633ed18fde4555a"
+    },
+    {
+      "key": "Gambler",
+      "path": "Assets/AudioClip/Skills/gambler.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "5029eabc18cf45ab9e58cdf48b57022f"
+    },
+    {
+      "key": "GamblerLoss",
+      "path": "Assets/AudioClip/Skills/gambler-loss.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "5b2d9a1f85394af6880e6bfcd667454e"
+    },
+    {
+      "key": "Hunter",
+      "path": "Assets/AudioClip/Skills/hunter.wav",
+      "duration": 0.46,
+      "bytes": 20330,
+      "guid": "a0e9aefb93e442ef9a3bd83377a355b3"
+    },
+    {
+      "key": "Witch",
+      "path": "Assets/AudioClip/Skills/witch.wav",
+      "duration": 0.74,
+      "bytes": 32678,
+      "guid": "071125819ce94f808f8a5eafb06e4098"
+    },
+    {
+      "key": "Invoker",
+      "path": "Assets/AudioClip/Skills/invoker.wav",
+      "duration": 0.76,
+      "bytes": 33560,
+      "guid": "f5e9bc0eca5f482282ca03d9d67466f0"
+    },
+    {
+      "key": "Detective",
+      "path": "Assets/AudioClip/Skills/detective.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "e2e92a740c554c26b2281fb40994c7a9"
+    },
+    {
+      "key": "Preacher",
+      "path": "Assets/AudioClip/Skills/preacher.wav",
+      "duration": 0.69,
+      "bytes": 30472,
+      "guid": "f8e6f6cf87164987b0c00f478aa61f4c"
+    },
+    {
+      "key": "Elder",
+      "path": "Assets/AudioClip/Skills/elder.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "56557606b1574e5fae86f4765f2a0c96"
+    },
+    {
+      "key": "Saboteur",
+      "path": "Assets/AudioClip/Skills/saboteur.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "884ee6152f144849944ec1dc6b27687d"
+    },
+    {
+      "key": "GameMaster",
+      "path": "Assets/AudioClip/Skills/game-master.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "99b531753436474dad088b1b39316e96"
+    },
+    {
+      "key": "Prankster",
+      "path": "Assets/AudioClip/Skills/prankster.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "6f15d72306934dd696881be6a4a1e0fe"
+    },
+    {
+      "key": "Blind",
+      "path": "Assets/AudioClip/Skills/blind.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "febf24f29ce840a9a0e0ae7f3d81e5e1"
+    },
+    {
+      "key": "Totem",
+      "path": "Assets/AudioClip/Skills/totem.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "da3e8f32bf6148d0a24a24216bca8cec"
+    },
+    {
+      "key": "VillageChief",
+      "path": "Assets/AudioClip/Skills/village-chief.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "bd089865548b4bcf972906693b8096f4"
+    },
+    {
+      "key": "Controller",
+      "path": "Assets/AudioClip/Skills/controller.wav",
+      "duration": 0.57,
+      "bytes": 25180,
+      "guid": "96cd6b1b0797452c9fc3b1679af90bfd"
+    },
+    {
+      "key": "Sacrifier",
+      "path": "Assets/AudioClip/Skills/sacrifier.wav",
+      "duration": 0.74,
+      "bytes": 32678,
+      "guid": "43f1c945b18446c8bf65c504ed8d4be1"
+    },
+    {
+      "key": "Cursermancer",
+      "path": "Assets/AudioClip/Skills/cursermancer.wav",
+      "duration": 0.67,
+      "bytes": 29592,
+      "guid": "a92111c960b24404bc68f9e0d2dac26e"
+    },
+    {
+      "key": "PaperThrow",
+      "path": "Assets/AudioClip/Skills/paper-throw.wav",
+      "duration": 0.28,
+      "bytes": 12392,
+      "guid": "94e5cab10a454c93bf9b2807d3d29cfd"
+    },
+    {
+      "key": "PaperLand",
+      "path": "Assets/AudioClip/Skills/paper-land.wav",
+      "duration": 0.16,
+      "bytes": 7100,
+      "guid": "62904f32ca1445308a531923c90f22fe"
+    },
+    {
+      "key": "NoEffect",
+      "path": "Assets/AudioClip/Skills/no-effect.wav",
+      "duration": 0.22,
+      "bytes": 9746,
+      "guid": "ff4f74bf90984244ad635c4b47867a68"
+    }
+  ],
+  "import": "PCM uncompressed; original clip GUIDs and timing preserved."
+}

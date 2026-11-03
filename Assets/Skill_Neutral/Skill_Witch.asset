@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3657543af9bed740b3815d72bd57f7d, type: 3}
+  m_Name: Skill_Witch
+  m_EditorClassIdentifier: 
+  skillName: 
+  skillIcon: {fileID: 0}
+  description: "[Active] [Once per ritual] 5 Hearts: Left-click to banish all other infected cards on the board. Does not affect itself or cards in hand. Recharges after the Sacrifice/Execution Phase finishes."
+  skillType: 0
+  triggerTime: 0
+  tags: 06000000
+  skillCost: 5
