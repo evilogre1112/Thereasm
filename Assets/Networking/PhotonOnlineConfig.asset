@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0384c16cbfa060e439c6252b4eb059b6, type: 3}
   m_Name: PhotonOnlineConfig
   m_EditorClassIdentifier:
-  appIdFusion: REMOVED
+  appIdFusion:
   appVersion: thereasm-online-4
   region: asia
   boardScene: MainBoard
