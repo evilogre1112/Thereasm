@@ -392,6 +392,7 @@ public class CardDialogue : MonoBehaviour
         bool first = true;
         while (OnBoard)
         {
+            
             if ((first || cosmeticRandom.NextDouble() <= Mathf.Clamp01(card.cardData.customChance)) && ShowQuote())
             {
                 first = false;
