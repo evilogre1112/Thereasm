@@ -439,7 +439,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 14}
-  m_SizeDelta: {x: 220, y: 96}
+  m_SizeDelta: {x: 232, y: 116}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &8409195752612641533
 CanvasRenderer:
@@ -596,7 +596,7 @@ MonoBehaviour:
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
   m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
+  m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
   m_EmojiFallbackSupport: 1
@@ -761,7 +761,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -34, y: -30}
+  m_SizeDelta: {x: -32, y: -28}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4592741464835292124
 CanvasRenderer:
@@ -818,12 +818,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 19
   m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 14
-  m_fontSizeMax: 20
+  m_fontSizeMin: 10
+  m_fontSizeMax: 19
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -841,7 +841,7 @@ MonoBehaviour:
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
   m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
+  m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
   m_EmojiFallbackSupport: 1
@@ -892,7 +892,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   label: {fileID: 0}
   tmpLabel: {fileID: 4978690059932338980}
-  originalTextMaterial: {fileID: 3542882934977196910, guid: c36ad35b43da7964d903dd4acb8deac3, type: 2}
+  originalTextMaterial: {fileID: 0}
   sourceText: 
 --- !u!1 &6655129345614219325
 GameObject:
@@ -2100,7 +2100,7 @@ MonoBehaviour:
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 0
   m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
+  m_enableExtraPadding: 1
   checkPaddingRequired: 0
   m_isRichText: 1
   m_EmojiFallbackSupport: 1

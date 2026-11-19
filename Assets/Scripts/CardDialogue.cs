@@ -36,6 +36,13 @@ public class CardDialogue : MonoBehaviour
         card = GetComponent<CardInstance>();
         interaction = GetComponent<CardInteraction>();
         bubbleRect = bubbleObject != null ? bubbleObject.transform as RectTransform : null;
+        if (tmpText != null)
+        {
+            tmpText.alignment = TextAlignmentOptions.Center;
+            tmpText.extraPadding = true;
+            if (Localizer.Catalog != null && Localizer.Catalog.readableTmpFont != null)
+                tmpText.font = Localizer.Catalog.readableTmpFont;
+        }
         HideBubble();
     }
 
@@ -182,8 +189,14 @@ public class CardDialogue : MonoBehaviour
         if (string.IsNullOrWhiteSpace(quote)) return false;
         if (!EnsureBubbleOverlay()) return false;
 
+        if (Localizer.Catalog != null && Localizer.Catalog.readableTmpFont != null)
+            tmpText.font = Localizer.Catalog.readableTmpFont;
+        tmpText.alignment = TextAlignmentOptions.Center;
+        tmpText.extraPadding = true;
         tmpText.text = Localizer.T(quote);
         bubbleObject.SetActive(true);
+        if (tmpText.TryGetComponent<LocalizedLabel>(out var localizedLabel))
+            localizedLabel.Refresh();
         Canvas.ForceUpdateCanvases();
         // Choose a stable orientation using seat/cemetery geometry ONLY.
         // If that position overlaps existing speech, reject this quote instead
